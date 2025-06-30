@@ -1,0 +1,24 @@
+- name: Netflix Tech Blog
+  url: https://netflixtechblog.com/feed
+  type: rss
+  topics: [infra, ML]
+
+- name: OpenAI Blog
+  url: https://openai.com/blog
+  type: scrape
+  topics: [LLM, AI]
+
+- name: Cloudflare Blog
+  url: https://blog.cloudflare.com/rss/
+  type: rss
+  topics: [network, infra]
+
+- name: Tailscale Blog
+  url: https://tailscale.com/blog/index.xml
+  type: rss
+  topics: [devex, networking]
+
+- name: Hugging Face
+  url: https://huggingface.co/blog
+  type: scrape
+  topics: [ML, open source]
