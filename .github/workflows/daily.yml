@@ -25,3 +25,6 @@ jobs:
           git add data/summaries.json
           git commit -m "Daily summary update"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
