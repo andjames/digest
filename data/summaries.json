@@ -36,7 +36,7 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-01 14:08:34.747745",
+    "published": "2025-07-02 14:00:58.095406",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
@@ -45,9 +45,9 @@
   },
   {
     "source": "Cloudflare Blog",
-    "title": "Celebrate Micro-Small, and Medium-sized Enterprises Day with Cloudflare",
-    "url": "https://blog.cloudflare.com/celebrate-micro-small-and-medium-sized-enterprises-day-with-cloudflare/",
-    "published": "Fri, 27 Jun 2025 14:00:00 GMT",
+    "title": "Content Independence Day: no AI crawl without compensation!",
+    "url": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
+    "published": "Tue, 01 Jul 2025 10:01:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -56,9 +56,9 @@
   },
   {
     "source": "Cloudflare Blog",
-    "title": "Russian Internet users are unable to access the open Internet",
-    "url": "https://blog.cloudflare.com/russian-internet-users-are-unable-to-access-the-open-internet/",
-    "published": "Thu, 26 Jun 2025 22:33:30 GMT",
+    "title": "The crawl before the fall\u2026 of referrals: understanding AI\u2019s impact on content providers",
+    "url": "https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/",
+    "published": "Tue, 01 Jul 2025 10:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -67,13 +67,24 @@
   },
   {
     "source": "Cloudflare Blog",
-    "title": "Orange Me2eets: We made an end-to-end encrypted video calling app and it was easy",
-    "url": "https://blog.cloudflare.com/orange-me2eets-we-made-an-end-to-end-encrypted-video-calling-app-and-it-was/",
-    "published": "Thu, 26 Jun 2025 14:00:00 GMT",
+    "title": "Control content use for AI training with Cloudflare\u2019s managed robots.txt and blocking for monetized content",
+    "url": "https://blog.cloudflare.com/control-content-use-for-ai-training/",
+    "published": "Tue, 01 Jul 2025 10:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
       "infra"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "The evasive evitability of enshittification",
+    "url": "https://tailscale.com/blog/evitability-of-enshittification",
+    "published": "Wed, 02 Jul 2025 13:30:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "devex",
+      "networking"
     ]
   },
   {
@@ -99,21 +110,10 @@
     ]
   },
   {
-    "source": "Tailscale Blog",
-    "title": "Visualizing your Tailscale network traffic with TSFlow",
-    "url": "https://tailscale.com/blog/community-ts-flow",
-    "published": "Wed, 18 Jun 2025 14:15:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-01 14:08:39.138286",
+    "published": "2025-07-02 14:01:00.321411",
     "summary": "Summary not available.",
     "topics": [
       "ML",
