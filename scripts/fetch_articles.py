@@ -1,5 +1,4 @@
 import feedparser, yaml, json, os
-from datetime import datetime
 from utils import summarize_article, scrape_blog
 
 with open("feeds/sources.yaml") as f:
@@ -12,11 +11,12 @@ for source in sources:
         feed = feedparser.parse(source["url"])
         for entry in feed.entries[:3]:
             summary = summarize_article(entry.link)
+            published = entry.get("published") or entry.get("updated") or ""
             summaries.append({
                 "source": source["name"],
                 "title": entry.title,
                 "url": entry.link,
-                "published": entry.published,
+                "published": published,
                 "summary": summary,
                 "topics": source.get("topics", [])
             })
