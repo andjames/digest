@@ -36,7 +36,7 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-03 14:08:39.886860",
+    "published": "2025-07-04 14:08:27.460417",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
@@ -78,6 +78,17 @@
   },
   {
     "source": "Tailscale Blog",
+    "title": "Upgrading a Chromebook with Tailscale, Taildrop, and Taildrive",
+    "url": "https://tailscale.com/blog/tailscale-chromebook-taildrop-taildrive",
+    "published": "Thu, 03 Jul 2025 15:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
     "title": "The evasive evitability of enshittification",
     "url": "https://tailscale.com/blog/evitability-of-enshittification",
     "published": "Wed, 02 Jul 2025 13:30:00 GMT",
@@ -99,21 +110,10 @@
     ]
   },
   {
-    "source": "Tailscale Blog",
-    "title": "This month at Tailscale: Grants, App Connectors, and updates across the stack",
-    "url": "https://tailscale.com/blog/june-25-product-update",
-    "published": "Mon, 23 Jun 2025 14:45:48 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-03 14:08:42.504093",
+    "published": "2025-07-04 14:08:30.953597",
     "summary": "Summary not available.",
     "topics": [
       "ML",
