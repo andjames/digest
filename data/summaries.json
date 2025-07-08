@@ -36,7 +36,7 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-07 14:01:00.187513",
+    "published": "2025-07-08 14:08:52.273819",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
@@ -45,31 +45,31 @@
   },
   {
     "source": "Cloudflare Blog",
+    "title": "How TimescaleDB helped us scale analytics and reporting",
+    "url": "https://blog.cloudflare.com/timescaledb-art/",
+    "published": "Tue, 08 Jul 2025 14:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Introducing simple and secure egress policies by hostname in Cloudflare\u2019s SASE platform",
+    "url": "https://blog.cloudflare.com/egress-policies-by-hostname/",
+    "published": "Mon, 07 Jul 2025 13:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
     "title": "Content Independence Day: no AI crawl without compensation!",
     "url": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
     "published": "Tue, 01 Jul 2025 10:01:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "The crawl before the fall\u2026 of referrals: understanding AI\u2019s impact on content providers",
-    "url": "https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/",
-    "published": "Tue, 01 Jul 2025 10:00:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Control content use for AI training with Cloudflare\u2019s managed robots.txt and blocking for monetized content",
-    "url": "https://blog.cloudflare.com/control-content-use-for-ai-training/",
-    "published": "Tue, 01 Jul 2025 10:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -113,7 +113,7 @@
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-07 14:01:05.175028",
+    "published": "2025-07-08 14:08:55.266800",
     "summary": "Summary not available.",
     "topics": [
       "ML",
