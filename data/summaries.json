@@ -36,11 +36,22 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-09 14:09:10.561813",
+    "published": "2025-07-10 14:00:54.103837",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 1)",
+    "url": "https://blog.cloudflare.com/quicksilver-v2-evolution-of-a-globally-distributed-key-value-store-part-1/",
+    "published": "Thu, 10 Jul 2025 14:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
     ]
   },
   {
@@ -59,17 +70,6 @@
     "title": "Introducing simple and secure egress policies by hostname in Cloudflare\u2019s SASE platform",
     "url": "https://blog.cloudflare.com/egress-policies-by-hostname/",
     "published": "Mon, 07 Jul 2025 13:00:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Content Independence Day: no AI crawl without compensation!",
-    "url": "https://blog.cloudflare.com/content-independence-day-no-ai-crawl-without-compensation/",
-    "published": "Tue, 01 Jul 2025 10:01:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -113,7 +113,7 @@
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-09 14:09:13.267478",
+    "published": "2025-07-10 14:00:56.568967",
     "summary": "Summary not available.",
     "topics": [
       "ML",
