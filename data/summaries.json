@@ -1,6 +1,17 @@
 [
   {
     "source": "Netflix Tech Blog",
+    "title": "Netflix Tudum Architecture: from CQRS with Kafka to CQRS with RAW Hollow",
+    "url": "https://netflixtechblog.com/netflix-tudum-architecture-from-cqrs-with-kafka-to-cqrs-with-raw-hollow-86d141b72e52?source=rss----2615bd06b42e---4",
+    "published": "Thu, 10 Jul 2025 19:31:06 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "infra",
+      "ML"
+    ]
+  },
+  {
+    "source": "Netflix Tech Blog",
     "title": "Driving Content Delivery Efficiency Through Classifying Cache Misses",
     "url": "https://netflixtechblog.com/driving-content-delivery-efficiency-through-classifying-cache-misses-ffcf08026b6c?source=rss----2615bd06b42e---4",
     "published": "Wed, 02 Jul 2025 15:20:23 GMT",
@@ -22,21 +33,10 @@
     ]
   },
   {
-    "source": "Netflix Tech Blog",
-    "title": "Model Once, Represent Everywhere: UDA (Unified Data Architecture) at Netflix",
-    "url": "https://netflixtechblog.com/uda-unified-data-architecture-6a6aee261d8d?source=rss----2615bd06b42e---4",
-    "published": "Thu, 12 Jun 2025 14:56:32 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "infra",
-      "ML"
-    ]
-  },
-  {
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-10 14:00:54.103837",
+    "published": "2025-07-11 14:09:18.549907",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
@@ -78,6 +78,17 @@
   },
   {
     "source": "Tailscale Blog",
+    "title": "Tailscale and RustDesk: Secure Remote Access to All Your Desktops",
+    "url": "https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access",
+    "published": "Thu, 10 Jul 2025 21:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
     "title": "Upgrading a Chromebook with Tailscale, Taildrop, and Taildrive",
     "url": "https://tailscale.com/blog/tailscale-chromebook-taildrop-taildrive",
     "published": "Thu, 03 Jul 2025 15:00:00 GMT",
@@ -99,21 +110,10 @@
     ]
   },
   {
-    "source": "Tailscale Blog",
-    "title": "Tailnet Lock is generally available",
-    "url": "https://tailscale.com/blog/tailnet-lock-ga",
-    "published": "Tue, 24 Jun 2025 18:00:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-10 14:00:56.568967",
+    "published": "2025-07-11 14:09:20.894800",
     "summary": "Summary not available.",
     "topics": [
       "ML",
