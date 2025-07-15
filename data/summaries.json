@@ -36,11 +36,22 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-14 14:10:44.662073",
+    "published": "2025-07-15 14:10:44.272240",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Hyper-volumetric DDoS attacks skyrocket: Cloudflare\u2019s 2025 Q2 DDoS threat report",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-for-2025-q2/",
+    "published": "Tue, 15 Jul 2025 13:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
     ]
   },
   {
@@ -59,17 +70,6 @@
     "title": "How TimescaleDB helped us scale analytics and reporting",
     "url": "https://blog.cloudflare.com/timescaledb-art/",
     "published": "Tue, 08 Jul 2025 14:00:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Introducing simple and secure egress policies by hostname in Cloudflare\u2019s SASE platform",
-    "url": "https://blog.cloudflare.com/egress-policies-by-hostname/",
-    "published": "Mon, 07 Jul 2025 13:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -113,7 +113,7 @@
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-14 14:10:47.365794",
+    "published": "2025-07-15 14:10:48.461092",
     "summary": "Summary not available.",
     "topics": [
       "ML",
