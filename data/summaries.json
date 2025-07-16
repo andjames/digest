@@ -1,6 +1,17 @@
 [
   {
     "source": "Netflix Tech Blog",
+    "title": "Behind the Streams: Live at Netflix. Part 1",
+    "url": "https://netflixtechblog.com/behind-the-streams-live-at-netflix-part-1-d23f917c2f40?source=rss----2615bd06b42e---4",
+    "published": "Tue, 15 Jul 2025 16:04:08 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "infra",
+      "ML"
+    ]
+  },
+  {
+    "source": "Netflix Tech Blog",
     "title": "Netflix Tudum Architecture: from CQRS with Kafka to CQRS with RAW Hollow",
     "url": "https://netflixtechblog.com/netflix-tudum-architecture-from-cqrs-with-kafka-to-cqrs-with-raw-hollow-86d141b72e52?source=rss----2615bd06b42e---4",
     "published": "Thu, 10 Jul 2025 19:31:06 GMT",
@@ -22,21 +33,10 @@
     ]
   },
   {
-    "source": "Netflix Tech Blog",
-    "title": "AV1 @ Scale: Film Grain Synthesis, The Awakening",
-    "url": "https://netflixtechblog.com/av1-scale-film-grain-synthesis-the-awakening-ee09cfdff40b?source=rss----2615bd06b42e---4",
-    "published": "Wed, 02 Jul 2025 14:21:44 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "infra",
-      "ML"
-    ]
-  },
-  {
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-15 14:10:44.272240",
+    "published": "2025-07-16 14:09:35.959376",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
@@ -45,9 +45,9 @@
   },
   {
     "source": "Cloudflare Blog",
-    "title": "Hyper-volumetric DDoS attacks skyrocket: Cloudflare\u2019s 2025 Q2 DDoS threat report",
-    "url": "https://blog.cloudflare.com/ddos-threat-report-for-2025-q2/",
-    "published": "Tue, 15 Jul 2025 13:00:00 GMT",
+    "title": "Explore your Cloudflare data with Python notebooks, powered by marimo",
+    "url": "https://blog.cloudflare.com/marimo-cloudflare-notebooks/",
+    "published": "Wed, 16 Jul 2025 13:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -56,9 +56,9 @@
   },
   {
     "source": "Cloudflare Blog",
-    "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 1)",
-    "url": "https://blog.cloudflare.com/quicksilver-v2-evolution-of-a-globally-distributed-key-value-store-part-1/",
-    "published": "Thu, 10 Jul 2025 14:00:00 GMT",
+    "title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
+    "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
+    "published": "Tue, 15 Jul 2025 15:05:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -67,9 +67,9 @@
   },
   {
     "source": "Cloudflare Blog",
-    "title": "How TimescaleDB helped us scale analytics and reporting",
-    "url": "https://blog.cloudflare.com/timescaledb-art/",
-    "published": "Tue, 08 Jul 2025 14:00:00 GMT",
+    "title": "Cloudflare recognized as a Visionary in 2025 Gartner\u00ae Magic Quadrant\u2122 for SASE Platforms",
+    "url": "https://blog.cloudflare.com/cloudflare-sase-gartner-magic-quadrant-2025/",
+    "published": "Tue, 15 Jul 2025 15:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -113,7 +113,7 @@
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-15 14:10:48.461092",
+    "published": "2025-07-16 14:09:39.556485",
     "summary": "Summary not available.",
     "topics": [
       "ML",
