@@ -36,11 +36,22 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-16 14:09:35.959376",
+    "published": "2025-07-17 14:08:38.846369",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 2)",
+    "url": "https://blog.cloudflare.com/quicksilver-v2-evolution-of-a-globally-distributed-key-value-store-part-2-of-2/",
+    "published": "Thu, 17 Jul 2025 13:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
     ]
   },
   {
@@ -59,17 +70,6 @@
     "title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
     "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
     "published": "Tue, 15 Jul 2025 15:05:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Cloudflare recognized as a Visionary in 2025 Gartner\u00ae Magic Quadrant\u2122 for SASE Platforms",
-    "url": "https://blog.cloudflare.com/cloudflare-sase-gartner-magic-quadrant-2025/",
-    "published": "Tue, 15 Jul 2025 15:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -113,7 +113,7 @@
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-16 14:09:39.556485",
+    "published": "2025-07-17 14:08:42.489617",
     "summary": "Summary not available.",
     "topics": [
       "ML",
