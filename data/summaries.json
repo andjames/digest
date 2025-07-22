@@ -36,11 +36,22 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-21 14:11:37.138841",
+    "published": "2025-07-22 14:11:58.554821",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
       "AI"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Shutdown season: the Q2 2025 Internet disruption summary",
+    "url": "https://blog.cloudflare.com/q2-2025-internet-disruption-summary/",
+    "published": "Tue, 22 Jul 2025 13:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
     ]
   },
   {
@@ -66,19 +77,19 @@
     ]
   },
   {
-    "source": "Cloudflare Blog",
-    "title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
-    "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
-    "published": "Tue, 15 Jul 2025 15:05:00 GMT",
+    "source": "Tailscale Blog",
+    "title": "\u201cZero Trust Is Dead\u201d: Tailscale\u2019s survey on secure networks",
+    "url": "https://tailscale.com/blog/zero-trust-report-2025-secure-networks-survey",
+    "published": "Tue, 22 Jul 2025 13:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
-      "network",
-      "infra"
+      "devex",
+      "networking"
     ]
   },
   {
     "source": "Tailscale Blog",
-    "title": "Tailscale and RustDesk: Secure Remote Access to All Your Desktops",
+    "title": "Tailscale and RustDesk: Secure remote access to all your desktops",
     "url": "https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access",
     "published": "Thu, 10 Jul 2025 21:00:00 GMT",
     "summary": "Summary not available.",
@@ -99,21 +110,10 @@
     ]
   },
   {
-    "source": "Tailscale Blog",
-    "title": "The evasive evitability of enshittification",
-    "url": "https://tailscale.com/blog/evitability-of-enshittification",
-    "published": "Wed, 02 Jul 2025 13:30:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-21 14:11:40.709385",
+    "published": "2025-07-22 14:12:03.559656",
     "summary": "Summary not available.",
     "topics": [
       "ML",
