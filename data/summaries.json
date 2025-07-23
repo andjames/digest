@@ -36,7 +36,7 @@
     "source": "OpenAI Blog",
     "title": "Placeholder",
     "url": "https://openai.com/blog",
-    "published": "2025-07-22 14:11:58.554821",
+    "published": "2025-07-23 14:11:35.367653",
     "summary": "Summary not available.",
     "topics": [
       "LLM",
@@ -45,31 +45,31 @@
   },
   {
     "source": "Cloudflare Blog",
+    "title": "Building Jetflow: a framework for flexible, performant data pipelines at Cloudflare",
+    "url": "https://blog.cloudflare.com/building-jetflow-a-framework-for-flexible-performant-data-pipelines-at-cloudflare/",
+    "published": "Wed, 23 Jul 2025 14:00:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Cloudflare protects against critical SharePoint vulnerability, CVE-2025-53770",
+    "url": "https://blog.cloudflare.com/cloudflare-protects-against-critical-sharepoint-vulnerability-cve-2025-53770/",
+    "published": "Tue, 22 Jul 2025 16:30:00 GMT",
+    "summary": "Summary not available.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
     "title": "Shutdown season: the Q2 2025 Internet disruption summary",
     "url": "https://blog.cloudflare.com/q2-2025-internet-disruption-summary/",
     "published": "Tue, 22 Jul 2025 13:00:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Quicksilver v2: evolution of a globally distributed key-value store (Part 2)",
-    "url": "https://blog.cloudflare.com/quicksilver-v2-evolution-of-a-globally-distributed-key-value-store-part-2-of-2/",
-    "published": "Thu, 17 Jul 2025 13:00:00 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Explore your Cloudflare data with Python notebooks, powered by marimo",
-    "url": "https://blog.cloudflare.com/marimo-cloudflare-notebooks/",
-    "published": "Wed, 16 Jul 2025 13:00:00 GMT",
     "summary": "Summary not available.",
     "topics": [
       "network",
@@ -113,7 +113,7 @@
     "source": "Hugging Face",
     "title": "Placeholder",
     "url": "https://huggingface.co/blog",
-    "published": "2025-07-22 14:12:03.559656",
+    "published": "2025-07-23 14:11:37.660417",
     "summary": "Summary not available.",
     "topics": [
       "ML",
