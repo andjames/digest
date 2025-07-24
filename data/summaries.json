@@ -1,54 +1,10 @@
 [
   {
-    "source": "Netflix Tech Blog",
-    "title": "Behind the Streams: Live at Netflix. Part 1",
-    "url": "https://netflixtechblog.com/behind-the-streams-live-at-netflix-part-1-d23f917c2f40?source=rss----2615bd06b42e---4",
-    "published": "Tue, 15 Jul 2025 16:04:08 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "infra",
-      "ML"
-    ]
-  },
-  {
-    "source": "Netflix Tech Blog",
-    "title": "Netflix Tudum Architecture: from CQRS with Kafka to CQRS with RAW Hollow",
-    "url": "https://netflixtechblog.com/netflix-tudum-architecture-from-cqrs-with-kafka-to-cqrs-with-raw-hollow-86d141b72e52?source=rss----2615bd06b42e---4",
-    "published": "Thu, 10 Jul 2025 19:31:06 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "infra",
-      "ML"
-    ]
-  },
-  {
-    "source": "Netflix Tech Blog",
-    "title": "Driving Content Delivery Efficiency Through Classifying Cache Misses",
-    "url": "https://netflixtechblog.com/driving-content-delivery-efficiency-through-classifying-cache-misses-ffcf08026b6c?source=rss----2615bd06b42e---4",
-    "published": "Wed, 02 Jul 2025 15:20:23 GMT",
-    "summary": "Summary not available.",
-    "topics": [
-      "infra",
-      "ML"
-    ]
-  },
-  {
-    "source": "OpenAI Blog",
-    "title": "Placeholder",
-    "url": "https://openai.com/blog",
-    "published": "2025-07-24 14:11:37.080288",
-    "summary": "Summary not available.",
-    "topics": [
-      "LLM",
-      "AI"
-    ]
-  },
-  {
     "source": "Cloudflare Blog",
     "title": "Serverless Statusphere: a walk through building serverless ATProto applications on Cloudflare\u2019s Developer Platform",
     "url": "https://blog.cloudflare.com/serverless-atproto/",
     "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-    "summary": "Summary not available.",
+    "summary": "Subscribe to receive notifications of new posts: 2025-07-24  Social media users are tired of losing their identity and data every time a platform shuts down or pivots. In the ATProto ecosystem \u00e2\u0080\u0094 short for Authenticated Transfer Protocol \u00e2\u0080\u0094 users own their data and identities.",
     "topics": [
       "network",
       "infra"
@@ -59,7 +15,7 @@
     "title": "Building Jetflow: a framework for flexible, performant data pipelines at Cloudflare",
     "url": "https://blog.cloudflare.com/building-jetflow-a-framework-for-flexible-performant-data-pipelines-at-cloudflare/",
     "published": "Wed, 23 Jul 2025 14:00:00 GMT",
-    "summary": "Summary not available.",
+    "summary": "Subscribe to receive notifications of new posts: 2025-07-23 The Cloudflare Business Intelligence team manages a petabyte-scale data lake and ingests thousands of tables every day from many different sources. These include internal databases such as Postgres and ClickHouse, as well as external SaaS applications such as Salesforce.",
     "topics": [
       "network",
       "infra"
@@ -70,7 +26,7 @@
     "title": "Cloudflare protects against critical SharePoint vulnerability, CVE-2025-53770",
     "url": "https://blog.cloudflare.com/cloudflare-protects-against-critical-sharepoint-vulnerability-cve-2025-53770/",
     "published": "Tue, 22 Jul 2025 16:30:00 GMT",
-    "summary": "Summary not available.",
+    "summary": "Subscribe to receive notifications of new posts: 2025-07-22 On July 19, 2025, Microsoft disclosed CVE-2025-53770, a critical zero-day Remote Code Execution (RCE) vulnerability. Assigned a CVSS 3.1 base score of 9.8 (Critical), the vulnerability affects SharePoint Server 2016, 2019, and the Subscription Edition, along with unsupported 2010 and 2013 versions.",
     "topics": [
       "network",
       "infra"
@@ -81,7 +37,7 @@
     "title": "Securely connect private data sources to Grafana Cloud with Tailscale",
     "url": "https://tailscale.com/blog/grafana-integration-secure-data-sources",
     "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-    "summary": "Summary not available.",
+    "summary": "Securely connecting your critical internal data sources to monitoring tools is a notoriously tricky task for developer and operations teams. While platforms like Grafana Cloud provide the flexibility and power you need, exposing private data sources to the public internet, and moving that data between agents, SSH tunnels, and proxies, adds complexity and risk.",
     "topics": [
       "devex",
       "networking"
@@ -92,7 +48,7 @@
     "title": "\u201cZero Trust Is Dead\u201d: Tailscale\u2019s survey on secure networks",
     "url": "https://tailscale.com/blog/zero-trust-report-2025-secure-networks-survey",
     "published": "Tue, 22 Jul 2025 13:00:00 GMT",
-    "summary": "Summary not available.",
+    "summary": "Zero Trust would be easy to implement, were it not for all those pesky humans. As part of Tailscale\u2019s report on the State of Zero Trust in 2025, Tailscale commissioned a survey of 1,000 IT, security, and engineering leaders, seeking to understand where their organizations stood in implementing secure access and adopting a true Zero Trust environment.",
     "topics": [
       "devex",
       "networking"
@@ -103,21 +59,43 @@
     "title": "Tailscale and RustDesk: Secure remote access to all your desktops",
     "url": "https://tailscale.com/blog/tailscale-rustdesk-remote-desktop-access",
     "published": "Thu, 10 Jul 2025 21:00:00 GMT",
-    "summary": "Summary not available.",
+    "summary": "Every computer has its preferred way it wants you to remotely access that desktop. I prefer none of them.",
     "topics": [
       "devex",
       "networking"
     ]
   },
   {
-    "source": "Hugging Face",
-    "title": "Placeholder",
-    "url": "https://huggingface.co/blog",
-    "published": "2025-07-24 14:11:39.270361",
+    "source": "Microsoft AI Blog",
+    "title": "A conversation with Kevin Scott: What\u2019s next in AI",
+    "url": "https://blogs.microsoft.com/ai/a-conversation-with-kevin-scott-whats-next-in-ai/",
+    "published": "Tue, 06 Dec 2022 17:29:09 +0000",
     "summary": "Summary not available.",
     "topics": [
-      "ML",
-      "open source"
+      "AI",
+      "cloud"
+    ]
+  },
+  {
+    "source": "Microsoft AI Blog",
+    "title": "From Hot Wheels to handling content: How brands are using Microsoft AI to be more productive and imaginative",
+    "url": "https://blogs.microsoft.com/ai/from-hot-wheels-to-handling-content-how-brands-are-using-microsoft-ai-to-be-more-productive-and-imaginative/",
+    "published": "Wed, 12 Oct 2022 16:00:02 +0000",
+    "summary": "Summary not available.",
+    "topics": [
+      "AI",
+      "cloud"
+    ]
+  },
+  {
+    "source": "Microsoft AI Blog",
+    "title": "Microsoft open sources its \u2018farm of the future\u2019 toolkit",
+    "url": "https://blogs.microsoft.com/ai/microsoft-open-sources-its-farm-of-the-future-toolkit/",
+    "published": "Thu, 06 Oct 2022 14:58:15 +0000",
+    "summary": "FARMINGTON, Wash. \u2013 The gently rolling hills here in eastern Washington have long grown rich harvests of wheat, barley and lentils.",
+    "topics": [
+      "AI",
+      "cloud"
     ]
   }
 ]
