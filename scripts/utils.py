@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
+from newspaper import Article
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -18,9 +19,10 @@ def summarize_article(url: str, fallback_text: str | None = None) -> str:
     """Summarize an article URL using OpenAI if available with a fallback."""
     text = ""
     try:
-        response = requests.get(url, timeout=10)
-        soup = BeautifulSoup(response.text, "html.parser")
-        text = " ".join(p.get_text() for p in soup.find_all("p")[:5])
+        article = Article(url)
+        article.download()
+        article.parse()
+        text = article.text
     except Exception:
         if fallback_text:
             text = fallback_text

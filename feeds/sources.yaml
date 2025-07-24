@@ -52,3 +52,23 @@
   url: https://www.databricks.com/blog/category/artificial-intelligence/feed
   type: rss
   topics: [AI, data]
+
+- name: The Verge AI
+  url: https://www.theverge.com/artificial-intelligence/rss/index.xml
+  type: rss
+  topics: [AI, news]
+
+- name: TechCrunch AI
+  url: https://techcrunch.com/tag/artificial-intelligence/feed/
+  type: rss
+  topics: [AI, news]
+
+- name: NYTimes AI
+  url: https://rss.nytimes.com/services/xml/rss/nyt/ArtificialIntelligence.xml
+  type: rss
+  topics: [AI, news]
+
+- name: Washington Post AI
+  url: https://feeds.washingtonpost.com/rss/business/artificial-intelligence
+  type: rss
+  topics: [AI, news]
