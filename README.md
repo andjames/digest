@@ -12,8 +12,9 @@ A GitHub Actions-based crawler that scans top engineering and AI blogs daily, su
 ## Setup
 
 1. Add your `OPENAI_API_KEY` as a GitHub secret.
-2. Enable GitHub Actions.
-3. Check the `data/` folder for daily updates.
+2. Install dependencies with `pip install -r requirements.txt`.
+3. Enable GitHub Actions.
+4. Check the `data/` folder for daily updates.
 
 ## Sources
 
