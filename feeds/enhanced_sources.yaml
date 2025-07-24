@@ -1,0 +1,210 @@
+# Enhanced source configuration with priority and update frequency
+- name: OpenAI Blog
+  url: https://openai.com/blog/rss
+  type: rss
+  topics: [LLM, AI]
+  priority: high
+  update_frequency: hourly
+  content_type: breaking
+  max_articles: 10
+  relevance_keywords: [gpt, chatgpt, dall-e, api, safety, alignment]
+
+- name: Anthropic News
+  url: https://www.anthropic.com/news/feed.xml
+  type: rss
+  topics: [AI, safety]
+  priority: high
+  update_frequency: hourly
+  content_type: breaking
+  max_articles: 8
+  relevance_keywords: [claude, constitutional, safety, research]
+
+- name: Google AI Blog
+  url: https://ai.googleblog.com/atom.xml
+  type: rss
+  topics: [AI, research]
+  priority: high
+  update_frequency: daily
+  content_type: research
+  max_articles: 8
+  relevance_keywords: [gemini, bard, tensorflow, research, breakthrough]
+
+- name: Microsoft AI Blog
+  url: https://blogs.microsoft.com/ai/feed/
+  type: rss
+  topics: [AI, cloud]
+  priority: high
+  update_frequency: daily
+  content_type: breaking
+  max_articles: 8
+  relevance_keywords: [copilot, azure, cognitive, phi, research]
+
+- name: NVIDIA AI Blog
+  url: https://blogs.nvidia.com/blog/category/ai/feed/
+  type: rss
+  topics: [AI, hardware]
+  priority: high
+  update_frequency: daily
+  content_type: breaking
+  max_articles: 6
+  relevance_keywords: [gpu, cuda, omniverse, robotics, autonomous]
+
+- name: Hugging Face
+  url: https://huggingface.co/blog/feed
+  type: rss
+  topics: [ML, open source]
+  priority: high
+  update_frequency: daily
+  content_type: research
+  max_articles: 8
+  relevance_keywords: [transformers, datasets, spaces, hub, model]
+
+- name: TechCrunch AI
+  url: https://techcrunch.com/tag/artificial-intelligence/feed/
+  type: rss
+  topics: [AI, news]
+  priority: high
+  update_frequency: hourly
+  content_type: breaking
+  max_articles: 10
+  relevance_keywords: [startup, funding, acquisition, launch, breakthrough]
+
+- name: The Verge AI
+  url: https://www.theverge.com/artificial-intelligence/rss/index.xml
+  type: rss
+  topics: [AI, news]
+  priority: high
+  update_frequency: hourly
+  content_type: breaking
+  max_articles: 8
+  relevance_keywords: [robot, automation, ethics, regulation, consumer]
+
+- name: Ars Technica AI
+  url: https://feeds.arstechnica.com/arstechnica/technology-lab
+  type: rss
+  topics: [AI, tech]
+  priority: medium
+  update_frequency: daily
+  content_type: analysis
+  max_articles: 6
+  relevance_keywords: [algorithm, neural, learning, computer, science]
+
+- name: MIT Technology Review AI
+  url: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+  type: rss
+  topics: [AI, research]
+  priority: medium
+  update_frequency: daily
+  content_type: research
+  max_articles: 6
+  relevance_keywords: [research, breakthrough, ethics, future, impact]
+
+- name: AI News (VentureBeat)
+  url: https://venturebeat.com/ai/feed/
+  type: rss
+  topics: [AI, business]
+  priority: medium
+  update_frequency: daily
+  content_type: analysis
+  max_articles: 6
+  relevance_keywords: [enterprise, business, adoption, market, investment]
+
+- name: DeepMind Blog
+  url: https://deepmind.com/blog/feed/basic/
+  type: rss
+  topics: [AI, research]
+  priority: medium
+  update_frequency: weekly
+  content_type: research
+  max_articles: 4
+  relevance_keywords: [alphafold, gemini, research, protein, games]
+
+- name: Mistral AI Blog
+  url: https://mistral.ai/blog/rss.xml
+  type: rss
+  topics: [AI, LLM]
+  priority: medium
+  update_frequency: weekly
+  content_type: breaking
+  max_articles: 5
+  relevance_keywords: [model, open source, api, fine-tuning]
+
+- name: Stability AI Blog
+  url: https://stability.ai/blog/feed
+  type: rss
+  topics: [AI, generative]
+  priority: medium
+  update_frequency: weekly
+  content_type: breaking
+  max_articles: 5
+  relevance_keywords: [stable diffusion, image, generation, open source]
+
+- name: Cloudflare Blog
+  url: https://blog.cloudflare.com/rss/
+  type: rss
+  topics: [network, infra]
+  priority: medium
+  update_frequency: daily
+  content_type: analysis
+  max_articles: 4
+  relevance_keywords: [workers, ai, edge, security, performance]
+
+- name: GitHub Blog
+  url: https://github.blog/feed/
+  type: rss
+  topics: [devex, AI]
+  priority: medium
+  update_frequency: daily
+  content_type: breaking
+  max_articles: 4
+  relevance_keywords: [copilot, actions, security, developer, ai]
+
+- name: Tailscale Blog
+  url: https://tailscale.com/blog/index.xml
+  type: rss
+  topics: [devex, networking]
+  priority: low
+  update_frequency: weekly
+  content_type: analysis
+  max_articles: 3
+  relevance_keywords: [vpn, security, networking, zero-trust]
+
+- name: Databricks Blog
+  url: https://www.databricks.com/blog/category/artificial-intelligence/feed
+  type: rss
+  topics: [AI, data]
+  priority: medium
+  update_frequency: daily
+  content_type: analysis
+  max_articles: 4
+  relevance_keywords: [mlops, lakehouse, spark, delta, model]
+
+- name: Netflix Tech Blog
+  url: https://netflixtechblog.com/feed
+  type: rss
+  topics: [infra, ML]
+  priority: low
+  update_frequency: weekly
+  content_type: analysis
+  max_articles: 3
+  relevance_keywords: [recommendation, streaming, scale, machine learning]
+
+- name: NYTimes AI
+  url: https://rss.nytimes.com/services/xml/rss/nyt/ArtificialIntelligence.xml
+  type: rss
+  topics: [AI, news]
+  priority: medium
+  update_frequency: daily
+  content_type: analysis
+  max_articles: 4
+  relevance_keywords: [regulation, ethics, society, policy, impact]
+
+- name: Washington Post AI
+  url: https://feeds.washingtonpost.com/rss/business/artificial-intelligence
+  type: rss
+  topics: [AI, news]
+  priority: medium
+  update_frequency: daily
+  content_type: analysis
+  max_articles: 4
+  relevance_keywords: [policy, regulation, business, economy, jobs]

@@ -1,0 +1,126 @@
+name: Enhanced AI News Digest
+
+on:
+  schedule:
+    # Run every 4 hours for more frequent updates
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['feeds/enhanced_sources.yaml', 'scripts/enhanced_*.py']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for better duplicate detection
+          
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          # Install additional dependencies for enhanced features
+          pip install spacy textstat
+          python -m spacy download en_core_web_sm
+          
+      - name: Run enhanced crawler
+        run: python scripts/enhanced_fetch.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          
+      - name: Validate output
+        run: |
+          # Basic validation of the output JSON
+          python -c "
+          import json
+          with open('data/summaries.json') as f:
+              data = json.load(f)
+              articles = data.get('articles', data) if isinstance(data, dict) else data
+              print(f'✅ Generated {len(articles)} articles')
+              breaking = sum(1 for a in articles if a.get('is_breaking', False))
+              print(f'📰 {breaking} breaking news articles')
+              if len(articles) == 0:
+                  exit(1)
+          "
+          
+      - name: Commit & push summaries
+        run: |
+          git config --global user.name "enhanced-digest-bot"
+          git config --global user.email "bot@digest.ai"
+          git fetch
+          git checkout ${{ github.ref_name }}
+          
+          # Check if there are meaningful changes
+          if git diff --quiet HEAD data/summaries.json; then
+            echo "No new articles found, skipping commit"
+            exit 0
+          fi
+          
+          # Get stats for commit message
+          STATS=$(python -c "
+          import json
+          with open('data/summaries.json') as f:
+              data = json.load(f)
+              articles = data.get('articles', data) if isinstance(data, dict) else data
+              breaking = sum(1 for a in articles if a.get('is_breaking', False))
+              print(f'{len(articles)} articles ({breaking} breaking)')
+          ")
+          
+          git add data/summaries.json
+          git commit -m "🤖 Enhanced digest update: $STATS"
+          git push origin ${{ github.ref_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # Optional: Deploy to a simple status page
+  deploy-status:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate status page
+        run: |
+          # Create a simple HTML status page
+          python -c "
+          import json
+          from datetime import datetime
+          
+          with open('data/summaries.json') as f:
+              data = json.load(f)
+              
+          articles = data.get('articles', data) if isinstance(data, dict) else data
+          breaking = sum(1 for a in articles if a.get('is_breaking', False))
+          
+          html = f'''
+          <!DOCTYPE html>
+          <html><head><title>AI News Digest Status</title></head>
+          <body style=\"font-family: monospace; padding: 20px;\">
+          <h1>🤖 AI News Digest</h1>
+          <p><strong>Last Update:</strong> {datetime.now().strftime(\"%Y-%m-%d %H:%M UTC\")}</p>
+          <p><strong>Total Articles:</strong> {len(articles)}</p>
+          <p><strong>Breaking News:</strong> {breaking}</p>
+          <p><strong>Status:</strong> ✅ Active</p>
+          <p><a href=\"https://raw.githubusercontent.com/${{github.repository}}/main/data/summaries.json\">View Raw Data</a></p>
+          </body></html>
+          '''
+          
+          with open('status.html', 'w') as f:
+              f.write(html)
+          "
+          
+      # Deploy to GitHub Pages or similar service here if desired
