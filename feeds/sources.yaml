@@ -4,8 +4,8 @@
   topics: [infra, ML]
 
 - name: OpenAI Blog
-  url: https://openai.com/blog
-  type: scrape
+  url: https://openai.com/blog/rss
+  type: rss
   topics: [LLM, AI]
 
 - name: Cloudflare Blog
@@ -19,6 +19,36 @@
   topics: [devex, networking]
 
 - name: Hugging Face
-  url: https://huggingface.co/blog
-  type: scrape
+  url: https://huggingface.co/blog/feed
+  type: rss
   topics: [ML, open source]
+
+- name: Google AI Blog
+  url: https://ai.googleblog.com/atom.xml
+  type: rss
+  topics: [AI, research]
+
+- name: Microsoft AI Blog
+  url: https://blogs.microsoft.com/ai/feed/
+  type: rss
+  topics: [AI, cloud]
+
+- name: NVIDIA AI Blog
+  url: https://blogs.nvidia.com/blog/category/ai/feed/
+  type: rss
+  topics: [AI, hardware]
+
+- name: Anthropic News
+  url: https://www.anthropic.com/news/feed.xml
+  type: rss
+  topics: [AI, safety]
+
+- name: Mistral AI Blog
+  url: https://mistral.ai/blog/rss.xml
+  type: rss
+  topics: [AI, LLM]
+
+- name: Databricks Blog
+  url: https://www.databricks.com/blog/category/artificial-intelligence/feed
+  type: rss
+  topics: [AI, data]

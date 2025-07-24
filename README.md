@@ -4,8 +4,8 @@ A GitHub Actions-based crawler that scans top engineering and AI blogs daily, su
 
 ## Features
 
-- RSS and HTML scraping
-- GPT-4o-powered summarization
+- RSS powered scraping
+- GPT-4o-powered summarization with a local fallback
 - GitHub Actions automation
 - Output to `data/summaries.json`
 
@@ -17,4 +17,4 @@ A GitHub Actions-based crawler that scans top engineering and AI blogs daily, su
 
 ## Sources
 
-Configured in `feeds/sources.yaml`
+Configured in `feeds/sources.yaml`. A wide variety of AI and engineering blogs are listed including OpenAI, Google, Microsoft and more. Add your own entries to expand coverage.

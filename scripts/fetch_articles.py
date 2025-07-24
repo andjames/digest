@@ -10,7 +10,8 @@ for source in sources:
     if source["type"] == "rss":
         feed = feedparser.parse(source["url"])
         for entry in feed.entries[:3]:
-            summary = summarize_article(entry.link)
+            fallback = getattr(entry, "summary", "") or getattr(entry, "description", "")
+            summary = summarize_article(entry.link, fallback)
             published = entry.get("published") or entry.get("updated") or ""
             summaries.append({
                 "source": source["name"],
@@ -24,7 +25,7 @@ for source in sources:
     elif source["type"] == "scrape":
         scraped = scrape_blog(source["url"])
         for entry in scraped[:3]:
-            summary = summarize_article(entry["url"])
+            summary = summarize_article(entry["url"], entry.get("summary"))
             summaries.append({
                 "source": source["name"],
                 "title": entry["title"],
