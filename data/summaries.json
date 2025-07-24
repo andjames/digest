@@ -4,7 +4,7 @@
     "title": "Serverless Statusphere: a walk through building serverless ATProto applications on Cloudflare\u2019s Developer Platform",
     "url": "https://blog.cloudflare.com/serverless-atproto/",
     "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-    "summary": "Subscribe to receive notifications of new posts: 2025-07-24  Social media users are tired of losing their identity and data every time a platform shuts down or pivots. In the ATProto ecosystem \u00e2\u0080\u0094 short for Authenticated Transfer Protocol \u00e2\u0080\u0094 users own their data and identities.",
+    "summary": "8 min read  Social media users are tired of losing their identity and data every time a platform shuts down or pivots. In the ATProto ecosystem \u2014 short for Authenticated Transfer Protocol \u2014 users own their data and identities.",
     "topics": [
       "network",
       "infra"
@@ -15,7 +15,7 @@
     "title": "Building Jetflow: a framework for flexible, performant data pipelines at Cloudflare",
     "url": "https://blog.cloudflare.com/building-jetflow-a-framework-for-flexible-performant-data-pipelines-at-cloudflare/",
     "published": "Wed, 23 Jul 2025 14:00:00 GMT",
-    "summary": "Subscribe to receive notifications of new posts: 2025-07-23 The Cloudflare Business Intelligence team manages a petabyte-scale data lake and ingests thousands of tables every day from many different sources. These include internal databases such as Postgres and ClickHouse, as well as external SaaS applications such as Salesforce.",
+    "summary": "9 min read  The Cloudflare Business Intelligence team manages a petabyte -scale data lake and ingests thousands of tables every day from many different sources. These include internal databases such as Postgres and ClickHouse, as well as external SaaS applications such as Salesforce.",
     "topics": [
       "network",
       "infra"
@@ -26,7 +26,7 @@
     "title": "Cloudflare protects against critical SharePoint vulnerability, CVE-2025-53770",
     "url": "https://blog.cloudflare.com/cloudflare-protects-against-critical-sharepoint-vulnerability-cve-2025-53770/",
     "published": "Tue, 22 Jul 2025 16:30:00 GMT",
-    "summary": "Subscribe to receive notifications of new posts: 2025-07-22 On July 19, 2025, Microsoft disclosed CVE-2025-53770, a critical zero-day Remote Code Execution (RCE) vulnerability. Assigned a CVSS 3.1 base score of 9.8 (Critical), the vulnerability affects SharePoint Server 2016, 2019, and the Subscription Edition, along with unsupported 2010 and 2013 versions.",
+    "summary": "3 min read  On July 19, 2025, Microsoft disclosed CVE-2025-53770 , a critical zero-day Remote Code Execution (RCE) vulnerability. Assigned a CVSS 3.1 base score of 9.8 (Critical), the vulnerability affects SharePoint Server 2016, 2019, and the Subscription Edition, along with unsupported 2010 and 2013 versions.",
     "topics": [
       "network",
       "infra"
@@ -70,7 +70,7 @@
     "title": "A conversation with Kevin Scott: What\u2019s next in AI",
     "url": "https://blogs.microsoft.com/ai/a-conversation-with-kevin-scott-whats-next-in-ai/",
     "published": "Tue, 06 Dec 2022 17:29:09 +0000",
-    "summary": "Summary not available.",
+    "summary": "For example, I\u2019ve been playing around with an experimental system I built for myself using GPT-3 designed to help me write a science fiction book, which is something that I\u2019ve wanted to do since I was a teenager. I have notebooks full of synopses I\u2019ve created for theoretical books, describing what the books are about and the universes where they take place.",
     "topics": [
       "AI",
       "cloud"
@@ -81,7 +81,7 @@
     "title": "From Hot Wheels to handling content: How brands are using Microsoft AI to be more productive and imaginative",
     "url": "https://blogs.microsoft.com/ai/from-hot-wheels-to-handling-content-how-brands-are-using-microsoft-ai-to-be-more-productive-and-imaginative/",
     "published": "Wed, 12 Oct 2022 16:00:02 +0000",
-    "summary": "Summary not available.",
+    "summary": "When designers at the toy company Mattel were asked recently to come up with a new Hot Wheels model car, they sought inspiration from DALL\u2219E 2, an AI system developed by OpenAI that creates custom images and art based on what people describe in plainspoken language. Using the tool, designers can type in a prompt such as, \u201cA scale model of a classic car\u201d and DALL\u2219E 2 will generate an image of a toy vintage car, perhaps silver in color and with whitewall tires.",
     "topics": [
       "AI",
       "cloud"
@@ -92,10 +92,43 @@
     "title": "Microsoft open sources its \u2018farm of the future\u2019 toolkit",
     "url": "https://blogs.microsoft.com/ai/microsoft-open-sources-its-farm-of-the-future-toolkit/",
     "published": "Thu, 06 Oct 2022 14:58:15 +0000",
-    "summary": "Summary not available.",
+    "summary": "FARMINGTON, Wash. \u2013 The gently rolling hills here in eastern Washington have long grown rich harvests of wheat, barley and lentils.",
     "topics": [
       "AI",
       "cloud"
+    ]
+  },
+  {
+    "source": "TechCrunch AI",
+    "title": "Obvio\u2019s stop sign cameras use AI to root out unsafe drivers",
+    "url": "https://techcrunch.com/2025/06/04/obvios-stop-sign-cameras-use-ai-to-root-out-unsafe-drivers/",
+    "published": "Wed, 04 Jun 2025 14:00:00 +0000",
+    "summary": "American streets are incredibly dangerous for pedestrians. A San Carlos, California-based startup called Obvio thinks it can change that by installing cameras at stop signs \u2014 a solution the founders also say won\u2019t create a panopticon.",
+    "topics": [
+      "AI",
+      "news"
+    ]
+  },
+  {
+    "source": "TechCrunch AI",
+    "title": "Breakneck data center growth challenges Microsoft\u2019s sustainability goals",
+    "url": "https://techcrunch.com/2025/06/02/breakneck-data-center-growth-challenges-microsofts-sustainability-goals/",
+    "published": "Mon, 02 Jun 2025 18:07:05 +0000",
+    "summary": "Microsoft\u2019s new sustainability report, released late last week, shows how a carbon-heavy economy can weigh on a company that wants to be carbon light. Since 2020, the company\u2019s carbon emissions are up 23.4%, mostly a result of breakneck data center buildout to support its growing cloud and AI operations.",
+    "topics": [
+      "AI",
+      "news"
+    ]
+  },
+  {
+    "source": "TechCrunch AI",
+    "title": "Gridcare thinks more than 100 GW of data center capacity is hiding in the grid",
+    "url": "https://techcrunch.com/2025/05/27/gridcare-thinks-more-than-100-gw-of-data-center-capacity-is-hiding-in-the-grid/",
+    "published": "Tue, 27 May 2025 12:00:00 +0000",
+    "summary": "Hyperscalers and data center developers are in a pickle: They all want to add computing power tomorrow, but utilities frequently play hard to get, citing years-long waits for grid connections. \u201cAll the AI data centers are struggling to get connected,\u201d Amit Narayan, founder and CEO of Gridcare, told TechCrunch.",
+    "topics": [
+      "AI",
+      "news"
     ]
   }
 ]
