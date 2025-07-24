@@ -3,3 +3,4 @@ beautifulsoup4
 requests
 openai
 pyyaml
+newspaper3k
