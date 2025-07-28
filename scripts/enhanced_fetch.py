@@ -164,6 +164,13 @@ def fetch_enhanced_articles() -> List[Article]:
 def main():
     """Main execution function."""
     articles = fetch_enhanced_articles()
+
+    # Detect and filter duplicate content
+    duplicate_urls = detect_duplicate_content(
+        [{"title": a.title, "url": a.url} for a in articles]
+    )
+    if duplicate_urls:
+        articles = [a for a in articles if a.url not in duplicate_urls]
     
     # Convert to JSON format
     summaries = []
