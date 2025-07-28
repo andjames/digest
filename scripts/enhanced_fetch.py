@@ -2,6 +2,7 @@ import feedparser
 import yaml
 import json
 import os
+import argparse
 from datetime import datetime, timedelta
 from typing import List, Dict, Set
 import hashlib
@@ -71,10 +72,16 @@ def enhance_source_metadata(source: Dict) -> Dict:
     }
     return {**source, **enhancements}
 
-def fetch_enhanced_articles() -> List[Article]:
-    """Enhanced article fetching with smart filtering and deduplication."""
-    
-    with open("feeds/sources.yaml") as f:
+def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") -> List[Article]:
+    """Enhanced article fetching with smart filtering and deduplication.
+
+    Parameters
+    ----------
+    config_path: str
+        Path to YAML configuration file describing the news sources.
+    """
+
+    with open(config_path) as f:
         sources = yaml.safe_load(f)
     
     existing_hashes = load_existing_articles()
@@ -163,7 +170,16 @@ def fetch_enhanced_articles() -> List[Article]:
 
 def main():
     """Main execution function."""
-    articles = fetch_enhanced_articles()
+    parser = argparse.ArgumentParser(description="Enhanced article fetcher")
+    parser.add_argument(
+        "-c",
+        "--config",
+        default=os.getenv("ENHANCED_FEEDS_FILE", "feeds/enhanced_sources.yaml"),
+        help="Path to YAML configuration file"
+    )
+    args = parser.parse_args()
+
+    articles = fetch_enhanced_articles(args.config)
     
     # Convert to JSON format
     summaries = []

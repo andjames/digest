@@ -68,6 +68,10 @@ python -m spacy download en_core_web_sm
 
 # Run enhanced scraper
 python scripts/enhanced_fetch.py
+# or specify a custom config
+python scripts/enhanced_fetch.py --config path/to/feeds.yaml
+# or via environment variable
+ENHANCED_FEEDS_FILE=path/to/feeds.yaml python scripts/enhanced_fetch.py
 
 # Check output
 cat data/summaries.json | jq '.breaking_news_count'
@@ -81,7 +85,8 @@ The enhanced workflow runs every 4 hours and includes:
 - Optional status page generation
 
 ### Configuration
-Edit `feeds/enhanced_sources.yaml` to:
+`scripts/enhanced_fetch.py` reads from `feeds/enhanced_sources.yaml` by default.
+Edit that file to:
 - Add new sources with priority levels
 - Set update frequencies per source
 - Define relevance keywords
