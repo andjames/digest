@@ -31,7 +31,14 @@ def load_existing_articles() -> Set[str]:
     try:
         with open("data/summaries.json", "r") as f:
             existing = json.load(f)
-            return {article.get("content_hash", "") for article in existing if article.get("content_hash")}
+            if isinstance(existing, dict):
+                existing = existing.get("articles", existing)
+
+            return {
+                article.get("content_hash", "")
+                for article in existing
+                if isinstance(article, dict) and article.get("content_hash")
+            }
     except (FileNotFoundError, json.JSONDecodeError):
         return set()
 
