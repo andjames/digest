@@ -170,16 +170,14 @@ def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") ->
 
 def main():
     """Main execution function."""
-    parser = argparse.ArgumentParser(description="Enhanced article fetcher")
-    parser.add_argument(
-        "-c",
-        "--config",
-        default=os.getenv("ENHANCED_FEEDS_FILE", "feeds/enhanced_sources.yaml"),
-        help="Path to YAML configuration file"
-    )
-    args = parser.parse_args()
+    articles = fetch_enhanced_articles()
 
-    articles = fetch_enhanced_articles(args.config)
+    # Detect and filter duplicate content
+    duplicate_urls = detect_duplicate_content(
+        [{"title": a.title, "url": a.url} for a in articles]
+    )
+    if duplicate_urls:
+        articles = [a for a in articles if a.url not in duplicate_urls]
     
     # Convert to JSON format
     summaries = []
