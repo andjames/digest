@@ -47,7 +47,7 @@ def load_existing_articles() -> Set[str]:
             continue
     return hashes
 
-def is_recent_article(published_date: str, hours_threshold: int = 48) -> bool:
+def is_recent_article(published_date: str, hours_threshold: int = 24 * 7) -> bool:
     """Check if article was published within the threshold hours."""
     try:
         # Parse various date formats
@@ -114,9 +114,9 @@ def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") ->
                     max_articles *= 2
                 
                 for entry in feed.entries[:max_articles]:
-                    # Skip old articles unless it's breaking news
+                    # Skip articles older than 7 days unless it's breaking news
                     published = entry.get("published") or entry.get("updated") or ""
-                    if not is_recent_article(published, hours_threshold=72):
+                    if not is_recent_article(published, hours_threshold=24 * 7):
                         continue
                     
                     # Create content hash for deduplication
