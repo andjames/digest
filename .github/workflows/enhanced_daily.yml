@@ -103,7 +103,10 @@ jobs:
         with:
           fetch-depth: 0
       - name: Sync repository
-        run: git pull origin ${{ github.ref_name }}
+        run: |
+          git pull origin ${{ github.ref_name }}
+          # Wait a moment for any potential race conditions
+          sleep 2
       - name: Generate status page
         run: |
           # Create a simple HTML status page
@@ -118,18 +121,28 @@ jobs:
           date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
           file = os.path.join("data", f"summaries_{date_str}.json")
 
+          # Create data directory if it doesn't exist
+          os.makedirs("data", exist_ok=True)
+
           if not os.path.exists(file):
               files = sorted(glob.glob(os.path.join("data", "summaries_*.json")), reverse=True)
               if files:
                   file = files[0]
               else:
-                  raise FileNotFoundError("No summary files found")
+                  # Create a fallback status when no files exist
+                  print("No summary files found, creating fallback status")
+                  file = None
 
-          with open(file) as f:
-              data = json.load(f)
-
-          articles = data.get('articles', data) if isinstance(data, dict) else data
-          breaking = sum(1 for a in articles if a.get('is_breaking', False))
+          if file:
+              with open(file) as f:
+                  data = json.load(f)
+              articles = data.get('articles', data) if isinstance(data, dict) else data
+              breaking = sum(1 for a in articles if a.get('is_breaking', False))
+              data_link = f"<p><a href=\"https://raw.githubusercontent.com/{repo}/main/{file}\">View Raw Data</a></p>"
+          else:
+              articles = []
+              breaking = 0
+              data_link = "<p>No data available yet</p>"
 
           html = f"""
           <!DOCTYPE html>
@@ -139,8 +152,8 @@ jobs:
           <p><strong>Last Update:</strong> {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
           <p><strong>Total Articles:</strong> {len(articles)}</p>
           <p><strong>Breaking News:</strong> {breaking}</p>
-          <p><strong>Status:</strong> ✅ Active</p>
-          <p><a href=\"https://raw.githubusercontent.com/{repo}/main/{file}\">View Raw Data</a></p>
+          <p><strong>Status:</strong> {'✅ Active' if file else '⏳ Initializing'}</p>
+          {data_link}
           </body></html>
           """
 
