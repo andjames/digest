@@ -1,329 +1,35 @@
 {
-  "generated_at": "2025-07-29T15:57:04.018548",
-  "total_articles": 23,
-  "breaking_news_count": 21,
+  "generated_at": "2025-07-29T19:55:27.639304",
+  "total_articles": 2,
+  "breaking_news_count": 2,
   "articles": [
     {
-      "source": "DeepMind Blog",
-      "title": "Aeneas transforms how historians connect the past",
-      "url": "https://deepmind.google/discover/blog/aeneas-transforms-how-historians-connect-the-past/",
-      "published": "Wed, 23 Jul 2025 14:59:00 +0000",
-      "summary": "Researchers have introduced Aeneas, the first AI model designed to contextualize ancient inscriptions, significantly enhancing historians' ability to interpret and restore fragmentary texts from the Roman world. This development is crucial as it accelerates the identification of textual parallels and contextual information, which are essential for understanding historical narratives. The model's capabilities, including multimodal input processing and the ability to restore unknown gaps in texts, promise to transform historical research methodologies and facilitate broader access to ancient texts through an open-source platform.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "a7e67656e1fc44143f181f43ede60692",
-      "relevance_score": 1.0,
-      "is_breaking": true
-    },
-    {
       "source": "MIT Technology Review AI",
-      "title": "Trump\u2019s AI Action Plan is a distraction",
-      "url": "https://www.technologyreview.com/2025/07/24/1120639/trumps-ai-action-plan-is-a-distraction/",
-      "published": "Thu, 24 Jul 2025 20:15:00 +0000",
-      "summary": "A recent analysis highlights that immigrants have been pivotal in shaping American leadership in AI, with 60% of the top 50 AI startups having at least one immigrant cofounder. This trend is significant as the U.S. risks losing its competitive edge in AI talent due to recent anti-immigration policies and funding cuts, which could hinder innovation and growth in the sector. Moving forward, addressing these immigration challenges and fostering an environment that encourages talent retention and innovation will be crucial for maintaining the U.S.'s position in the global AI landscape.",
+      "title": "OpenAI is launching a version of ChatGPT for college students",
+      "url": "https://www.technologyreview.com/2025/07/29/1120801/openai-is-launching-a-version-of-chatgpt-for-college-students/",
+      "published": "Tue, 29 Jul 2025 17:18:45 +0000",
+      "summary": "OpenAI's Study Mode, recently tested by students from top universities, has received positive feedback for its adaptive learning approach, which incorporates Socratic methods. This development is significant as it aims to rebrand AI as a personalized learning tool, potentially democratizing access to quality education for underserved students. However, concerns remain about the reliability of the information provided, as the AI is not exclusively trained on academic materials, raising the risk of students receiving inaccurate or misleading content.",
       "topics": [
         "AI",
         "research"
       ],
-      "content_hash": "abc7ef21a41ccf4efc6a4794d8de59fe",
-      "relevance_score": 1.0,
-      "is_breaking": true
-    },
-    {
-      "source": "Cloudflare Blog",
-      "title": "The White House AI Action Plan:  a new chapter in U.S. AI policy",
-      "url": "https://blog.cloudflare.com/the-white-house-ai-action-plan-a-new-chapter-in-u-s-ai-policy/",
-      "published": "Fri, 25 Jul 2025 01:52:00 GMT",
-      "summary": "On July 23, 2025, the White House announced its AI Action Plan, a comprehensive policy framework aimed at establishing U.S. leadership in artificial intelligence through three key pillars: accelerating AI innovation, building American AI infrastructure, and enhancing international AI diplomacy. This plan is significant as it responds to public input and positions the U.S. to compete globally in AI technology, promoting open-source models and cybersecurity measures. Key implications include a commitment to fostering innovation, enhancing public sector efficiency through AI adoption, and navigating the complexities of AI export controls while maintaining national security.",
-      "topics": [
-        "network",
-        "infra"
-      ],
-      "content_hash": "00d07e81d4c33286a5ac3fe398b87580",
-      "relevance_score": 1.0,
-      "is_breaking": true
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "Solving the inference problem for open source AI projects with GitHub Models",
-      "url": "https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/",
-      "published": "Wed, 23 Jul 2025 16:00:00 +0000",
-      "summary": "GitHub has launched GitHub Models, a free, OpenAI-compatible inference API that eliminates the need for users to provide their own paid API keys, significantly lowering the barrier to entry for developers and hobbyists. This initiative is significant as it democratizes access to AI features in open-source projects, fostering wider adoption and contributions without the overhead of complex setup or costs. Key implications include streamlined integration for AI capabilities in GitHub Actions and a potential increase in community engagement and project scalability, as users can easily utilize AI functionalities without additional configuration.",
-      "topics": [
-        "devex",
-        "AI"
-      ],
-      "content_hash": "9b08dece59f6a463d52d4e76d5022ed0",
-      "relevance_score": 0.95,
-      "is_breaking": true
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "How to streamline GitHub API calls in Azure Pipelines",
-      "url": "https://github.blog/enterprise-software/ci-cd/how-to-streamline-github-api-calls-in-azure-pipelines/",
-      "published": "Thu, 24 Jul 2025 16:00:00 +0000",
-      "summary": "Azure Pipelines has announced enhanced integration with GitHub, allowing developers to automate CI/CD processes more seamlessly by utilizing GitHub APIs and a custom Azure DevOps extension for authentication. This integration is significant as it streamlines workflows, improves security, and enhances maintainability by centralizing credential management and enabling automatic updates and status checks directly within GitHub. Key implications include the potential for improved collaboration among developers, easier management of code quality through automated checks, and the ability to leverage GitHub's rich API for customized workflows and enhanced security practices.",
-      "topics": [
-        "devex",
-        "AI"
-      ],
-      "content_hash": "68d6f16afecb6fb259d60b84bb593051",
-      "relevance_score": 0.95,
-      "is_breaking": true
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "How to build secure and scalable remote MCP servers",
-      "url": "https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/",
-      "published": "Fri, 25 Jul 2025 17:12:02 +0000",
-      "summary": "The Model Context Protocol (MCP) has been announced, allowing AI agents to connect to various external tools and data sources without needing specific API connectors, enhancing data extraction and processing capabilities. This is significant as it streamlines integration while addressing critical security concerns, given that MCP servers can access sensitive enterprise data and require robust security measures to prevent breaches. Key implications include the adoption of OAuth 2.1 for secure authorization, which simplifies the integration process for developers and emphasizes the importance of implementing security best practices to safeguard against potential vulnerabilities.",
-      "topics": [
-        "devex",
-        "AI"
-      ],
-      "content_hash": "dc4302fb24a1bd7dd592b4b1e4bf6ae9",
-      "relevance_score": 0.95,
-      "is_breaking": true
-    },
-    {
-      "source": "Cloudflare Blog",
-      "title": "Serverless Statusphere: a walk through building serverless ATProto applications on Cloudflare\u2019s Developer Platform",
-      "url": "https://blog.cloudflare.com/serverless-atproto/",
-      "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-      "summary": "The ATProto ecosystem, which allows users to own their data and identities in a decentralized social network, is gaining traction with the launch of the Statusphere application on Cloudflare\u2019s Developer Platform. This development is significant as it addresses user concerns over data ownership and privacy, providing a framework where data is cryptographically signed and can be shared across various applications without central authority. Next steps include developers leveraging Cloudflare's serverless infrastructure to build and deploy their own ATProto applications, further expanding the decentralized social network landscape.",
-      "topics": [
-        "network",
-        "infra"
-      ],
-      "content_hash": "39e05b5917e6c10fb6bbdd51f9753db1",
-      "relevance_score": 0.9,
-      "is_breaking": true
-    },
-    {
-      "source": "MIT Technology Review AI",
-      "title": "Google DeepMind\u2019s new AI can help historians understand ancient Latin inscriptions",
-      "url": "https://www.technologyreview.com/2025/07/23/1120574/deepmind-ai-aeneas-helps-historians-interpret-latin-inscriptions/",
-      "published": "Wed, 23 Jul 2025 15:00:08 +0000",
-      "summary": "The Aeneas project, developed by researchers at Google DeepMind, utilizes a deep neural network to analyze and interpret ancient inscriptions by providing possible dates, origins, and text completions, significantly aiding historians in their research. This tool is significant as it enhances the workflow of epigraphers by generating hypotheses and improving the accuracy of historical determinations, as demonstrated in tests with 23 historians. However, its long-term utility remains uncertain, particularly regarding its performance on less-studied inscriptions and its inability to interpret texts independently.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "268c8e21201bdc30f5da1db96398b9cc",
-      "relevance_score": 0.85,
-      "is_breaking": true
-    },
-    {
-      "source": "Cloudflare Blog",
-      "title": "Cloudflare protects against critical SharePoint vulnerability, CVE-2025-53770",
-      "url": "https://blog.cloudflare.com/cloudflare-protects-against-critical-sharepoint-vulnerability-cve-2025-53770/",
-      "published": "Tue, 22 Jul 2025 16:30:00 GMT",
-      "summary": "On July 19, 2025, Microsoft announced a critical zero-day vulnerability (CVE-2025-53770) affecting multiple versions of SharePoint Server, which allows remote code execution by unauthenticated attackers, potentially leading to long-term access through stolen cryptographic keys. This vulnerability is significant due to its high CVSS score of 9.8 and the sophisticated exploit chain, \"ToolShell,\" which combines initial breaches with persistent access mechanisms. In response, Cloudflare has implemented emergency WAF Managed Rules to protect its customers, while CISA has added the vulnerability to its Known Exploited Vulnerabilities catalog, urging organizations to act swiftly to mitigate risks.",
-      "topics": [
-        "network",
-        "infra"
-      ],
-      "content_hash": "9148f5ec27d8735ccd79b57386bdbf22",
-      "relevance_score": 0.85,
-      "is_breaking": true
-    },
-    {
-      "source": "DeepMind Blog",
-      "title": "Gemini 2.5 Flash-Lite is now ready for scaled production use",
-      "url": "https://deepmind.google/discover/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/",
-      "published": "Tue, 22 Jul 2025 16:00:00 +0000",
-      "summary": "Today, the stable version of Gemini 2.5 Flash-Lite was launched, marking it as the fastest and most cost-effective model in the Gemini 2.5 family, priced at $0.10 per million input tokens and $0.40 per million output tokens. This release is significant as it enhances performance for latency-sensitive applications while offering advanced reasoning capabilities, making it ideal for scalable production use across various industries. Key implications include its immediate adoption by companies like Satlyt and HeyGen for real-time data processing and content optimization, as well as plans to phase out the preview version by August 25th, encouraging users to transition to the stable release.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "05ae48a445910f10f03fb80e256ad62c",
-      "relevance_score": 0.8,
-      "is_breaking": true
-    },
-    {
-      "source": "Cloudflare Blog",
-      "title": "Building Jetflow: a framework for flexible, performant data pipelines at Cloudflare",
-      "url": "https://blog.cloudflare.com/building-jetflow-a-framework-for-flexible-performant-data-pipelines-at-cloudflare/",
-      "published": "Wed, 23 Jul 2025 14:00:00 GMT",
-      "summary": "Cloudflare has announced the development of Jetflow, a custom Extract Load Transform (ELT) framework designed to efficiently manage its growing petabyte-scale data lake, which ingests approximately 141 billion rows daily. This new framework significantly enhances data processing efficiency, achieving over 100x improvements in resource usage and over 10x increases in ingestion speed, making it crucial for supporting the company's expanding data needs and business-critical decisions. Key implications include improved scalability and flexibility for future data ingestion tasks, as well as the potential for reduced operational costs associated with data processing.",
-      "topics": [
-        "network",
-        "infra"
-      ],
-      "content_hash": "94d5b928c3d514a1a260eb65d1a09339",
-      "relevance_score": 0.8,
-      "is_breaking": true
-    },
-    {
-      "source": "MIT Technology Review AI",
-      "title": "What you may have missed about Trump\u2019s AI Action Plan",
-      "url": "https://www.technologyreview.com/2025/07/29/1120760/what-you-may-have-missed-about-trumps-ai-action-plan/",
-      "published": "Tue, 29 Jul 2025 09:00:00 +0000",
-      "summary": "The Trump administration has announced a new AI Action Plan that aims to reassess and potentially repeal Federal Trade Commission (FTC) regulations perceived as burdensome to AI development. This move is significant as it could undermine consumer protection efforts while promoting an optimistic vision of AI's potential in scientific advancements, despite mixed evidence regarding AI's capabilities in research. Key implications include a potential weakening of the FTC's regulatory power and a shift in funding priorities that may impact human scientists' research efforts.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "b04362d032c1625afb63f0a939982689",
-      "relevance_score": 0.8,
-      "is_breaking": true
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "Scaling for impact: How GitHub Copilot supercharges smallholder farmers",
-      "url": "https://github.blog/open-source/social-impact/scaling-for-impact-how-github-copilot-supercharges-smallholder-farmers/",
-      "published": "Mon, 28 Jul 2025 19:53:32 +0000",
-      "summary": "One Acre Fund, which began in 2006 with 40 farm families in Kenya, has expanded to serve 5 million families across ten African countries, aiming to support 10 million by 2030 through open source technology and AI. This significant growth is driven by their commitment to empower smallholder farmers, enhancing agricultural productivity and resilience against climate change while generating $1 billion in new revenue for these communities. Key implications include the accelerated development of their operational systems through tools like GitHub Copilot, enabling them to achieve more ambitious goals efficiently and sustainably without incurring high licensing costs.",
-      "topics": [
-        "devex",
-        "AI"
-      ],
-      "content_hash": "a4f7552f89b173e1a5af0eb819a5d18d",
-      "relevance_score": 0.75,
-      "is_breaking": true
-    },
-    {
-      "source": "Tailscale Blog",
-      "title": "Securely connect private data sources to Grafana Cloud with Tailscale",
-      "url": "https://tailscale.com/blog/grafana-integration-secure-data-sources",
-      "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-      "summary": "Grafana Labs has announced a partnership with Tailscale to introduce a new integration that allows secure connections between private data sources and Grafana Cloud without exposing them to the public internet. This is significant as it simplifies the monitoring process for developers and operations teams by eliminating the need for complex networking setups like SSH tunnels and proxies, thereby enhancing data privacy. The integration is currently in private preview, with interested users encouraged to sign up for onboarding details, marking a step towards more secure and efficient data monitoring solutions.",
-      "topics": [
-        "devex",
-        "networking"
-      ],
-      "content_hash": "ce9dc678f07cca72b363a8a91ecd1d16",
+      "content_hash": "a239ae8db0dcd25f75209bbac94bd159",
       "relevance_score": 0.65,
       "is_breaking": true
     },
     {
-      "source": "Ars Technica AI",
-      "title": "OpenAI\u2019s ChatGPT Agent casually clicks through \u201cI am not a robot\u201d verification test",
-      "url": "https://arstechnica.com/information-technology/2025/07/openais-chatgpt-agent-casually-clicks-through-i-am-not-a-robot-verification-test/",
-      "published": "Mon, 28 Jul 2025 20:07:29 +0000",
-      "summary": "OpenAI's ChatGPT Agent successfully bypassed Cloudflare's anti-bot verification system, demonstrating its ability to perform multistep tasks autonomously while providing real-time narration of its actions. This event is significant as it highlights the agent's advanced capabilities and raises questions about the effectiveness of current security measures against AI. Moving forward, this could lead to discussions on refining CAPTCHA systems and the ethical implications of AI interacting with web security protocols.",
+      "source": "GitHub Blog",
+      "title": "From first commits to big ships: Tune into our new open source podcast",
+      "url": "https://github.blog/open-source/maintainers/from-first-commits-to-big-ships-tune-into-our-new-open-source-podcast/",
+      "published": "Tue, 29 Jul 2025 16:31:29 +0000",
+      "summary": "GitHub has launched a new podcast series focused on the open source ecosystem, featuring core contributors who will discuss the significance of open source in driving innovation across various fields, including AI and climate tech. This initiative highlights the importance of community collaboration and knowledge sharing, emphasizing that investing in open source is akin to funding global research and development. Upcoming episodes will delve into topics like the Model Context Protocol (MCP), which aims to enhance transparency and interoperability in AI tools, indicating a commitment to evolving open standards for developers.",
       "topics": [
-        "AI",
-        "tech"
+        "devex",
+        "AI"
       ],
-      "content_hash": "4de48f01b66b2631410e7e1e2e946c8c",
-      "relevance_score": 0.65,
-      "is_breaking": true
-    },
-    {
-      "source": "Ars Technica AI",
-      "title": "Two major AI coding tools wiped out user data after making cascading mistakes",
-      "url": "https://arstechnica.com/information-technology/2025/07/ai-coding-assistants-chase-phantoms-destroy-real-user-data/",
-      "published": "Thu, 24 Jul 2025 21:01:28 +0000",
-      "summary": "Recent incidents involving AI coding assistants, specifically Google's Gemini CLI and Replit's service, have highlighted significant risks associated with \"vibe coding,\" where users issue commands in plain English without understanding the underlying code. These tools failed catastrophically, with Gemini CLI deleting user files and Replit's service wiping a production database due to incorrect internal representations and confabulation errors. As these AI models promise to democratize software development, their propensity for generating false information raises serious concerns about reliability and safety, prompting a need for improved oversight and validation mechanisms in AI coding technologies.",
-      "topics": [
-        "AI",
-        "tech"
-      ],
-      "content_hash": "a55af37321c99cb998a6948b554a62b1",
+      "content_hash": "17f5390fe994e096a27a1bfc42af7524",
       "relevance_score": 0.6,
       "is_breaking": true
-    },
-    {
-      "source": "Ars Technica AI",
-      "title": "Pro-Ukrainian hackers take credit for attack that snarls Russian flight travel",
-      "url": "https://arstechnica.com/security/2025/07/pro-ukrainian-hackers-take-credit-for-attack-that-snarls-russian-flight-travel/",
-      "published": "Mon, 28 Jul 2025 18:15:25 +0000",
-      "summary": "Russia's largest airline, Aeroflot, canceled approximately 40 flights and experienced widespread delays due to a significant IT system failure, which has been attributed to a cyberattack by pro-Ukrainian hacker groups. This incident is significant as it highlights vulnerabilities in critical infrastructure amidst ongoing geopolitical tensions, with Russian lawmakers suggesting that the attack may be part of a broader digital assault on the nation. The implications include a criminal investigation by Russian authorities and potential long-term operational disruptions for Aeroflot, with restoration costs estimated in the tens of millions of dollars.",
-      "topics": [
-        "AI",
-        "tech"
-      ],
-      "content_hash": "d1396bfcca44744dbba8ea2f810ee54c",
-      "relevance_score": 0.5,
-      "is_breaking": true
-    },
-    {
-      "source": "Ars Technica AI",
-      "title": "Supply-chain attacks on open source software are getting out of hand",
-      "url": "https://arstechnica.com/security/2025/07/open-source-repositories-are-seeing-a-rash-of-supply-chain-attacks/",
-      "published": "Fri, 25 Jul 2025 15:50:37 +0000",
-      "summary": "A recent supply-chain attack compromised the GitHub account of global talent agency Toptal, leading to the distribution of 10 malicious JavaScript packages on the npm repository, which were downloaded by approximately 5,000 users before being removed. This incident is significant as it highlights the vulnerabilities in the integration between GitHub and npm, raising concerns about the security of open-source software and the potential for further attacks. Next steps involve investigating the breach's origins, enhancing security protocols for developer accounts, and increasing awareness of the risks associated with supply-chain vulnerabilities in software development.",
-      "topics": [
-        "AI",
-        "tech"
-      ],
-      "content_hash": "daf7676cded0ffd08eabc89bad33c9d9",
-      "relevance_score": 0.35,
-      "is_breaking": true
-    },
-    {
-      "source": "Tailscale Blog",
-      "title": "This month at Tailscale: Tailnet Lock, Control plane IP changes, and headless Windows runners",
-      "url": "https://tailscale.com/blog/july-25-product-update",
-      "published": "Fri, 25 Jul 2025 13:00:00 GMT",
-      "summary": "Tailscale has announced the general availability of Tailnet Lock, enhancing security by allowing users to independently manage signing nodes and keys without relying on Tailscale. This significant update empowers users with greater control over their networks and introduces a Trust On First Use (TOFU) model, which includes safeguards and webhook events for improved management. Next steps involve users implementing Tailnet Lock as outlined in the documentation, while Tailscale continues to provide support and updates for its services.",
-      "topics": [
-        "devex",
-        "networking"
-      ],
-      "content_hash": "4ff60510cd53561e105d5de0d6051268",
-      "relevance_score": 0.3,
-      "is_breaking": true
-    },
-    {
-      "source": "MIT Technology Review AI",
-      "title": "America\u2019s AI watchdog is losing its bite",
-      "url": "https://www.technologyreview.com/2025/07/24/1120645/americas-ai-watchdog-is-losing-its-bite/",
-      "published": "Thu, 24 Jul 2025 18:59:09 +0000",
-      "summary": "The Trump administration announced plans to review and potentially repeal actions taken by the FTC under the Biden administration, which included fines against AI companies for misleading claims about their technologies. This is significant as it signals a shift towards reducing regulatory oversight on AI, potentially accelerating its deployment without adequate checks on accuracy and consumer safety. The implications include a likely increase in AI-related risks for consumers, as well as a political battle over the balance between innovation and regulation in the tech sector.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "b5d9a8024e62882b5ae36a3f6a3594af",
-      "relevance_score": 0.25,
-      "is_breaking": true
-    },
-    {
-      "source": "Ars Technica AI",
-      "title": "After BlackSuit is taken down, new ransomware group Chaos emerges",
-      "url": "https://arstechnica.com/security/2025/07/after-blacksuit-is-taken-down-new-ransomware-group-chaos-emerges/",
-      "published": "Sat, 26 Jul 2025 00:21:30 +0000",
-      "summary": "A new ransomware group named Chaos has emerged following the takedown of the BlackSuit gang, highlighting the persistent challenge of cybercrime. This group's activities, which include targeting organizations primarily in the US with ransom demands around $300,000, underscore the ongoing threat posed by ransomware and the rapid replacement of dismantled criminal organizations. Key implications include the need for enhanced cybersecurity measures and international cooperation to combat evolving ransomware threats effectively.",
-      "topics": [
-        "AI",
-        "tech"
-      ],
-      "content_hash": "867f27a23da7755b7e6218a6f05c84cd",
-      "relevance_score": 0.25,
-      "is_breaking": true
-    },
-    {
-      "source": "Ars Technica AI",
-      "title": "OpenAI\u2019s most capable AI model, GPT-5, may be coming in August",
-      "url": "https://arstechnica.com/ai/2025/07/openais-most-capable-ai-model-gpt-5-may-be-coming-in-august/",
-      "published": "Fri, 25 Jul 2025 19:59:37 +0000",
-      "summary": "OpenAI is set to launch GPT-5 as early as August, featuring a unified model that integrates various AI capabilities, with \"mini\" and \"nano\" versions available through its API. CEO Sam Altman has showcased the model's advanced capabilities, noting its ability to answer complex questions, and Microsoft has been preparing server capacity for the rollout since late May.",
-      "topics": [
-        "AI",
-        "tech"
-      ],
-      "content_hash": "6d267192de9aabd6fb09ba53064fd011",
-      "relevance_score": 0.65,
-      "is_breaking": false
-    },
-    {
-      "source": "MIT Technology Review AI",
-      "title": "Chinese universities want students to use more AI, not less",
-      "url": "https://www.technologyreview.com/2025/07/28/1120747/chinese-universities-ai-use/",
-      "published": "Mon, 28 Jul 2025 09:00:00 +0000",
-      "summary": "Chinese educators are increasingly embracing AI as a skill to be mastered, viewing it as a tool for enhancing literacy and productivity, in contrast to Western concerns about its implications for academic integrity. A Stanford report highlights that approximately 80% of Chinese respondents express excitement about AI advancements, reflecting a cultural belief in technology as a driver of national progress, with educators advocating for responsible and effective use of AI in academic settings.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "0c8bf57b2c70a4b06ff593841068f8be",
-      "relevance_score": 0.55,
-      "is_breaking": false
     }
   ]
 }
