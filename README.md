@@ -7,7 +7,7 @@ A GitHub Actions-based crawler that scans top engineering and AI blogs daily, su
 - RSS powered scraping
 - GPT-4o-powered summarization with a local fallback
 - GitHub Actions automation
-- Output to `data/summaries.json`
+- Output to files named `data/summaries_<date>.json`
 
 ## Setup
 
