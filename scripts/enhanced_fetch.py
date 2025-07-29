@@ -4,8 +4,9 @@ import json
 import os
 import argparse
 from datetime import datetime, timedelta
+from dateutil import parser as date_parser
 import glob
-from typing import List, Dict, Set
+from typing import List, Dict, Set, Optional
 import hashlib
 from dataclasses import dataclass
 from enhanced_utils import (
@@ -22,6 +23,7 @@ class Article:
     title: str
     url: str
     published: str
+    published_dt: Optional[datetime]
     summary: str
     topics: List[str]
     content_hash: str
@@ -50,22 +52,28 @@ def load_existing_articles() -> Set[str]:
 def is_recent_article(published_date: str, hours_threshold: int = 24 * 7) -> bool:
     """Check if article was published within the threshold hours."""
     try:
-        # Parse various date formats
-        for fmt in ["%a, %d %b %Y %H:%M:%S %Z", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d %H:%M:%S"]:
-            try:
-                pub_date = datetime.strptime(published_date.strip(), fmt)
-                if pub_date.tzinfo is None:
-                    pub_date = pub_date.replace(tzinfo=datetime.now().astimezone().tzinfo)
-                break
-            except ValueError:
-                continue
-        else:
-            return True  # If we can't parse, include it
-        
+        pub_date = parse_published_date(published_date)
+        if not pub_date:
+            return True
+
         threshold = datetime.now().astimezone() - timedelta(hours=hours_threshold)
         return pub_date >= threshold
     except Exception:
         return True  # If parsing fails, include the article
+
+def parse_published_date(published_date: str) -> Optional[datetime]:
+    """Parse a published date string into a ``datetime`` object."""
+    if not published_date:
+        return None
+    try:
+        pub_date = date_parser.parse(published_date.strip())
+        if pub_date.tzinfo is None:
+            pub_date = pub_date.replace(tzinfo=datetime.now().astimezone().tzinfo)
+        else:
+            pub_date = pub_date.astimezone(datetime.now().astimezone().tzinfo)
+        return pub_date
+    except Exception:
+        return None
 
 def create_content_hash(title: str, url: str) -> str:
     """Create a hash for duplicate detection."""
@@ -160,6 +168,7 @@ def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") ->
                         title=entry.title,
                         url=entry.link,
                         published=published,
+                        published_dt=parse_published_date(published),
                         summary=summary,
                         topics=source.get("topics", []),
                         content_hash=content_hash,
@@ -175,7 +184,14 @@ def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") ->
             continue
     
     # Sort by breaking news first, then relevance, then recency
-    articles.sort(key=lambda x: (not x.is_breaking, -x.relevance_score, x.published), reverse=False)
+    articles.sort(
+        key=lambda x: (
+            not x.is_breaking,
+            -x.relevance_score,
+            x.published_dt or datetime.min,
+        ),
+        reverse=False,
+    )
     
     return articles
 
