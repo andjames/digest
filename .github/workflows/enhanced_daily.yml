@@ -103,33 +103,35 @@ jobs:
       - name: Generate status page
         run: |
           # Create a simple HTML status page
-          python -c "
+          REPO="${{ github.repository }}"
+          python <<'PY'
           import json
           import os
           from datetime import datetime
 
-          file=os.path.join('data', f'summaries_{datetime.utcnow().strftime("%Y-%m-%d")}.json')
+          repo = os.environ["REPO"]
+          file = os.path.join("data", f"summaries_{datetime.utcnow().strftime('%Y-%m-%d')}.json")
           with open(file) as f:
               data = json.load(f)
-              
+
           articles = data.get('articles', data) if isinstance(data, dict) else data
           breaking = sum(1 for a in articles if a.get('is_breaking', False))
-          
-          html = f'''
+
+          html = f"""
           <!DOCTYPE html>
           <html><head><title>AI News Digest Status</title></head>
           <body style=\"font-family: monospace; padding: 20px;\">
           <h1>🤖 AI News Digest</h1>
-          <p><strong>Last Update:</strong> {datetime.now().strftime(\"%Y-%m-%d %H:%M UTC\")}</p>
+          <p><strong>Last Update:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}</p>
           <p><strong>Total Articles:</strong> {len(articles)}</p>
           <p><strong>Breaking News:</strong> {breaking}</p>
           <p><strong>Status:</strong> ✅ Active</p>
-          <p><a href=\"https://raw.githubusercontent.com/${{github.repository}}/main/{file}\">View Raw Data</a></p>
+          <p><a href=\"https://raw.githubusercontent.com/{repo}/main/{file}\">View Raw Data</a></p>
           </body></html>
-          '''
-          
-          with open('status.html', 'w') as f:
+          """
+
+          with open("status.html", "w") as f:
               f.write(html)
-          "
+          PY
           
       # Deploy to GitHub Pages or similar service here if desired
