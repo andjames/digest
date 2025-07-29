@@ -107,10 +107,20 @@ jobs:
           python <<'PY'
           import json
           import os
-          from datetime import datetime
+          import glob
+          from datetime import datetime, timezone
 
           repo = os.environ["REPO"]
-          file = os.path.join("data", f"summaries_{datetime.utcnow().strftime('%Y-%m-%d')}.json")
+          date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+          file = os.path.join("data", f"summaries_{date_str}.json")
+
+          if not os.path.exists(file):
+              files = sorted(glob.glob(os.path.join("data", "summaries_*.json")), reverse=True)
+              if files:
+                  file = files[0]
+              else:
+                  raise FileNotFoundError("No summary files found")
+
           with open(file) as f:
               data = json.load(f)
 
@@ -122,7 +132,7 @@ jobs:
           <html><head><title>AI News Digest Status</title></head>
           <body style=\"font-family: monospace; padding: 20px;\">
           <h1>🤖 AI News Digest</h1>
-          <p><strong>Last Update:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}</p>
+          <p><strong>Last Update:</strong> {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</p>
           <p><strong>Total Articles:</strong> {len(articles)}</p>
           <p><strong>Breaking News:</strong> {breaking}</p>
           <p><strong>Status:</strong> ✅ Active</p>
