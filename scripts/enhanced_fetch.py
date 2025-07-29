@@ -4,6 +4,7 @@ import json
 import os
 import argparse
 from datetime import datetime, timedelta
+import glob
 from typing import List, Dict, Set
 import hashlib
 from dataclasses import dataclass
@@ -28,20 +29,23 @@ class Article:
     is_breaking: bool
     
 def load_existing_articles() -> Set[str]:
-    """Load existing article hashes to avoid duplicates."""
-    try:
-        with open("data/summaries.json", "r") as f:
-            existing = json.load(f)
-            if isinstance(existing, dict):
-                existing = existing.get("articles", existing)
+    """Load existing article hashes from prior digests to avoid duplicates."""
+    hashes: Set[str] = set()
+    for path in glob.glob("data/summaries_*.json"):
+        try:
+            with open(path, "r") as f:
+                existing = json.load(f)
+                if isinstance(existing, dict):
+                    existing = existing.get("articles", existing)
 
-            return {
-                article.get("content_hash", "")
-                for article in existing
-                if isinstance(article, dict) and article.get("content_hash")
-            }
-    except (FileNotFoundError, json.JSONDecodeError):
-        return set()
+                hashes.update({
+                    article.get("content_hash", "")
+                    for article in existing
+                    if isinstance(article, dict) and article.get("content_hash")
+                })
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+    return hashes
 
 def is_recent_article(published_date: str, hours_threshold: int = 48) -> bool:
     """Check if article was published within the threshold hours."""
@@ -214,10 +218,13 @@ def main():
     }
     
     os.makedirs("data", exist_ok=True)
-    with open("data/summaries.json", "w") as f:
+    today = datetime.utcnow().strftime("%Y-%m-%d")
+    output_file = f"data/summaries_{today}.json"
+    with open(output_file, "w") as f:
         json.dump(output, f, indent=2)
     
     print(f"✅ Processed {len(summaries)} articles ({output['breaking_news_count']} breaking)")
 
 if __name__ == "__main__":
     main()
+

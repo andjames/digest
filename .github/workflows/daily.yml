@@ -24,7 +24,9 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git fetch
           git checkout ${{ github.ref_name }}
-          git add data/summaries.json || echo "No changes to add"
+          DATE=$(date -u +%Y-%m-%d)
+          FILE="data/summaries_${DATE}.json"
+          git add "$FILE" || echo "No changes to add"
           git diff --cached --quiet || git commit -m "Daily summary update"
           git push origin ${{ github.ref_name }}
         env:
