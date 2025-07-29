@@ -45,7 +45,9 @@ jobs:
       - name: Validate output
         run: |
           DATE=$(date -u +%Y-%m-%d)
+
           export FILE="data/summaries_${DATE}.json"
+          # FILE="data/summaries_${DATE}.json"
           # Basic validation of the output JSON
           python -c "
           import json, os
