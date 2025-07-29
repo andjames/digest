@@ -103,7 +103,7 @@ jobs:
       - name: Generate status page
         run: |
           # Create a simple HTML status page
-          REPO="${{ github.repository }}"
+          export REPO="${{ github.repository }}"
           python <<'PY'
           import json
           import os
