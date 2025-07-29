@@ -44,11 +44,14 @@ jobs:
           
       - name: Validate output
         run: |
+          DATE=$(date -u +%Y-%m-%d)
+          FILE="data/summaries_${DATE}.json"
           # Basic validation of the output JSON
           python -c "
-          import json
-          with open('data/summaries.json') as f:
-              data = json.load(f)
+          import json, os
+          f=os.environ.get('FILE')
+          with open(f) as fh:
+              data = json.load(fh)
               articles = data.get('articles', data) if isinstance(data, dict) else data
               print(f'✅ Generated {len(articles)} articles')
               breaking = sum(1 for a in articles if a.get('is_breaking', False))
@@ -63,24 +66,28 @@ jobs:
           git config --global user.email "bot@digest.ai"
           git fetch
           git checkout ${{ github.ref_name }}
-          
+
+          DATE=$(date -u +%Y-%m-%d)
+          FILE="data/summaries_${DATE}.json"
+
           # Check if there are meaningful changes
-          if git diff --quiet HEAD data/summaries.json; then
+          if git diff --quiet HEAD "$FILE"; then
             echo "No new articles found, skipping commit"
             exit 0
           fi
-          
+
           # Get stats for commit message
-          STATS=$(python -c "
-          import json
-          with open('data/summaries.json') as f:
-              data = json.load(f)
-              articles = data.get('articles', data) if isinstance(data, dict) else data
-              breaking = sum(1 for a in articles if a.get('is_breaking', False))
-              print(f'{len(articles)} articles ({breaking} breaking)')
+          STATS=$(FILE=$FILE python -c "
+          import json, os
+          f=os.environ.get('FILE')
+          with open(f) as fh:
+              data = json.load(fh)
+          articles = data.get('articles', data) if isinstance(data, dict) else data
+          breaking = sum(1 for a in articles if a.get('is_breaking', False))
+          print(f'{len(articles)} articles ({breaking} breaking)')
           ")
-          
-          git add data/summaries.json
+
+          git add "$FILE"
           git commit -m "🤖 Enhanced digest update: $STATS"
           git push origin ${{ github.ref_name }}
         env:
@@ -98,9 +105,11 @@ jobs:
           # Create a simple HTML status page
           python -c "
           import json
+          import os
           from datetime import datetime
-          
-          with open('data/summaries.json') as f:
+
+          file=os.path.join('data', f'summaries_{datetime.utcnow().strftime("%Y-%m-%d")}.json')
+          with open(file) as f:
               data = json.load(f)
               
           articles = data.get('articles', data) if isinstance(data, dict) else data
@@ -115,7 +124,7 @@ jobs:
           <p><strong>Total Articles:</strong> {len(articles)}</p>
           <p><strong>Breaking News:</strong> {breaking}</p>
           <p><strong>Status:</strong> ✅ Active</p>
-          <p><a href=\"https://raw.githubusercontent.com/${{github.repository}}/main/data/summaries.json\">View Raw Data</a></p>
+          <p><a href=\"https://raw.githubusercontent.com/${{github.repository}}/main/{file}\">View Raw Data</a></p>
           </body></html>
           '''
           

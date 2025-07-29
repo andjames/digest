@@ -74,7 +74,7 @@ python scripts/enhanced_fetch.py --config path/to/feeds.yaml
 ENHANCED_FEEDS_FILE=path/to/feeds.yaml python scripts/enhanced_fetch.py
 
 # Check output
-cat data/summaries.json | jq '.breaking_news_count'
+cat data/summaries_<date>.json | jq '.breaking_news_count'
 ```
 
 ### GitHub Actions
