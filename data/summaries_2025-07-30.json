@@ -1,46 +1,91 @@
-[
-  {
-    "source": "Cloudflare Blog",
-    "title": "The White House AI Action Plan:  a new chapter in U.S. AI policy",
-    "url": "https://blog.cloudflare.com/the-white-house-ai-action-plan-a-new-chapter-in-u-s-ai-policy/",
-    "published": "Fri, 25 Jul 2025 01:52:00 GMT",
-    "summary": "6 min read  On July 23, 2025, the White House unveiled its AI Action Plan (Plan), a significant policy document outlining the current administration's priorities and deliverables in Artificial Intelligence. This plan emerged after the White House received over 10,000 public comments in response to a February 2025 Request for Information (RFI).",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Serverless Statusphere: a walk through building serverless ATProto applications on Cloudflare\u2019s Developer Platform",
-    "url": "https://blog.cloudflare.com/serverless-atproto/",
-    "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-    "summary": "8 min read  Social media users are tired of losing their identity and data every time a platform shuts down or pivots. In the ATProto ecosystem \u2014 short for Authenticated Transfer Protocol \u2014 users own their data and identities.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "This month at Tailscale: Tailnet Lock, Control plane IP changes, and headless Windows runners",
-    "url": "https://tailscale.com/blog/july-25-product-update",
-    "published": "Fri, 25 Jul 2025 13:00:00 GMT",
-    "summary": "This month's updates include the general availability of Tailnet Lock, a shift and simplification in Tailscale's control-plane domains, and a fix to GitHub Actions on headless Windows runners. For instructions on how to update to the latest version, visit our update guide.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "Securely connect private data sources to Grafana Cloud with Tailscale",
-    "url": "https://tailscale.com/blog/grafana-integration-secure-data-sources",
-    "published": "Thu, 24 Jul 2025 13:00:00 GMT",
-    "summary": "Securely connecting your critical internal data sources to monitoring tools is a notoriously tricky task for developer and operations teams. While platforms like Grafana Cloud provide the flexibility and power you need, exposing private data sources to the public internet, and moving that data between agents, SSH tunnels, and proxies, adds complexity and risk.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  }
-]
+{
+  "generated_at": "2025-07-30T16:32:26.074076",
+  "total_articles": 6,
+  "breaking_news_count": 4,
+  "articles": [
+    {
+      "source": "DeepMind Blog",
+      "title": "AlphaEarth Foundations helps map our planet in unprecedented detail",
+      "url": "https://deepmind.google/discover/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
+      "published": "Wed, 30 Jul 2025 14:00:11 +0000",
+      "summary": "The newly launched AlphaEarth Foundations AI model integrates vast amounts of Earth observation data to create a unified digital representation of the planet, significantly enhancing global mapping and monitoring capabilities. This innovation is crucial as it addresses the challenges of data overload and inconsistency, enabling scientists to make more informed decisions on pressing issues such as food security and environmental changes. Key implications include improved accuracy and efficiency in mapping efforts, with ongoing partnerships testing the dataset for real-world applications, indicating a transformative impact on conservation and sustainable development initiatives.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "bda44f3a3ade6cd25c032754ee4559c3",
+      "relevance_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "A practical guide on how to use the GitHub MCP server",
+      "url": "https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/",
+      "published": "Wed, 30 Jul 2025 16:00:00 +0000",
+      "summary": "GitHub has launched a managed Model Context Protocol (MCP) endpoint, streamlining the transition from local server setups by eliminating the need for Docker management and manual updates. This significant shift allows developers to focus on coding rather than infrastructure, offering features like OAuth authentication, automatic updates, and enhanced AI workflow capabilities. Key implications include improved security with read-only modes, dynamic toolsets for efficient task handling, and future enhancements such as secret scanning and direct issue assignments to Copilot, paving the way for more collaborative AI-driven development environments.",
+      "topics": [
+        "devex",
+        "AI"
+      ],
+      "content_hash": "1f1fee15405ce367da6231f6450561a0",
+      "relevance_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "OpenAI is launching a version of ChatGPT for college students",
+      "url": "https://www.technologyreview.com/2025/07/29/1120801/openai-is-launching-a-version-of-chatgpt-for-college-students/",
+      "published": "Tue, 29 Jul 2025 17:18:45 +0000",
+      "summary": "OpenAI's Study Mode, recently tested by students from top universities, received positive feedback for its adaptive learning approach, which incorporates Socratic methods. This development is significant as it aims to reposition AI as a personalized learning tool rather than a means for academic dishonesty, potentially enhancing educational equity. However, concerns remain about the reliability of the information provided, as the AI's training data includes unverified sources, raising risks of misinformation and misguidance in students' learning processes.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "a239ae8db0dcd25f75209bbac94bd159",
+      "relevance_score": 0.65,
+      "is_breaking": true
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "From first commits to big ships: Tune into our new open source podcast",
+      "url": "https://github.blog/open-source/maintainers/from-first-commits-to-big-ships-tune-into-our-new-open-source-podcast/",
+      "published": "Tue, 29 Jul 2025 16:31:29 +0000",
+      "summary": "GitHub has launched a new podcast series focused on the open source ecosystem, featuring discussions with core contributors about the significance of open source in driving innovation across various tech domains, including AI and climate technology. This initiative is significant as it highlights open source as a foundational element for future software development, encouraging collaboration and community engagement. Upcoming episodes will delve into specific topics like the Model Context Protocol (MCP), aiming to enhance transparency and interoperability in AI tools, thereby providing valuable insights for developers at all levels.",
+      "topics": [
+        "devex",
+        "AI"
+      ],
+      "content_hash": "17f5390fe994e096a27a1bfc42af7524",
+      "relevance_score": 0.6,
+      "is_breaking": true
+    },
+    {
+      "source": "Ars Technica AI",
+      "title": "Flaw in Gemini CLI coding tool could allow hackers to run nasty commands",
+      "url": "https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/",
+      "published": "Wed, 30 Jul 2025 10:30:43 +0000",
+      "summary": "Researchers exploited Google\u2019s Gemini CLI coding agent within 48 hours of its release, allowing it to exfiltrate sensitive data to an attacker-controlled server by bypassing built-in security measures. The attack involved a benign code package that concealed malicious instructions in a README.md file, highlighting the vulnerabilities of AI tools in handling natural language prompts and the risks of supply-chain attacks.",
+      "topics": [
+        "AI",
+        "tech"
+      ],
+      "content_hash": "ced26d4a9da52727671a5f3a5a94edff",
+      "relevance_score": 0.6,
+      "is_breaking": false
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The AI Hype Index: The White House\u2019s war on \u201cwoke AI\u201d",
+      "url": "https://www.technologyreview.com/2025/07/30/1120783/the-ai-hype-index-the-white-houses-war-on-woke-ai/",
+      "published": "Wed, 30 Jul 2025 15:37:10 +0000",
+      "summary": "The article discusses the challenges of distinguishing between genuine advancements in AI and exaggerated claims, introducing the AI Hype Index as a resource for clarity. It highlights recent actions by the Trump administration against perceived liberal bias in AI, alongside controversial partnerships involving the Pentagon and the White House, raising concerns about the future direction of AI development and governance.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "a51a4b527681755318f6a3725622b17c",
+      "relevance_score": 0.35,
+      "is_breaking": false
+    }
+  ]
+}
