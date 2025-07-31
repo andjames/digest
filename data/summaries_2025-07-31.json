@@ -1,0 +1,35 @@
+[
+  {
+    "source": "Cloudflare Blog",
+    "title": "The White House AI Action Plan:  a new chapter in U.S. AI policy",
+    "url": "https://blog.cloudflare.com/the-white-house-ai-action-plan-a-new-chapter-in-u-s-ai-policy/",
+    "published": "Fri, 25 Jul 2025 01:52:00 GMT",
+    "summary": "6 min read  On July 23, 2025, the White House unveiled its AI Action Plan (Plan), a significant policy document outlining the current administration's priorities and deliverables in Artificial Intelligence. This plan emerged after the White House received over 10,000 public comments in response to a February 2025 Request for Information (RFI).",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "The wonderfully lazy way to SSH into your computers",
+    "url": "https://tailscale.com/blog/tailscale-web-ssh-console",
+    "published": "Wed, 30 Jul 2025 21:45:00 GMT",
+    "summary": "My favorite little feature of Tailscale for personal users is the one that helps me avoid feeling like a dummy. It is a subtly powerful thing, lacking the flash of a Taildrop transfer or Taildrive hack, or the broad benefit of \"All my stuff is securely connected.\u201d But it is still worth telling people about, because nobody enjoys staring at a command line and feeling dumb.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "This month at Tailscale: Tailnet Lock, Control plane IP changes, and headless Windows runners",
+    "url": "https://tailscale.com/blog/july-25-product-update",
+    "published": "Fri, 25 Jul 2025 13:00:00 GMT",
+    "summary": "This month's updates include the general availability of Tailnet Lock, a shift and simplification in Tailscale's control-plane domains, and a fix to GitHub Actions on headless Windows runners. For instructions on how to update to the latest version, visit our update guide.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  }
+]
