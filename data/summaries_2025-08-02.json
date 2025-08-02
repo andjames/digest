@@ -1,24 +1,21 @@
-[
-  {
-    "source": "Cloudflare Blog",
-    "title": "Vulnerability disclosure on SSL for SaaS v1 (Managed CNAME)",
-    "url": "https://blog.cloudflare.com/vulnerability-disclosure-on-ssl-for-saas-v1-managed-cname/",
-    "published": "Fri, 01 Aug 2025 13:00:00 GMT",
-    "summary": "4 min read  Earlier this year, a group of external researchers identified and reported a vulnerability in Cloudflare\u2019s SSL for SaaS v1 (Managed CNAME) product offering through Cloudflare\u2019s bug bounty program. We officially deprecated SSL for SaaS v1 in 2021; however, some customers received extensions for extenuating circumstances that prevented them from migrating to SSL for SaaS v2 (Cloudflare for SaaS).",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "The wonderfully lazy way to SSH into your computers",
-    "url": "https://tailscale.com/blog/tailscale-web-ssh-console",
-    "published": "Wed, 30 Jul 2025 21:45:00 GMT",
-    "summary": "My favorite little feature of Tailscale for personal users is the one that helps me avoid feeling like a dummy. It is a subtly powerful thing, lacking the flash of a Taildrop transfer or Taildrive hack, or the broad benefit of \"All my stuff is securely connected.\u201d But it is still worth telling people about, because nobody enjoys staring at a command line and feeling dumb.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  }
-]
+{
+  "generated_at": "2025-08-02T16:30:13.340305",
+  "total_articles": 1,
+  "breaking_news_count": 1,
+  "articles": [
+    {
+      "source": "Ars Technica AI",
+      "title": "At $250 million, top AI salaries dwarf those of the Manhattan Project and the Space Race",
+      "url": "https://arstechnica.com/ai/2025/08/at-250-million-top-ai-salaries-dwarf-those-of-the-manhattan-project-and-the-space-race/",
+      "published": "Fri, 01 Aug 2025 21:23:42 +0000",
+      "summary": "Meta has set a new benchmark in tech compensation by offering AI researcher Matt Deitke a staggering $250 million over four years, eclipsing historical salaries in science and technology. This milestone underscores the intense competition among tech giants like Meta, Google, and OpenAI to develop artificial general intelligence (AGI), with the potential for market dominance worth trillions at stake. As companies continue to invest heavily in AI talent, this trend may reshape the landscape of tech recruitment and compensation, drawing parallels to the sports industry.",
+      "topics": [
+        "AI",
+        "tech"
+      ],
+      "content_hash": "6945f54a717b950f140ff44b40bd7da4",
+      "relevance_score": 0.75,
+      "is_breaking": true
+    }
+  ]
+}
