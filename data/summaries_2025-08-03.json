@@ -1,24 +1,21 @@
-[
-  {
-    "source": "Cloudflare Blog",
-    "title": "Vulnerability disclosure on SSL for SaaS v1 (Managed CNAME)",
-    "url": "https://blog.cloudflare.com/vulnerability-disclosure-on-ssl-for-saas-v1-managed-cname/",
-    "published": "Fri, 01 Aug 2025 13:00:00 GMT",
-    "summary": "4 min read  Earlier this year, a group of external researchers identified and reported a vulnerability in Cloudflare\u2019s SSL for SaaS v1 (Managed CNAME) product offering through Cloudflare\u2019s bug bounty program. We officially deprecated SSL for SaaS v1 in 2021; however, some customers received extensions for extenuating circumstances that prevented them from migrating to SSL for SaaS v2 (Cloudflare for SaaS).",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "The wonderfully lazy way to SSH into your computers",
-    "url": "https://tailscale.com/blog/tailscale-web-ssh-console",
-    "published": "Wed, 30 Jul 2025 21:45:00 GMT",
-    "summary": "My favorite little feature of Tailscale for personal users is the one that helps me avoid feeling like a dummy. It is a subtly powerful thing, lacking the flash of a Taildrop transfer or Taildrive hack, or the broad benefit of \"All my stuff is securely connected.\u201d But it is still worth telling people about, because nobody enjoys staring at a command line and feeling dumb.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  }
-]
+{
+  "generated_at": "2025-08-03T19:00:54.345679",
+  "total_articles": 1,
+  "breaking_news_count": 1,
+  "articles": [
+    {
+      "source": "OpenAI Blog",
+      "title": "Introducing study mode in ChatGPT",
+      "url": "https://openai.com/index/chatgpt-study-mode",
+      "published": "Tue, 29 Jul 2025 10:00:00 GMT",
+      "summary": "OpenAI has launched a new \"study mode\" feature in ChatGPT, designed to enhance the learning experience by guiding students through problem-solving with structured questions and feedback. This development is significant as it positions ChatGPT as a more effective educational tool, promoting deeper understanding and engagement in learning. Key implications include potential shifts in how students approach studying and the integration of AI into educational settings, which may lead to further advancements in personalized learning technologies.",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "content_hash": "652e9bfb68c39d8c6e4b5821021e128d",
+      "relevance_score": 0.21,
+      "is_breaking": true
+    }
+  ]
+}
