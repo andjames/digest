@@ -1,6 +1,6 @@
 # Enhanced source configuration with priority and update frequency
 - name: OpenAI Blog
-  url: https://openai.com/blog/rss
+  url: https://openai.com/news/rss.xml
   type: rss
   topics: [LLM, AI]
   priority: high
