@@ -20,7 +20,7 @@
   relevance_keywords: [claude, constitutional, safety, research]
 
 - name: Google AI Blog
-  url: https://ai.googleblog.com/atom.xml
+  url: https://blog.google/technology/ai/rss/
   type: rss
   topics: [AI, research]
   priority: high
@@ -50,7 +50,7 @@
   relevance_keywords: [gpu, cuda, omniverse, robotics, autonomous]
 
 - name: Hugging Face
-  url: https://huggingface.co/blog/feed
+  url: https://huggingface.co/blog/feed.xml
   type: rss
   topics: [ML, open source]
   priority: high
@@ -70,7 +70,7 @@
   relevance_keywords: [startup, funding, acquisition, launch, breakthrough]
 
 - name: The Verge AI
-  url: https://www.theverge.com/artificial-intelligence/rss/index.xml
+  url: https://www.theverge.com/rss/index.xml
   type: rss
   topics: [AI, news]
   priority: high
