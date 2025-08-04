@@ -1,35 +1,217 @@
-[
-  {
-    "source": "Cloudflare Blog",
-    "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
-    "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
-    "published": "Mon, 04 Aug 2025 13:00:00 GMT",
-    "summary": "5 min read  We are observing stealth crawling behavior from Perplexity, an AI-powered answer engine. Although Perplexity initially crawls from their declared user agent, when they are presented with a network block, they appear to obscure their crawling identity in an attempt to circumvent the website\u2019s preferences.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Vulnerability disclosure on SSL for SaaS v1 (Managed CNAME)",
-    "url": "https://blog.cloudflare.com/vulnerability-disclosure-on-ssl-for-saas-v1-managed-cname/",
-    "published": "Fri, 01 Aug 2025 13:00:00 GMT",
-    "summary": "4 min read  Earlier this year, a group of external researchers identified and reported a vulnerability in Cloudflare\u2019s SSL for SaaS v1 (Managed CNAME) product offering through Cloudflare\u2019s bug bounty program. We officially deprecated SSL for SaaS v1 in 2021; however, some customers received extensions for extenuating circumstances that prevented them from migrating to SSL for SaaS v2 (Cloudflare for SaaS).",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "The wonderfully lazy way to SSH into your computers",
-    "url": "https://tailscale.com/blog/tailscale-web-ssh-console",
-    "published": "Wed, 30 Jul 2025 21:45:00 GMT",
-    "summary": "My favorite little feature of Tailscale for personal users is the one that helps me avoid feeling like a dummy. It is a subtly powerful thing, lacking the flash of a Taildrop transfer or Taildrive hack, or the broad benefit of \"All my stuff is securely connected.\u201d But it is still worth telling people about, because nobody enjoys staring at a command line and feeling dumb.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  }
-]
+{
+  "generated_at": "2025-08-04T16:36:10.478300",
+  "total_articles": 15,
+  "breaking_news_count": 14,
+  "articles": [
+    {
+      "source": "Cloudflare Blog",
+      "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
+      "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
+      "published": "Mon, 04 Aug 2025 13:00:00 GMT",
+      "summary": "Perplexity, an AI-powered answer engine, has been observed engaging in stealth crawling behavior, circumventing website restrictions by modifying user agents and IP addresses to access content despite explicit prohibitions in robots.txt files. This behavior undermines web crawling norms and has led to the de-listing of Perplexity as a verified bot, prompting enhanced blocking measures by affected websites. The incident highlights ongoing challenges in bot management and emphasizes the need for transparency and adherence to web standards, as content creators increasingly seek control over AI access to their data.",
+      "topics": [
+        "network",
+        "infra"
+      ],
+      "content_hash": "06436d642bedaf5362696ffc5502925d",
+      "relevance_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Why tech is racing to adopt AI coding",
+      "url": "https://www.theverge.com/decoder-podcast-with-nilay-patel/715267/anysphere-ceo-michael-truell-cursor-ai-automate-programming-interview",
+      "published": "2025-08-04T10:00:00-04:00",
+      "summary": "Anysphere, co-founded by Michael Truell, has gained attention for its flagship product, Cursor, an AI-powered programming platform that enhances coding efficiency through advanced autocomplete and task delegation features. This development is significant as it represents a major shift in how software is built, leveraging generative AI to streamline the coding process and potentially reshape the landscape of knowledge work. Looking ahead, the rise of tools like Cursor could lead to broader adoption of AI in programming, while also sparking discussions about the implications for job automation and the evolving role of human coders.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "fa2ad70ed1b018513e851520b81c496d",
+      "relevance_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "Automate your project with GitHub Models in Actions",
+      "url": "https://github.blog/ai-and-ml/generative-ai/automate-your-project-with-github-models-in-actions/",
+      "published": "Mon, 04 Aug 2025 16:00:00 +0000",
+      "summary": "GitHub has announced the integration of AI models into GitHub Actions workflows, enabling automation for tasks like issue triage and release note generation directly within projects. This is significant as it streamlines development processes, allowing developers to focus on more critical tasks by automating repetitive actions and enhancing issue management. Key implications include the need for proper permission settings to ensure security and the potential for increased efficiency in managing project workflows through AI-driven insights.",
+      "topics": [
+        "devex",
+        "AI"
+      ],
+      "content_hash": "76439a55f8ff8006932fb4ae418d4e3e",
+      "relevance_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
+      "url": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
+      "published": "Mon, 04 Aug 2025 15:41:39 +0000",
+      "summary": "AI startup Perplexity has been accused by Cloudflare of circumventing website scraping protections, actively crawling and scraping content from sites that have explicitly blocked such actions. This incident is significant as it highlights ongoing tensions between AI companies and content creators, raising concerns about the ethical implications of data scraping and its impact on the internet's business model. In response, Cloudflare has taken steps to block Perplexity's bots and has launched a marketplace for website owners to charge AI scrapers, indicating a potential shift in how web content is protected.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "22057bcecd475540dda7de9e07c59c3e",
+      "relevance_score": 0.9,
+      "is_breaking": true
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "These protocols will help AI agents navigate our messy lives",
+      "url": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
+      "published": "Mon, 04 Aug 2025 15:00:13 +0000",
+      "summary": "Researchers have identified significant security vulnerabilities in AI agents, particularly those that manage tasks like reading and sending emails, which can be exploited through indirect prompt injection attacks. This is significant as it raises concerns about the potential for AI systems to inadvertently leak sensitive information or perform harmful actions on behalf of users. Moving forward, there is a call for enhanced security protocols, such as MCP and A2A, to be developed and standardized, potentially leading to a registry of trusted AI systems and improved cybersecurity measures.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "2a8f2b32ad02c3bd161d9dbf3cec1de6",
+      "relevance_score": 0.85,
+      "is_breaking": true
+    },
+    {
+      "source": "Tailscale Blog",
+      "title": "An easy, realistic model for MCP connectivity",
+      "url": "https://tailscale.com/blog/model-for-mcp-connectivity-lee-briggs",
+      "published": "Mon, 04 Aug 2025 15:00:00 GMT",
+      "summary": "The Model Context Protocol (MCP) has evolved to allow remote access to local data for Large Language Models (LLMs), raising significant security concerns as it introduces vulnerabilities such as DNS rebinding attacks. This shift is crucial as it enables broader data integration into LLMs but also risks exposing sensitive information if not properly secured. The next steps involve enhancing security measures, such as implementing Tailscale for private connections, to mitigate risks associated with remote server access while maintaining the functionality of MCP.",
+      "topics": [
+        "devex",
+        "networking"
+      ],
+      "content_hash": "204ce2cd4bb0ae5e38ec48e6fb1b85d9",
+      "relevance_score": 0.8,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google\u2019s healthcare AI made up a body part \u2014 what happens when doctors don\u2019t notice?",
+      "url": "https://www.theverge.com/health/718049/google-med-gemini-basilar-ganglia-paper-typo-hallucination",
+      "published": "2025-08-04T10:00:00-04:00",
+      "summary": "Google's healthcare AI model, Med-Gemini, has come under scrutiny after it incorrectly referred to the \"basilar ganglia,\" a non-existent brain structure, instead of the correct \"basal ganglia\" in a research paper and accompanying blog post. This significant error highlights the potential dangers of relying on AI in medical contexts, as it raises concerns about the accuracy and trustworthiness of AI-generated diagnoses, especially when human oversight may not catch such mistakes. Moving forward, the incident emphasizes the need for stricter standards and validation processes for healthcare AI models before they are widely deployed in clinical settings.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "59b49afecceac9c8fbdfba51e5b9eb42",
+      "relevance_score": 0.7,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "How we\u2019re making data centers more flexible to benefit power grids",
+      "url": "https://blog.google/inside-google/infrastructure/how-were-making-data-centers-more-flexible-to-benefit-power-grids/",
+      "published": "Mon, 04 Aug 2025 13:00:00 +0000",
+      "summary": "Google has announced the implementation of flexible demand capabilities in its data centers, enabling the company to shift or reduce power demand during peak times. This initiative is significant as it not only supports the growing energy needs driven by AI but also helps modernize the energy grid by reducing the need for new infrastructure. Key implications include enhanced partnerships with utilities like Indiana Michigan Power and Tennessee Valley Authority, which will facilitate more efficient energy management and support Google's goal of achieving 24/7 carbon-free energy.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "6d10793f0688deac26db918598b365dd",
+      "relevance_score": 0.65,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Tesla proposes giving Elon Musk $29 billion so he stays CEO",
+      "url": "https://www.theverge.com/news/718032/tesla-elon-musk-stock-pay-29-billion-ceo-shareholders",
+      "published": "2025-08-04T08:59:50-04:00",
+      "summary": "Tesla has approved a restricted stock award of 96 million shares, valued at approximately $29 billion, to incentivize CEO Elon Musk to remain with the company amid ongoing legal challenges regarding his previous compensation package. This move is significant as it underscores the board's belief in Musk's leadership during a critical time for Tesla, which is facing declining stock value and increased competition, particularly in AI and robotics. Shareholders will vote on this new compensation plan at the annual meeting on November 6, with potential implications for Musk's control over the company and its strategic direction moving forward.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "20acc58487efba3df74cfa52f57750b1",
+      "relevance_score": 0.6,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Amazon is gutting its Wondery podcast studio",
+      "url": "https://www.theverge.com/news/718136/amazon-wondery-gutting-podcast-studio-layoffs",
+      "published": "2025-08-04T11:20:51-04:00",
+      "summary": "Amazon is restructuring its Wondery podcast studio, leading to the departure of CEO Jen Sargent and the layoff of approximately 110 employees. This significant shift reflects the evolving podcast landscape, as Wondery will merge its narrative-driven content with Amazon's Audible team while transitioning celebrity-hosted shows to a new creator services team focused on sponsorships. The implications include a streamlined integration into Amazon's broader strategy, with Wondery continuing to produce content under its branding and the Wondery Plus app remaining operational.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "1bfd89a897c5ee186695d9b4de77df1c",
+      "relevance_score": 0.6,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Spotify is raising Premium prices outside the US",
+      "url": "https://www.theverge.com/news/718038/spotify-premium-subscription-price-increase-outside-us",
+      "published": "2025-08-04T08:30:59-04:00",
+      "summary": "Spotify is set to increase subscription prices for Premium users in several regions outside the US, following disappointing earnings that led to an 11.5% drop in its stock price. This price hike is significant as it reflects the company's strategy to enhance revenue amid challenges, despite previously prioritizing subscriber retention. Key implications include potential subscriber backlash in affected regions and the need for Spotify to balance pricing adjustments with user satisfaction to maintain long-term growth.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "fc3184bed037187c77426baea7066510",
+      "relevance_score": 0.4,
+      "is_breaking": true
+    },
+    {
+      "source": "DeepMind Blog",
+      "title": "Rethinking how we measure AI intelligence",
+      "url": "https://deepmind.google/discover/blog/rethinking-how-we-measure-ai-intelligence/",
+      "published": "Mon, 04 Aug 2025 16:07:18 +0000",
+      "summary": "A new AI benchmarking platform, the Kaggle Game Arena, has been launched to address the limitations of current benchmarks that fail to differentiate model performance effectively. This initiative is significant as it introduces dynamic, competitive evaluations through strategic games, moving beyond traditional metrics that often reflect memorization rather than genuine problem-solving abilities. The next steps involve utilizing this platform to refine AI assessments and potentially drive advancements toward achieving general intelligence.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "c291dfa5ef15870bba11281fd72478ba",
+      "relevance_score": 0.35,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "8BitDo\u2019s first wireless Xbox controller is a surprise Rare collaboration",
+      "url": "https://www.theverge.com/news/717994/8bitdo-wireless-xbox-controller-rare-40th-anniversary-edition",
+      "published": "2025-08-04T11:00:00-04:00",
+      "summary": "8BitDo has launched its first wireless Xbox controller, the $89.99 Ultimate 3-mode Controller for Xbox \u2014 Rare 40th Anniversary Edition, in collaboration with Rare, celebrating the studio's 40th anniversary with a unique design and Easter eggs. This partnership is significant as it highlights Rare's choice to collaborate with an external company rather than Microsoft, especially amid the ongoing hiatus of Microsoft's custom Xbox Design Lab service. The controller features extensive customization options, a rechargeable battery with 20 hours of playtime, and is available for purchase starting today, indicating a potential shift in how gaming peripherals are developed and marketed.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "e9f9b1164f4a5fb2f6e65cf25e0ec6fb",
+      "relevance_score": 0.25,
+      "is_breaking": true
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "Introducing study mode in ChatGPT",
+      "url": "https://openai.com/index/chatgpt-study-mode",
+      "published": "Tue, 29 Jul 2025 10:00:00 GMT",
+      "summary": "OpenAI has launched a new \"study mode\" feature in ChatGPT, designed to enhance the learning experience by guiding students through problems with step-by-step assistance, questions, and feedback. This development is significant as it aims to improve educational outcomes by fostering deeper understanding and engagement in learning. The key implication is that educators and students can leverage this tool for more effective study sessions, potentially transforming traditional learning methodologies.",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "content_hash": "652e9bfb68c39d8c6e4b5821021e128d",
+      "relevance_score": 0.21,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Alienware\u2019s AW2725Q 4K OLED gaming monitor is down to its lowest price ever at Amazon",
+      "url": "https://www.theverge.com/tech/718105/alienware-aw2725q-4k-monitor-google-nest-thermostat-deal-sale",
+      "published": "2025-08-04T11:41:35-04:00",
+      "summary": "The Alienware AW2725Q is a 26.7-inch 4K OLED gaming monitor featuring a 240Hz refresh rate and 0.03ms latency, designed for high-performance gaming with support for Nvidia G-Sync and AMD FreeSync Premium Pro, currently on sale for $675.84. It offers enhanced color accuracy and contrast with Dolby Vision and VESA DisplayHDR True Black 400, making it suitable for both PC and console gaming at optimal resolutions and frame rates.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "06ada28907fba1ed18e9717491228f33",
+      "relevance_score": 0.3,
+      "is_breaking": false
+    }
+  ]
+}
