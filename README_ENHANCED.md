@@ -14,6 +14,7 @@ A next-generation, AI-powered RSS feed aggregator that collects, analyzes, and s
 ### AI-Enhanced Processing
 - **Context-aware summarization** - Different prompts for breaking news vs. research
 - **Relevance scoring** - Filters low-quality content automatically
+- **Sentiment analysis** - VADER-based polarity scoring to gauge article tone
 - **Enhanced fallback** - Intelligent summarization even without OpenAI API
 - **Content analysis** - Technical depth and readability scoring
 - **Multi-source validation** - Cross-reference breaking news across sources
@@ -34,11 +35,14 @@ A next-generation, AI-powered RSS feed aggregator that collects, analyzes, and s
       "topics": ["LLM", "AI"],
       "content_hash": "abc123...",
       "relevance_score": 0.95,
+      "sentiment_score": 0.12,
       "is_breaking": true
     }
   ]
 }
 ```
+
+`sentiment_score` ranges from -1 (negative) to 1 (positive) and complements `relevance_score` by indicating article tone.
 
 ## 📊 Enhanced Sources
 
@@ -65,6 +69,7 @@ A next-generation, AI-powered RSS feed aggregator that collects, analyzes, and s
 # Install enhanced dependencies
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+python -m nltk.downloader vader_lexicon
 
 # Run enhanced scraper
 python scripts/enhanced_fetch.py
@@ -102,7 +107,7 @@ Edit that file to:
 ### Quality
 - **Smarter summaries** - Context-aware prompts
 - **Better error handling** - Graceful fallbacks
-- **Enhanced metadata** - Relevance scores and breaking news flags
+- **Enhanced metadata** - Relevance, sentiment scores and breaking news flags
 
 ### Reliability  
 - **Robust parsing** - Multiple fallback strategies
@@ -123,6 +128,9 @@ Track digest performance:
 ```python
 # Filter by relevance score
 high_relevance = [a for a in articles if a['relevance_score'] > 0.7]
+
+# Filter by positive sentiment
+positive_sentiment = [a for a in articles if a['sentiment_score'] > 0.2]
 
 # Get only breaking news
 breaking = [a for a in articles if a['is_breaking']]
