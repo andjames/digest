@@ -10,11 +10,12 @@ from typing import List, Dict, Set, Optional
 import hashlib
 from dataclasses import dataclass
 from enhanced_utils import (
-    enhanced_summarize_article, 
-    get_article_content, 
+    enhanced_summarize_article,
+    get_article_content,
     detect_duplicate_content,
     score_article_relevance,
-    extract_breaking_news_indicators
+    extract_breaking_news_indicators,
+    score_article_sentiment
 )
 
 @dataclass
@@ -28,6 +29,7 @@ class Article:
     topics: List[str]
     content_hash: str
     relevance_score: float
+    sentiment_score: float
     is_breaking: bool
     
 def load_existing_articles() -> Set[str]:
@@ -154,10 +156,11 @@ def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") ->
                     if relevance_score < 0.3 and not is_breaking:
                         continue
                     
-                    # Enhanced summarization
+                    # Sentiment analysis and summarization
                     fallback = getattr(entry, "summary", "") or getattr(entry, "description", "")
+                    sentiment_score = score_article_sentiment(article_content or fallback)
                     summary = enhanced_summarize_article(
-                        entry.link, 
+                        entry.link,
                         article_content or fallback,
                         is_breaking=is_breaking,
                         relevance_score=relevance_score
@@ -173,6 +176,7 @@ def fetch_enhanced_articles(config_path: str = "feeds/enhanced_sources.yaml") ->
                         topics=source.get("topics", []),
                         content_hash=content_hash,
                         relevance_score=relevance_score,
+                        sentiment_score=sentiment_score,
                         is_breaking=is_breaking
                     )
                     
@@ -218,6 +222,7 @@ def main():
             "topics": article.topics,
             "content_hash": article.content_hash,
             "relevance_score": round(article.relevance_score, 2),
+            "sentiment_score": round(article.sentiment_score, 2),
             "is_breaking": article.is_breaking
         }
         summaries.append(summary_data)

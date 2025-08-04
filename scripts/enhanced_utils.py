@@ -10,6 +10,8 @@ from newspaper import Article
 import spacy
 from textstat import flesch_reading_ease
 from collections import Counter
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
 
 # Initialize OpenAI with new API
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -19,6 +21,10 @@ try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
     nlp = None
+
+# Initialize NLTK sentiment analyzer
+nltk.download('vader_lexicon', quiet=True)
+_sentiment_analyzer = SentimentIntensityAnalyzer()
 
 BREAKING_NEWS_INDICATORS = [
     "breaking", "urgent", "just in", "developing", "alert", "emergency",
@@ -116,7 +122,7 @@ def extract_breaking_news_indicators(title: str, content: Optional[str], keyword
     
     return False
 
-def score_article_relevance(title: str, content: Optional[str], 
+def score_article_relevance(title: str, content: Optional[str],
                           source_topics: List[str], keywords: List[str]) -> float:
     """Score article relevance based on AI/tech content and source topics."""
     if not content:
@@ -146,8 +152,16 @@ def score_article_relevance(title: str, content: Optional[str],
     # Penalize if too short or generic
     if len(text) < 500:
         score *= 0.7
-    
+
     return min(score, 1.0)
+
+
+def score_article_sentiment(text: Optional[str]) -> float:
+    """Return sentiment polarity score using VADER in range [-1, 1]."""
+    if not text:
+        return 0.0
+    scores = _sentiment_analyzer.polarity_scores(text)
+    return float(scores.get("compound", 0.0))
 
 def detect_duplicate_content(articles: List[Dict]) -> List[str]:
     """Detect duplicate articles using title similarity and URL comparison."""
