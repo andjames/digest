@@ -1,292 +1,202 @@
 {
-  "generated_at": "2025-08-05T16:29:11.034791",
-  "total_articles": 19,
-  "breaking_news_count": 19,
+  "generated_at": "2025-08-05T20:27:43.556143",
+  "total_articles": 13,
+  "breaking_news_count": 11,
   "articles": [
     {
-      "source": "Cloudflare Blog",
-      "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
-      "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
-      "published": "Mon, 04 Aug 2025 13:00:00 GMT",
-      "summary": "Perplexity, an AI-powered answer engine, has been observed engaging in stealth crawling practices that violate web crawling norms by disguising its identity and bypassing robots.txt directives. This behavior is significant as it undermines the trust foundational to internet operations, prompting a response from web management services like Cloudflare, which has de-listed Perplexity as a verified bot and implemented measures to block its stealth activities. Moving forward, web administrators are encouraged to utilize enhanced bot management tools to protect their content, as the evolving landscape of AI crawling behavior continues to challenge existing protocols.",
+      "source": "Hugging Face",
+      "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
+      "url": "https://huggingface.co/blog/welcome-openai-gpt-oss",
+      "published": "Tue, 05 Aug 2025 00:00:00 GMT",
+      "summary": "OpenAI has announced the release of GPT OSS, a new open-source model family featuring two models with 117B and 21B parameters, designed for efficient reasoning and versatile developer applications. This significant move enhances accessibility to powerful AI tools while promoting responsible usage through an Apache 2.0 license, marking a commitment to the open-source ecosystem. Key implications include the models' compatibility with consumer hardware and their integration into Hugging Face\u2019s Inference Providers, paving the way for broader adoption and innovative use cases in AI development.",
       "topics": [
-        "network",
-        "infra"
+        "ML",
+        "open source"
       ],
-      "content_hash": "06436d642bedaf5362696ffc5502925d",
+      "content_hash": "bac29c64c1ea9bb80495eed51d44459b",
       "relevance_score": 1.0,
       "sentiment_score": 1.0,
-      "is_breaking": true
-    },
-    {
-      "source": "GitHub Blog",
-      "title": "Automate your project with GitHub Models in Actions",
-      "url": "https://github.blog/ai-and-ml/generative-ai/automate-your-project-with-github-models-in-actions/",
-      "published": "Mon, 04 Aug 2025 16:00:00 +0000",
-      "summary": "GitHub has introduced GitHub Models, enabling users to integrate AI capabilities directly into their GitHub Actions workflows for tasks like automating issue triage and generating release notes. This development is significant as it streamlines workflow processes, reduces manual effort, and enhances project management efficiency by leveraging AI for common developer tasks. Key implications include the need for proper permission settings to ensure security and the potential for improved issue handling and release documentation through automated AI-driven responses.",
-      "topics": [
-        "devex",
-        "AI"
-      ],
-      "content_hash": "76439a55f8ff8006932fb4ae418d4e3e",
-      "relevance_score": 1.0,
-      "sentiment_score": 1.0,
-      "is_breaking": true
-    },
-    {
-      "source": "Cloudflare Blog",
-      "title": "Reducing double spend latency from 40 ms to < 1 ms on privacy proxy",
-      "url": "https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/",
-      "published": "Tue, 05 Aug 2025 13:00:00 GMT",
-      "summary": "Cloudflare announced significant improvements to the latency of its privacy proxy product, reducing double-spend check times from approximately 40 ms to under 1 ms. This enhancement is crucial as it accelerates user access to websites while maintaining privacy, thereby improving overall user experience and system efficiency. Moving forward, Cloudflare will continue to monitor performance metrics and explore further optimizations to ensure the reliability and speed of its privacy services.",
-      "topics": [
-        "network",
-        "infra"
-      ],
-      "content_hash": "b8dc5366ac1adf5e23a4f0d867be0170",
-      "relevance_score": 1.0,
-      "sentiment_score": 1.0,
-      "is_breaking": true
-    },
-    {
-      "source": "TechCrunch AI",
-      "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
-      "url": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
-      "published": "Mon, 04 Aug 2025 15:41:39 +0000",
-      "summary": "AI startup Perplexity has been accused by Cloudflare of circumventing website restrictions to scrape content from sites that explicitly disallow such activities. This is significant as it highlights ongoing tensions between AI companies and content creators over data usage rights, raising concerns about the sustainability of online publishing models. In response, Cloudflare has implemented measures to block Perplexity's bots and is advocating for a marketplace where website owners can charge AI scrapers, indicating a potential shift in how web scraping is regulated.",
-      "topics": [
-        "AI",
-        "news"
-      ],
-      "content_hash": "22057bcecd475540dda7de9e07c59c3e",
-      "relevance_score": 0.9,
-      "sentiment_score": -0.18,
       "is_breaking": true
     },
     {
       "source": "MIT Technology Review AI",
-      "title": "These protocols will help AI agents navigate our messy lives",
-      "url": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
-      "published": "Mon, 04 Aug 2025 15:00:13 +0000",
-      "summary": "Researchers have highlighted significant vulnerabilities in AI agents, particularly regarding indirect prompt injection attacks that can lead to unauthorized access to sensitive information. This issue is critical as it underscores the need for robust security protocols like MCP and A2A, which currently lack adequate safeguards against such risks. Moving forward, there is a push for standardizing security measures within these protocols and potentially creating a registry of trusted AI systems to enhance user safety and facilitate better cybersecurity responses.",
+      "title": "OpenAI has finally released open-weight language models",
+      "url": "https://www.technologyreview.com/2025/08/05/1121092/openai-has-finally-released-open-weight-language-models/",
+      "published": "Tue, 05 Aug 2025 17:00:00 +0000",
+      "summary": "OpenAI has announced the release of new open models under a permissive Apache 2.0 license, aiming to fill a gap for enterprise and startup customers who require customizable and locally runnable AI solutions. This move is significant as it positions OpenAI to reclaim its dominance in the research ecosystem and offers users an alternative to competing models from companies like Meta and Alibaba, especially in light of the growing influence of Chinese open models. Key implications include potential innovations from researchers using these models and a strengthened competitive stance for OpenAI in the evolving AI landscape.",
       "topics": [
         "AI",
         "research"
       ],
-      "content_hash": "2a8f2b32ad02c3bd161d9dbf3cec1de6",
-      "relevance_score": 0.85,
-      "sentiment_score": 1.0,
+      "content_hash": "6dc83c11cdf5876f5b330d44e0a6835b",
+      "relevance_score": 0.95,
+      "sentiment_score": 0.99,
       "is_breaking": true
     },
     {
-      "source": "Tailscale Blog",
-      "title": "An easy, realistic model for MCP connectivity",
-      "url": "https://tailscale.com/blog/model-for-mcp-connectivity-lee-briggs",
-      "published": "Mon, 04 Aug 2025 15:00:00 GMT",
-      "summary": "The Model Context Protocol (MCP) has evolved to allow remote access to local data for Large Language Models (LLMs), introducing Server Side Events (SSE) despite significant security concerns, including vulnerabilities to DNS rebinding attacks. This development is significant as it reflects the rapid pace of AI integration into tech ecosystems, raising alarms about data privacy and security practices that have been overlooked. As a response, Tailscale has proposed a more secure model by leveraging its application awareness to enhance the MCP's security, allowing users to run MCP servers without exposing sensitive data to the public internet.",
+      "source": "The Verge AI",
+      "title": "Here are the best streaming service deals available right now",
+      "url": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
+      "published": "2025-08-05T15:42:21-04:00",
+      "summary": "In 2025, streaming services are offering various promotions and discounts to help subscribers manage costs amid rising expenses. This is significant as it addresses the financial strain of multiple subscriptions, encouraging users to explore options like free trials, student discounts, and bundled deals to save money. Key implications include the potential for increased subscriber retention through targeted offers and the need for consumers to stay informed about changing rates and promotional opportunities.",
       "topics": [
-        "devex",
-        "networking"
+        "AI",
+        "news"
       ],
-      "content_hash": "204ce2cd4bb0ae5e38ec48e6fb1b85d9",
-      "relevance_score": 0.8,
+      "content_hash": "d72e6f5d0f5c1f34d98c6485e7028cfa",
+      "relevance_score": 0.75,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
       "source": "The Verge AI",
-      "title": "WhatsApp will show a \u2018safety overview\u2019 before you join unknown group chats",
-      "url": "https://www.theverge.com/news/718881/whatsapp-group-chat-scams-safety-overview",
-      "published": "2025-08-05T12:00:00-04:00",
-      "summary": "WhatsApp has introduced a new \"safety overview\" feature that provides users with critical information about group chat invitations from unknown contacts, including group creation date, inviter identity, and member count, aimed at reducing group chat scams. This initiative is significant as it addresses the rising prevalence of scams, with 73% of U.S. adults reporting such experiences, and builds on previous efforts to enhance user security. Key implications include WhatsApp's ongoing collaboration with Meta and OpenAI to dismantle scam operations and the exploration of additional measures to prevent scams that initiate on other platforms before transitioning to WhatsApp.",
+      "title": "OpenAI releases a free GPT model that can run on your laptop",
+      "url": "https://www.theverge.com/openai/718785/openai-gpt-oss-open-model-release",
+      "published": "2025-08-05T13:00:52-04:00",
+      "summary": "OpenAI has announced the release of GPT-OSS, its first open-weight model in over six years, available in 120-billion and 20-billion parameter versions for free download and customization. This release is significant as it addresses the growing demand for open models among developers, allowing for greater innovation and control over data usage, while also emphasizing safety through rigorous testing. Key implications include potential shifts in the AI landscape, as smaller developers can now leverage OpenAI's technology, although no future release schedule for updated models has been committed to.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "e6f79a5816bdde9c532bf664c2994be4",
-      "relevance_score": 0.8,
-      "sentiment_score": -0.99,
+      "content_hash": "d7a3a278057aa1b4cac44f347461f5eb",
+      "relevance_score": 0.75,
+      "sentiment_score": 0.93,
       "is_breaking": true
     },
     {
-      "source": "DeepMind Blog",
-      "title": "Genie 3: A new frontier for world models",
-      "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
-      "published": "Tue, 05 Aug 2025 14:00:00 +0000",
-      "summary": "Google DeepMind has announced Genie 3, an advanced AI world model capable of generating interactive, dynamic environments in real-time at 24 frames per second and 720p resolution. This development is significant as it enhances the realism and consistency of simulated worlds, paving the way for more sophisticated AI training and contributing to the pursuit of artificial general intelligence (AGI). The next steps involve further refining these capabilities and exploring their applications in various fields, including robotics and open-ended learning.",
+      "source": "The Verge AI",
+      "title": "Google Gemini can now create AI-generated bedtime stories",
+      "url": "https://www.theverge.com/news/719184/google-gemini-ai-storybook-bedtime-stories",
+      "published": "2025-08-05T14:03:45-04:00",
+      "summary": "Google has launched a new feature called \"Storybook\" within its Gemini AI chatbot, allowing users to create illustrated 10-page stories by simply describing them. This tool is significant as it enhances user engagement with AI by enabling personalized storytelling, catering to various artistic styles, and allowing image uploads for reference. Key implications include potential shifts in content creation for children\u2019s media and the need for ongoing improvements in AI-generated visuals to address inconsistencies and enhance user satisfaction.",
       "topics": [
         "AI",
-        "research"
+        "news"
       ],
-      "content_hash": "5c9125344a7c0520097fe0b48c60e2c2",
+      "content_hash": "40d1caf668f6569f7c087340ebafbd24",
       "relevance_score": 0.7,
-      "sentiment_score": 0.94,
+      "sentiment_score": 0.88,
       "is_breaking": true
     },
     {
-      "source": "Google AI Blog",
-      "title": "How we\u2019re making data centers more flexible to benefit power grids",
-      "url": "https://blog.google/inside-google/infrastructure/how-were-making-data-centers-more-flexible-to-benefit-power-grids/",
-      "published": "Mon, 04 Aug 2025 13:00:00 +0000",
-      "summary": "Google has announced the implementation of flexible demand capabilities in its data centers, enabling the company to shift or reduce power demand during peak times, particularly for machine learning workloads. This initiative is significant as it supports the growing electricity needs driven by AI while modernizing the energy grid, reducing the necessity for new power plants, and enhancing grid management. Key implications include strengthened partnerships with utilities like Indiana Michigan Power and Tennessee Valley Authority, and the potential for broader adoption of demand response strategies to accommodate future energy demands associated with AI advancements.",
+      "source": "The Verge AI",
+      "title": "The best laptop deals you can get right now",
+      "url": "https://www.theverge.com/good-deals/23161948/apple-macbook-lenovo-acer-deal-sale",
+      "published": "2025-08-05T16:23:21-04:00",
+      "summary": "A new article highlights significant discounts on various Apple MacBook models, including the discontinued 2020 MacBook Air with M1 available for $599 and the latest 13-inch MacBook Air with M4 for $799. This is significant as it provides consumers with affordable options for high-performance laptops, catering to different user needs such as casual use or creative work. Key implications include the potential for increased sales of these models during the holiday season, as well as the opportunity for consumers to access advanced technology at reduced prices.",
       "topics": [
         "AI",
-        "research"
+        "news"
       ],
-      "content_hash": "6d10793f0688deac26db918598b365dd",
-      "relevance_score": 0.65,
+      "content_hash": "2b9165d30a394c18e5b12995528dbcea",
+      "relevance_score": 0.6,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
-      "source": "MIT Technology Review AI",
-      "title": "A glimpse into OpenAI\u2019s largest ambitions",
-      "url": "https://www.technologyreview.com/2025/08/05/1121052/a-glimpse-into-openais-largest-ambitions/",
-      "published": "Tue, 05 Aug 2025 09:00:00 +0000",
-      "summary": "OpenAI recently achieved significant milestones by securing second place in a prestigious coding competition and earning gold-medal-level results at the 2025 International Math Olympiad, alongside Google DeepMind. This is significant as it demonstrates AI's growing capabilities in mathematical reasoning and analytical tasks, suggesting a potential shift towards models that can reason more like humans. The next steps involve OpenAI investing heavily in research to enhance AI's problem-solving abilities, aiming to bridge the gap between machine reasoning and human-like creativity.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "91e1ae5449a5f47fdd0281c928a62ec9",
-      "relevance_score": 0.6,
-      "sentiment_score": 0.99,
-      "is_breaking": true
-    },
-    {
       "source": "The Verge AI",
-      "title": "Google\u2019s new AI model creates video game worlds in real time",
-      "url": "https://www.theverge.com/news/718723/google-ai-genie-3-model-video-game-worlds-real-time",
-      "published": "2025-08-05T10:00:00-04:00",
-      "summary": "Google DeepMind has announced the release of Genie 3, an advanced AI world model that generates interactive 3D environments with improved memory retention and longer user engagement times. This development is significant as it enhances the capabilities of AI-generated worlds, moving from brief interactions of 10-20 seconds in Genie 2 to several minutes, while also introducing features like promptable world events. Currently available only as a limited research preview for select academics and creators, the model aims to address potential risks and refine user interaction before broader release.",
-      "topics": [
-        "AI",
-        "news"
-      ],
-      "content_hash": "5e232a5c99a0ef181ebafb0caa373cb2",
-      "relevance_score": 0.55,
-      "sentiment_score": 0.98,
-      "is_breaking": true
-    },
-    {
-      "source": "Google AI Blog",
-      "title": "How we\u2019re using AI to help track and predict cyclones",
-      "url": "https://blog.google/technology/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/",
-      "published": "Mon, 04 Aug 2025 19:00:00 +0000",
-      "summary": "Google DeepMind has introduced an AI-powered experimental cyclone model to the National Hurricane Center (NHC), which promises to enhance the accuracy and speed of cyclone path predictions. This development is significant as it could revolutionize hurricane forecasting, potentially overcoming previous limitations in prediction capabilities. The next steps include sharing real-time forecasts with the NHC and launching Weather Lab, a platform for accessing both current and historical cyclone data.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "037285f136c9ab3af4341aa86323c322",
-      "relevance_score": 0.5,
-      "sentiment_score": 0.91,
-      "is_breaking": true
-    },
-    {
-      "source": "The Verge AI",
-      "title": "Google&#8217;s Pixel 10 Pro Fold might not go on sale until October",
-      "url": "https://www.theverge.com/news/718845/google-pixel-10-pro-fold-release-date-delay-october",
-      "published": "2025-08-05T09:23:33-04:00",
-      "summary": "Google is poised to unveil its latest Pixel devices at the Made by Google event on August 20th, but supply chain issues may delay the release of the Pixel 10 Pro Fold, Pixel Watch 4, and Pixel Buds 2A until October 9th, 2025. This is significant as it highlights ongoing challenges in the tech supply chain, potentially limiting consumer options at launch. Following the event, only the Pixel 10, Pixel 10 Pro, and Pixel 10 Pro XL are expected to be available for purchase, with shipping starting shortly after the announcement and retail availability on August 28th.",
-      "topics": [
-        "AI",
-        "news"
-      ],
-      "content_hash": "f17390bbe327d051d2ac67192f9af60b",
-      "relevance_score": 0.5,
-      "sentiment_score": 0.84,
-      "is_breaking": true
-    },
-    {
-      "source": "The Verge AI",
-      "title": "Chevy Silverado EV smashes world record for longest drive on a single charge",
-      "url": "https://www.theverge.com/news/718442/chevy-silverado-ev-longest-drive-single-charge-record",
-      "published": "2025-08-05T10:00:00-04:00",
-      "summary": "General Motors set a new world record for electric vehicle (EV) driving by achieving 1,059.2 miles on a single charge with a Chevy Silverado EV Work Truck, significantly surpassing its EPA-estimated range of 493 miles. This achievement is significant as it showcases advancements in EV efficiency and battery performance, potentially influencing consumer perceptions and market competition, particularly against Lucid Motors' previous record of 749 miles. Although GM does not plan to submit the record for official recognition, the test highlights the potential for EVs to exceed expectations under optimized conditions, prompting further exploration of driving techniques and vehicle design for enhanced range.",
-      "topics": [
-        "AI",
-        "news"
-      ],
-      "content_hash": "d022f1b01f318f93aa871f108d18f0fc",
-      "relevance_score": 0.5,
-      "sentiment_score": 0.97,
-      "is_breaking": true
-    },
-    {
-      "source": "The Verge AI",
-      "title": "Fox One will cost $19.99 per month when it arrives before NFL kickoff",
-      "url": "https://www.theverge.com/news/718928/fox-one-streaming-service-price-launch-date-availablity",
-      "published": "2025-08-05T11:13:57-04:00",
-      "summary": "Fox has announced its new streaming service, Fox One, set to launch on August 21st, offering access to news and sports content for $19.99 per month. This service is significant as it positions Fox to compete directly with established players like ESPN and other sports-focused platforms, especially ahead of the 2025 NFL season. Key implications include potential market disruption in the streaming landscape and the opportunity for Fox to attract pay TV subscribers with free access to the service.",
-      "topics": [
-        "AI",
-        "news"
-      ],
-      "content_hash": "1d98904d64b0128f11b4362b15788eab",
-      "relevance_score": 0.5,
-      "sentiment_score": 0.1,
-      "is_breaking": true
-    },
-    {
-      "source": "The Verge AI",
-      "title": "Democrats ask how Trump&#8217;s government will regulate Trump Mobile",
-      "url": "https://www.theverge.com/policy/718880/trump-mobile-letter-democrats-regulators",
-      "published": "2025-08-05T11:03:05-04:00",
-      "summary": "A group of six Democratic lawmakers, led by Sen. Elizabeth Warren, has raised concerns about the upcoming launch of Trump Mobile, a phone and mobile network branded by Donald Trump, questioning how federal regulators will manage potential political influence and conflicts of interest. This situation is significant as it highlights the challenges of regulating a product linked to a sitting president and raises fears of corruption and favoritism in regulatory practices. The lawmakers are urging key federal agencies, including the FCC and FTC, to ensure fair enforcement of competition and consumer protection laws as Trump Mobile enters the market, emphasizing the need for transparency and accountability in the face of potential self-dealing.",
-      "topics": [
-        "AI",
-        "news"
-      ],
-      "content_hash": "9a02d6f9a25bab16bf6ec9bb4775e712",
-      "relevance_score": 0.45,
-      "sentiment_score": 0.99,
-      "is_breaking": true
-    },
-    {
-      "source": "DeepMind Blog",
-      "title": "Rethinking how we measure AI intelligence",
-      "url": "https://deepmind.google/discover/blog/rethinking-how-we-measure-ai-intelligence/",
-      "published": "Mon, 04 Aug 2025 16:07:18 +0000",
-      "summary": "A new AI benchmarking platform, the Kaggle Game Arena, has been launched to address the limitations of current benchmarks, which struggle to differentiate between genuine problem-solving and mere memorization. This initiative is significant as it introduces dynamic, human-judged testing through competitive strategic games, potentially offering a more accurate assessment of AI capabilities. The next steps involve ongoing development of these benchmarks and exploring innovative evaluation methods to advance AI towards general intelligence.",
-      "topics": [
-        "AI",
-        "research"
-      ],
-      "content_hash": "c291dfa5ef15870bba11281fd72478ba",
-      "relevance_score": 0.35,
-      "sentiment_score": 0.95,
-      "is_breaking": true
-    },
-    {
-      "source": "The Verge AI",
-      "title": "Roku is launching a cheap, ad-free subscription service of its own",
+      "title": "Roku\u2019s new ad-free video service only costs $2.99 per month",
       "url": "https://www.theverge.com/tv/718894/roku-howdy-subscription-service",
       "published": "2025-08-05T11:18:45-04:00",
-      "summary": "Roku has announced the launch of Howdy, a new ad-free monthly subscription service priced at $2.99, offering a substantial catalog of on-demand films and series, including original productions and licensed content from studios like Lionsgate and Warner Bros. This service is significant as it aims to provide an affordable alternative in a market where streaming prices have been steadily rising, potentially appealing to budget-conscious consumers. However, Howdy will be limited to Roku devices and may feature a restricted selection of recent programming, which could affect its competitiveness against established platforms.",
+      "summary": "Roku has announced the launch of Howdy, a new ad-free monthly subscription service priced at $2.99, offering a vast catalog of films and series, including licensed content from Lionsgate and Warner Bros., as well as Roku Originals. This service is significant as it aims to provide an affordable alternative in a market where streaming costs are rising, potentially attracting budget-conscious consumers. However, Howdy's initial availability will be limited to the Roku platform, with plans for future expansion, and it may feature a narrower selection of recent programming.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "cd98b7252fd7d299b54ce8d2df836b07",
-      "relevance_score": 0.35,
+      "content_hash": "2a84c799616d9a621d37fc4949c8dd33",
+      "relevance_score": 0.4,
       "sentiment_score": 0.96,
       "is_breaking": true
     },
     {
-      "source": "Tailscale Blog",
-      "title": "Tailscale\u2019s visual policy editor is in beta",
-      "url": "https://tailscale.com/blog/visual-editor-beta",
-      "published": "Tue, 05 Aug 2025 11:30:00 GMT",
-      "summary": "Tailscale has launched a visual policy editor that allows users to manage access permissions for their tailnet using a user-friendly interface, complementing the existing HuJSON policy file management. This development is significant as it addresses user feedback for a more intuitive way to handle policies while maintaining the flexibility of HuJSON. Key implications include the ability for users to toggle between visual and code-based management, ensuring ease of use and efficiency, especially in urgent situations where quick changes are necessary.",
+      "source": "The Verge AI",
+      "title": "Sony\u2019s noise-canceling WH-1000XM6 are discounted to their Prime Day low",
+      "url": "https://www.theverge.com/tech/718907/sony-wh-1000xm6-skylight-smart-calendar-deal-sale",
+      "published": "2025-08-05T13:00:00-04:00",
+      "summary": "Sony has announced discounts on its WH-1000XM6 noise-canceling headphones, now available for around $428, marking the best price since July's Prime Day. This is significant as the XM6 model features enhanced sound quality, improved active noise cancellation, and a foldable design, making it a top choice for consumers. The promotion coincides with the back-to-school season, suggesting potential increased sales as students seek high-quality tech at discounted prices.",
       "topics": [
-        "devex",
-        "networking"
+        "AI",
+        "news"
       ],
-      "content_hash": "51401762ba6959d73e5414eeaffc1ebd",
-      "relevance_score": 0.15,
-      "sentiment_score": 0.95,
+      "content_hash": "d99d36877cd692e05407f05dc4f027dc",
+      "relevance_score": 0.3,
+      "sentiment_score": 1.0,
       "is_breaking": true
+    },
+    {
+      "source": "Ars Technica AI",
+      "title": "Voice phishers strike again, this time hitting Cisco",
+      "url": "https://arstechnica.com/security/2025/08/attackers-who-phished-cisco-downloaded-user-data-from-third-party-crm/",
+      "published": "Tue, 05 Aug 2025 18:28:10 +0000",
+      "summary": "Cisco confirmed that a voice phishing attack compromised a representative, allowing threat actors to access basic profile information of users from a third-party CRM system. This incident highlights the growing threat of sophisticated phishing tactics, which have successfully targeted major organizations, raising concerns about the security of user data even in well-protected environments. Moving forward, Cisco will likely enhance its security measures and user awareness programs to mitigate the risk of similar attacks in the future.",
+      "topics": [
+        "AI",
+        "tech"
+      ],
+      "content_hash": "833288e305278f0fa5eaf06fb03e1b53",
+      "relevance_score": 0.25,
+      "sentiment_score": -0.96,
+      "is_breaking": true
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "Introducing gpt-oss",
+      "url": "https://openai.com/index/introducing-gpt-oss",
+      "published": "Tue, 05 Aug 2025 00:00:00 GMT",
+      "summary": "The release of gpt-oss-120b and gpt-oss-20b marks a significant advancement in open-weight language models, offering strong real-world performance at a low cost. This development is crucial as it allows broader access to high-performing AI tools under an Apache 2.0 license, enhancing capabilities in reasoning and tool use while being optimized for consumer hardware. Key implications include increased opportunities for developers and businesses to leverage advanced AI without the prohibitive costs typically associated with proprietary models.",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "content_hash": "9319555a3c8d1d951483efb187bc1371",
+      "relevance_score": 0.14,
+      "sentiment_score": 0.9,
+      "is_breaking": true
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+      "url": "https://openai.com/index/gpt-oss-model-card",
+      "published": "Tue, 05 Aug 2025 00:00:00 GMT",
+      "summary": "The introduction of gpt-oss-120b and gpt-oss-20b marks the release of two open-weight reasoning models, now available under the Apache 2.0 license. This is significant as it enhances accessibility for developers and researchers, fostering innovation in AI applications. Key implications include the potential for broader collaboration in the AI community and the establishment of new benchmarks for open-source AI model performance.",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "content_hash": "f4776e289fafd008383f544fc7a46edc",
+      "relevance_score": 0.14,
+      "sentiment_score": 0.0,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Grok\u2019s &#8216;spicy&#8217; video setting instantly made me Taylor Swift nude deepfakes",
+      "url": "https://www.theverge.com/report/718975/xai-grok-imagine-taylor-swifty-deepfake-nudes",
+      "published": "2025-08-05T12:24:08-04:00",
+      "summary": "Grok's new generative AI video tool, Grok Imagine, allows users to create videos with suggestive content and deepfakes of celebrities, including uncensored topless images of Taylor Swift, raising significant legal and ethical concerns. Despite the company's policies against pornographic depictions, the tool lacks adequate safeguards, enabling users to easily generate inappropriate content while bypassing minimal age verification measures.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "9f2930d1aafc69da314be87e5653dd30",
+      "relevance_score": 0.45,
+      "sentiment_score": 0.99,
+      "is_breaking": false
+    },
+    {
+      "source": "The Verge AI",
+      "title": "This retro camcorder upgrades Super 8 film cameras with modern conveniences",
+      "url": "https://www.theverge.com/news/719103/camp-snap-cs8-digital-kodak-super-8-film-camer",
+      "published": "2025-08-05T12:41:03-04:00",
+      "summary": "Camp Snap has launched its first video camera, the CS-8, designed with a nostalgic aesthetic reminiscent of vintage Super 8mm film cameras, featuring a streamlined interface without a screen for immediate playback. The CS-8 records up to 4K video on an SD card, includes various aspect ratios and vintage-inspired filters, and emphasizes a user-friendly experience that encourages filmmakers to focus on the moment rather than instant review.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "8e21212af4b2a1ab04af82f1da567596",
+      "relevance_score": 0.35,
+      "sentiment_score": 0.97,
+      "is_breaking": false
     }
   ]
 }
