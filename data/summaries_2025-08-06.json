@@ -1,156 +1,366 @@
 {
-  "generated_at": "2025-08-06T20:29:17.851166",
-  "total_articles": 10,
-  "breaking_news_count": 8,
+  "generated_at": "2025-08-06T22:30:19.766831",
+  "total_articles": 24,
+  "breaking_news_count": 22,
   "articles": [
     {
-      "source": "The Verge AI",
-      "title": "I tested 30 smart locks, and these are the best",
-      "url": "https://www.theverge.com/23393163/best-smart-door-lock",
-      "published": "2025-08-06T14:23:31-04:00",
-      "summary": "A recent review highlights the Kwikset Halo Select smart lock as a top choice for enhancing home security and convenience, featuring multiple access methods, including app control and auto-unlock capabilities. This is significant as it demonstrates the growing integration of smart locks with home automation systems, offering users greater control and peace of mind. Key implications include the potential for improved compatibility with emerging standards like Matter, which could streamline smart home device interactions and enhance user experience.",
+      "source": "Cloudflare Blog",
+      "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
+      "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
+      "published": "Mon, 04 Aug 2025 13:00:00 GMT",
+      "summary": "Perplexity, an AI-powered answer engine, has been observed engaging in stealth crawling by altering its user agent and IP addresses to bypass website restrictions, including ignoring robots.txt files. This behavior is significant as it undermines the trust and transparency expected in web crawling practices, prompting the decision to de-list Perplexity as a verified bot and implement stricter blocking measures. Moving forward, website owners are encouraged to utilize enhanced bot management tools to protect their content, while the evolving tactics of crawlers like Perplexity will likely continue to challenge existing web protocols.",
       "topics": [
-        "AI",
-        "news"
+        "network",
+        "infra"
       ],
-      "content_hash": "bc78843788e69a3e473050f1e0338a7b",
+      "content_hash": "06436d642bedaf5362696ffc5502925d",
       "relevance_score": 1.0,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
-      "source": "Anthropic News",
-      "title": "Anthropic and the Department of Defense to advance responsible AI in defense operations",
-      "url": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
-      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-      "summary": "The U.S. Department of Defense has awarded Anthropic a two-year, $200 million contract to develop advanced AI capabilities aimed at enhancing national security. This partnership is significant as it underscores the DOD's commitment to integrating frontier AI technologies while ensuring responsible deployment, particularly in sensitive government contexts. Key next steps include collaborating with defense experts to prototype AI solutions tailored to DOD needs, addressing potential adversarial uses of AI, and fostering responsible AI adoption across the defense enterprise.",
+      "source": "GitHub Blog",
+      "title": "Automate your project with GitHub Models in Actions",
+      "url": "https://github.blog/ai-and-ml/generative-ai/automate-your-project-with-github-models-in-actions/",
+      "published": "Mon, 04 Aug 2025 16:00:00 +0000",
+      "summary": "GitHub has announced the integration of AI models into GitHub Actions workflows, enabling automation for tasks like issue triage and release note generation directly within projects. This is significant as it streamlines development processes, reducing manual effort and improving efficiency in managing issues and releases. Key implications include the need for developers to set appropriate permissions for workflows and to be aware of security risks, such as prompt injection attacks, while leveraging over 40 available AI models for enhanced functionality.",
       "topics": [
-        "AI",
-        "safety"
+        "devex",
+        "AI"
       ],
-      "content_hash": "62da0704602bcf0e89396ccb29e13272",
+      "content_hash": "76439a55f8ff8006932fb4ae418d4e3e",
       "relevance_score": 1.0,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
-      "source": "The Verge AI",
-      "title": "Google swears it isn\u2019t destroying the web with AI search",
-      "url": "https://www.theverge.com/news/720069/google-ai-overviews-search-web-traffic-stable",
-      "published": "2025-08-06T13:31:47-04:00",
-      "summary": "Google has defended its AI search features, stating that overall website traffic remains stable despite claims of declining clicks due to AI-generated summaries. This assertion is significant as it counters recent reports indicating that digital media outlets are suffering from reduced traffic, prompting layoffs and concerns about the future of online content. Moving forward, Google plans to enhance its search capabilities further with AI-curated results, which may continue to reshape user engagement and the digital publishing landscape.",
+      "source": "Cloudflare Blog",
+      "title": "Reducing double spend latency from 40 ms to < 1 ms on privacy proxy",
+      "url": "https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/",
+      "published": "Tue, 05 Aug 2025 13:00:00 GMT",
+      "summary": "Cloudflare has significantly improved the performance of its privacy proxy product by reducing the latency of double-spend checks from approximately 40 milliseconds to under 1 millisecond. This enhancement is crucial as it optimizes user experience by minimizing delays in web access while maintaining privacy through the use of the Privacy Pass standard. The next steps involve continued monitoring and potential further optimizations to ensure the privacy proxy remains efficient and effective for high-volume requests.",
+      "topics": [
+        "network",
+        "infra"
+      ],
+      "content_hash": "b8dc5366ac1adf5e23a4f0d867be0170",
+      "relevance_score": 1.0,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Five ways that AI is learning to improve itself",
+      "url": "https://www.technologyreview.com/2025/08/06/1121193/five-ways-that-ai-is-learning-to-improve-itself/",
+      "published": "Wed, 06 Aug 2025 15:14:12 +0000",
+      "summary": "Google's researchers, led by Mirhoseini, have successfully utilized AI to optimize AI chip design and improve the efficiency of their LLM infrastructure through systems like AlphaEvolve, which has already demonstrated significant resource savings. This development is significant as it showcases the potential of AI to enhance computational efficiency, leading to substantial time and cost reductions for large-scale operations. Moving forward, the broader application of these AI-driven optimizations could yield even greater efficiencies across Google's AI training processes and infrastructure.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "cc9cf84a2eaf848c5637f5867cab71f4",
+      "relevance_score": 1.0,
+      "sentiment_score": 0.99,
+      "is_breaking": true
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
+      "url": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
+      "published": "Mon, 04 Aug 2025 15:41:39 +0000",
+      "summary": "AI startup Perplexity is facing accusations from Cloudflare for circumventing website restrictions to scrape content from sites that have explicitly opted out. This incident is significant as it highlights ongoing tensions between AI companies and content creators over data usage, raising concerns about the integrity of web standards like Robots.txt. As a response, Cloudflare has implemented measures to block Perplexity's bots and is advocating for a marketplace where website owners can charge AI scrapers, signaling a potential shift in how web data is accessed and monetized.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "f5b759311c6aad301c106ea0857bd6d5",
-      "relevance_score": 0.95,
-      "sentiment_score": 0.38,
+      "content_hash": "22057bcecd475540dda7de9e07c59c3e",
+      "relevance_score": 0.9,
+      "sentiment_score": -0.18,
       "is_breaking": true
     },
     {
-      "source": "Anthropic News",
-      "title": "Anthropic to sign the EU Code of Practice",
-      "url": "https://www.anthropic.com/news/eu-code-practice",
-      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-      "summary": "Anthropic has announced its intention to sign the European Union's General-Purpose AI Code of Practice, emphasizing its commitment to transparency, safety, and accountability in AI development. This move is significant as it aligns with the EU's efforts to harness AI's potential, projected to contribute over a trillion euros annually to the economy by the mid-2030s, while ensuring innovation and competitiveness. Key implications include the establishment of mandatory safety frameworks that will guide AI risk assessment and mitigation, alongside a collaborative approach with regulatory bodies to adapt policies as technology evolves.",
+      "source": "Cloudflare Blog",
+      "title": "Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI",
+      "url": "https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/",
+      "published": "Tue, 05 Aug 2025 21:05:00 GMT",
+      "summary": "OpenAI has launched its latest open-weight models, the 120 billion and 20 billion parameter Mixture-of-Experts models, now available on Cloudflare's Workers AI platform. This collaboration is significant as it enhances accessibility to powerful AI capabilities, offering developers transparency and flexibility while ensuring data security for enterprises. Key implications include the introduction of advanced features like a Code Interpreter for stateful code execution, which positions Cloudflare as a robust environment for deploying AI applications.",
+      "topics": [
+        "network",
+        "infra"
+      ],
+      "content_hash": "10bfcce51b528510e458b32b3faaa4e8",
+      "relevance_score": 0.9,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "These protocols will help AI agents navigate our messy lives",
+      "url": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
+      "published": "Mon, 04 Aug 2025 15:00:13 +0000",
+      "summary": "Researchers have raised concerns about the security vulnerabilities of AI models, particularly in chatbot-style applications and AI agents that can interact with sensitive user data. This is significant as these vulnerabilities could lead to malicious attacks, such as unauthorized access to private documents, highlighting the urgent need for improved security protocols like MCP and A2A. Next steps include the potential development of standardized security measures for these protocols, as well as the creation of registries for trusted AI systems to enhance user safety and facilitate better cybersecurity practices.",
       "topics": [
         "AI",
-        "safety"
+        "research"
       ],
-      "content_hash": "f3f05f14af1f855932ce6af25ba66ef0",
+      "content_hash": "2a8f2b32ad02c3bd161d9dbf3cec1de6",
       "relevance_score": 0.85,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
-      "source": "Anthropic News",
-      "title": "Automate security reviews with Claude Code",
-      "url": "https://www.anthropic.com/news/automate-security-reviews-with-claude-code",
-      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-      "summary": "Today, Claude Code announced the launch of automated security reviews, enabling developers to identify and fix vulnerabilities directly from their terminal using the new /security-review command and a GitHub Actions integration. This is significant as it enhances code security in an era where rapid development increases the risk of vulnerabilities, allowing teams to catch issues before they reach production. Key implications include a streamlined security review process that integrates with existing workflows, promoting consistent security practices across development teams and improving overall product security.",
+      "source": "Tailscale Blog",
+      "title": "An easy, realistic model for MCP connectivity",
+      "url": "https://tailscale.com/blog/model-for-mcp-connectivity-lee-briggs",
+      "published": "Mon, 04 Aug 2025 15:00:00 GMT",
+      "summary": "The Model Context Protocol (MCP) has evolved to allow remote access to local data for Large Language Models (LLMs), raising significant security concerns as it introduces potential vulnerabilities like DNS rebinding attacks. This evolution is crucial as it reflects the rapid pace of AI integration into tech, but it also highlights the need for robust security measures to protect sensitive data. Moving forward, the implementation of Tailscale's application awareness in MCP servers aims to enhance security by ensuring that data remains private and is not exposed to the public internet, indicating a shift towards more secure remote data handling practices.",
+      "topics": [
+        "devex",
+        "networking"
+      ],
+      "content_hash": "204ce2cd4bb0ae5e38ec48e6fb1b85d9",
+      "relevance_score": 0.8,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "DeepMind Blog",
+      "title": "Genie 3: A new frontier for world models",
+      "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+      "published": "Tue, 05 Aug 2025 14:00:00 +0000",
+      "summary": "Google DeepMind has announced Genie 3, an advanced AI world model capable of generating dynamic, interactive environments at 24 frames per second and 720p resolution based on text prompts. This development is significant as it represents a major leap towards achieving artificial general intelligence (AGI) by enabling real-time interaction and enhanced realism in simulated environments, which are essential for training AI agents. The next steps involve further refining these capabilities and exploring their applications in various fields, including robotics and open-ended learning.",
       "topics": [
         "AI",
-        "safety"
+        "research"
       ],
-      "content_hash": "a25c5a71388c0da99e372eb59f7529aa",
+      "content_hash": "5c9125344a7c0520097fe0b48c60e2c2",
+      "relevance_score": 0.7,
+      "sentiment_score": 0.94,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "How we\u2019re making data centers more flexible to benefit power grids",
+      "url": "https://blog.google/inside-google/infrastructure/how-were-making-data-centers-more-flexible-to-benefit-power-grids/",
+      "published": "Mon, 04 Aug 2025 13:00:00 +0000",
+      "summary": "Google has announced the implementation of flexible demand capabilities in its data centers, enabling the company to shift or reduce power demand during peak times, particularly for machine learning workloads. This initiative is significant as it not only supports the growing electricity needs driven by AI but also modernizes the energy system, reducing the necessity for new power plants and enhancing grid management. The next steps include expanding these capabilities through new utility agreements and partnerships, ultimately aiming to align with Google\u2019s goal of achieving 24/7 carbon-free energy while managing increasing energy demands efficiently.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "6d10793f0688deac26db918598b365dd",
       "relevance_score": 0.65,
-      "sentiment_score": 0.99,
+      "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
       "source": "The Verge AI",
       "title": "OpenAI teases GPT-5 launch event this Thursday",
-      "url": "https://www.theverge.com/news/720114/openai-teases-gpt-5-launch-event-this-thursday",
+      "url": "https://www.theverge.com/news/720114/openai-gpt-5-launch-event-tease",
       "published": "2025-08-06T14:04:07-04:00",
-      "summary": "OpenAI is set to announce its highly anticipated GPT-5 AI model on Thursday at 10 AM PT, as hinted by a cryptic post on X. This release is significant as it follows recent indications of readiness from OpenAI and Microsoft, suggesting a major advancement in AI capabilities. Key implications include heightened competition in the AI space and potential shifts in how users interact with AI technologies, especially following the recent introduction of the free GPT-OSS model.",
+      "summary": "OpenAI is set to announce its highly anticipated GPT-5 AI model on Thursday, as hinted by a cryptic post on X. This release is significant as it follows a series of indications from company executives and aligns with OpenAI's strategy to enhance its AI offerings amidst growing competition. Key implications include potential advancements in AI capabilities and increased server demands, particularly from Microsoft, which has been preparing for the rollout.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "17f9a5169f6bb3fe9220b2a1bc0651da",
+      "content_hash": "bb614661a7da3a3d6b1ba2fdf29e732e",
       "relevance_score": 0.6,
       "sentiment_score": 0.7,
       "is_breaking": true
     },
     {
-      "source": "Anthropic News",
-      "title": "Paul Smith to join Anthropic as Chief Commercial Officer",
-      "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic",
-      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-      "summary": "Anthropic has announced the appointment of Paul Smith as its first Chief Commercial Officer, effective later this year, bringing over 30 years of experience from leading tech firms like Microsoft and Salesforce. This move is significant as Anthropic experiences rapid growth in the enterprise market, with a fivefold increase in recurring revenue from its Claude AI in just two months, highlighting the increasing demand for AI solutions across industries. Key implications include enhanced commercial strategies to support businesses in their AI adoption journey, positioning Anthropic as a trusted partner in navigating the transformative landscape of AI technology.",
-      "topics": [
-        "AI",
-        "safety"
-      ],
-      "content_hash": "aa67f27a30d4686ec2884c8498a89d04",
-      "relevance_score": 0.55,
-      "sentiment_score": 0.99,
-      "is_breaking": true
-    },
-    {
-      "source": "Anthropic News",
-      "title": "National security expert Richard Fontaine appointed to Anthropic\u2019s long-term benefit trust",
-      "url": "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
-      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-      "summary": "Anthropic's Long-Term Benefit Trust has appointed Richard Fontaine, CEO of the Center for a New American Security, to enhance its expertise in navigating the intersection of AI and national security. This appointment is significant as it underscores the growing importance of responsible AI development amid geopolitical risks, aligning with Anthropic's mission to ensure a safe transition through transformative AI. Moving forward, Fontaine's experience will guide the Trust in addressing the complex challenges posed by advanced AI, influencing both corporate strategy and broader societal implications.",
-      "topics": [
-        "AI",
-        "safety"
-      ],
-      "content_hash": "b4486e447f60d95cb012c2ef3acc774d",
-      "relevance_score": 0.45,
-      "sentiment_score": 0.99,
-      "is_breaking": true
-    },
-    {
       "source": "The Verge AI",
-      "title": "Call of Duty and Battlefield 6 will both require Secure Boot on Windows",
-      "url": "https://www.theverge.com/news/720007/call-of-duty-pc-anti-cheat-secure-boot-windows-black-ops-7",
-      "published": "2025-08-06T13:00:00-04:00",
-      "summary": "Activision will require Call of Duty: Black Ops 7 players on PC to enable Trusted Platform Module (TPM) 2.0 and Secure Boot to enhance anti-cheat measures, though these features won't be enforced until the game's release later this year. The company emphasizes that while these hardware-level protections are crucial for combating cheaters, they should not affect in-game performance, and players are encouraged to adopt two-factor authentication, which may become mandatory in the future.",
+      "title": "Google would like you to study with Gemini instead of cheat with it",
+      "url": "https://www.theverge.com/news/732182/google-gemini-ai-guided-learning-education",
+      "published": "2025-08-06T17:09:58-04:00",
+      "summary": "Google has launched a \"guided learning\" mode for its Gemini AI, designed to enhance understanding through interactive support rather than simply providing answers. This initiative is significant as it aims to shift the perception of AI in education from a tool for cheating to a legitimate learning companion, addressing concerns about academic integrity. Key implications include a potential increase in student engagement with AI for educational purposes, alongside Google's commitment of $1 billion over three years to bolster American education and AI literacy.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "682ea55d1462306791efd17ce88e4e4f",
+      "content_hash": "9a76f5168b7020e4df3b5ffa13ccc5b8",
       "relevance_score": 0.6,
-      "sentiment_score": 0.84,
+      "sentiment_score": 0.93,
+      "is_breaking": true
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "A glimpse into OpenAI\u2019s largest ambitions",
+      "url": "https://www.technologyreview.com/2025/08/05/1121052/a-glimpse-into-openais-largest-ambitions/",
+      "published": "Tue, 05 Aug 2025 09:00:00 +0000",
+      "summary": "OpenAI recently achieved significant milestones by securing second place in a prestigious coding competition and earning gold-medal-level results at the 2025 International Math Olympiad, alongside Google DeepMind. These accomplishments highlight the growing capabilities of AI in mathematical and analytical tasks, underscoring the ongoing pursuit of developing models that can reason more like humans. Moving forward, OpenAI aims to enhance its AI's reasoning abilities, which could bridge the gap between machine intelligence and human-like creativity, despite current limitations in emotional and artistic domains.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "91e1ae5449a5f47fdd0281c928a62ec9",
+      "relevance_score": 0.6,
+      "sentiment_score": 0.99,
+      "is_breaking": true
+    },
+    {
+      "source": "Tailscale Blog",
+      "title": "What Tailscale isn't: an anonymity service",
+      "url": "https://tailscale.com/blog/tailscale-privacy-anonymity",
+      "published": "Wed, 06 Aug 2025 16:30:00 GMT",
+      "summary": "Tailscale has clarified its position as a privacy-focused, identity-centric networking tool, distinguishing itself from anonymity tools like Tor, which prioritize obscuring user identity at the cost of speed and usability. This announcement is significant as it emphasizes Tailscale's commitment to user privacy while maintaining a centralized control plane, which allows for easier troubleshooting and management but also means that some metadata is accessible to the company. Moving forward, users should be aware that while Tailscale provides strong encryption and does not log browsing activity, their network activity can still be correlated with their identity, and law enforcement may access certain metadata if required.",
+      "topics": [
+        "devex",
+        "networking"
+      ],
+      "content_hash": "af238d095fc8e333e160c96343360bef",
+      "relevance_score": 0.6,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple announces $100 billion US manufacturing plan after pressure from Donald Trump",
+      "url": "https://www.theverge.com/news/719929/apple-100-billion-investment-us-manufacturing-trump",
+      "published": "2025-08-06T17:07:49-04:00",
+      "summary": "Apple has announced a $100 billion investment to expand its manufacturing operations in the U.S., responding to pressure from President Trump to increase domestic production. This significant move builds on a prior commitment of $500 billion and aims to establish a more robust supply chain within the U.S., including partnerships with Corning and Samsung for advanced manufacturing technologies. Key implications include potential shifts in Apple's supply chain strategy, increased domestic job creation, and ongoing negotiations with the Trump administration regarding tariffs and manufacturing expectations.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "41201fb02ffc5395bf3e2c1165bea238",
+      "relevance_score": 0.55,
+      "sentiment_score": 0.67,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "How we\u2019re using AI to help track and predict cyclones",
+      "url": "https://blog.google/technology/google-deepmind/weather-lab-ai-cyclone-prediction-tracking/",
+      "published": "Mon, 04 Aug 2025 19:00:00 +0000",
+      "summary": "Google DeepMind has unveiled an AI-powered experimental cyclone model designed to enhance hurricane forecasting, which was presented to experts at the National Hurricane Center (NHC) in Miami. This development is significant as it promises to revolutionize cyclone path predictions, offering unprecedented speed and accuracy compared to traditional methods. The next steps include sharing real-time forecasts with the NHC and launching Weather Lab, a platform for accessing both real-time and historical cyclone data.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "037285f136c9ab3af4341aa86323c322",
+      "relevance_score": 0.5,
+      "sentiment_score": 0.91,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump threatens 100 percent tariff on computer chips with a gigantic loophole",
+      "url": "https://www.theverge.com/news/738172/trump-threatens-100-percent-tariff-on-computer-chips-with-a-gigantic-loophole",
+      "published": "2025-08-06T18:25:28-04:00",
+      "summary": "President Trump announced a proposed 100% tariff on imported chips and semiconductors, contingent on companies committing to U.S. manufacturing, as exemplified by Apple's recent $100 billion investment plan. This move is significant as it aims to incentivize domestic production while potentially reshaping the semiconductor supply chain and impacting global tech companies. The next steps involve monitoring how other companies respond to the tariff threat and whether the administration will implement these tariffs as planned.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "6a55e606d868dfcc4c6b76d967b33575",
+      "relevance_score": 0.4,
+      "sentiment_score": 0.98,
+      "is_breaking": true
+    },
+    {
+      "source": "DeepMind Blog",
+      "title": "Rethinking how we measure AI intelligence",
+      "url": "https://deepmind.google/discover/blog/rethinking-how-we-measure-ai-intelligence/",
+      "published": "Mon, 04 Aug 2025 16:07:18 +0000",
+      "summary": "A new AI benchmarking platform, the Kaggle Game Arena, has been launched to address the limitations of current benchmarks that struggle to differentiate model performance effectively. This initiative is significant as it introduces dynamic, competitive evaluations through strategic games, moving beyond static metrics and reducing issues related to memorization. The next steps involve utilizing this platform to refine AI assessments and potentially pave the way for more accurate measures of general intelligence.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "c291dfa5ef15870bba11281fd72478ba",
+      "relevance_score": 0.35,
+      "sentiment_score": 0.95,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Meet your new AI coding teammate: Gemini CLI GitHub Actions",
+      "url": "https://blog.google/technology/developers/introducing-gemini-cli-github-actions/",
+      "published": "Wed, 06 Aug 2025 01:00:00 +0000",
+      "summary": "Gemini CLI GitHub Actions has been launched in beta, providing a no-cost AI coding assistant for GitHub repositories that automates routine coding tasks and enhances team collaboration. This development is significant as it leverages the popularity of Gemini CLI to streamline workflows, allowing developers to focus on more complex tasks while the AI handles issue triage and pull request reviews. Key implications include increased productivity for development teams and the potential for further enhancements based on community feedback and contributions.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "56742224cb048c1a0bcf904adb776b3b",
+      "relevance_score": 0.35,
+      "sentiment_score": 0.96,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "New Gemini app tools to help students learn, understand and study even better",
+      "url": "https://blog.google/products/gemini/new-gemini-tools-students-august-2025/",
+      "published": "Wed, 06 Aug 2025 16:00:00 +0000",
+      "summary": "Google has announced a free one-year subscription to its AI Pro plan for students in the U.S., Japan, Indonesia, Korea, and Brazil, alongside the launch of new learning tools in its Gemini platform. This initiative is significant as it aims to enhance students' educational experiences by leveraging AI to foster critical thinking and deeper understanding of complex topics. Key implications include increased accessibility to advanced learning tools for students and the potential for improved academic performance through personalized AI support.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "27aa1730f85efec583744b8e25732f1c",
+      "relevance_score": 0.35,
+      "sentiment_score": 0.98,
+      "is_breaking": true
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+      "url": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce",
+      "published": "Wed, 06 Aug 2025 00:00:00 GMT",
+      "summary": "OpenAI for Government has partnered with the U.S. General Services Administration to provide ChatGPT Enterprise to the federal executive branch workforce at no cost for the next year. This initiative is significant as it aims to enhance productivity and innovation within government operations through advanced AI tools. Key implications include potential improvements in efficiency and decision-making processes across federal agencies, as well as setting a precedent for future public sector AI integrations.",
+      "topics": [
+        "LLM",
+        "AI"
+      ],
+      "content_hash": "8c6e56e128c6c2ad3b239a4aa44c7661",
+      "relevance_score": 0.21,
+      "sentiment_score": -0.3,
+      "is_breaking": true
+    },
+    {
+      "source": "Tailscale Blog",
+      "title": "Tailscale\u2019s visual policy editor is in beta",
+      "url": "https://tailscale.com/blog/visual-editor-beta",
+      "published": "Tue, 05 Aug 2025 11:30:00 GMT",
+      "summary": "Tailscale has launched a new visual policy editor that allows users to manage access permissions for their tailnet through a user-friendly interface, complementing the existing HuJSON policy file format. This development is significant as it addresses user feedback for a more intuitive way to handle policies while maintaining the flexibility of the original format. Key implications include the ability for users to toggle between visual and HuJSON editing, ensuring easier policy management, and the option to lock the editor for those using GitOps or Terraform to prevent conflicts.",
+      "topics": [
+        "devex",
+        "networking"
+      ],
+      "content_hash": "51401762ba6959d73e5414eeaffc1ebd",
+      "relevance_score": 0.15,
+      "sentiment_score": 0.95,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "I asked Grok\u2019s Valentine sex chatbot to choke me and it (mostly) behaved",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/719913/grok-valentine-test",
+      "published": "2025-08-06T13:34:05-04:00",
+      "summary": "The article discusses the launch of Valentine, Grok's new AI companion designed for adult interaction, highlighting its limitations in conversation and the biases inherent in AI design. The author notes that while Valentine offers a more cautious and less explicit engagement compared to previous AI models, it raises concerns about consent, privacy (due to its default microphone setting), and the reinforcement of gender stereotypes in its responses.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "7d7f89ee13b8da0e27d76faa418f1c8f",
+      "relevance_score": 0.55,
+      "sentiment_score": 1.0,
       "is_breaking": false
     },
     {
       "source": "The Verge AI",
-      "title": "I tested Grok\u2019s Valentine sex chatbot and it (mostly) behaved",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/719913/grok-valentine-test",
-      "published": "2025-08-06T13:34:05-04:00",
-      "summary": "The article explores the release of Valentine, Grok's new AI companion designed for adult interactions, highlighting its limitations in conversation and responsiveness compared to its predecessor, Ani. The author notes concerns about the AI's biases, the unsettling default microphone setting, and its cautious approach to sexual topics, which raises questions about consent and the nature of AI interactions in adult contexts.",
+      "title": "Apple made a 24k gold and glass statue for Donald Trump",
+      "url": "https://www.theverge.com/news/737757/apple-president-donald-trump-ceo-tim-cook-glass-corning",
+      "published": "2025-08-06T17:48:32-04:00",
+      "summary": "During a White House press conference, Apple CEO Tim Cook presented President Trump with a unique piece of glass from Corning, featuring the Apple logo and a gold base, symbolizing Apple's commitment to US manufacturing. This gesture underscores Cook's strong relationship with Trump, which has become a model for other CEOs amid ongoing discussions about tariffs and domestic production.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "442622458b7b8b425f91928ed7253ba3",
-      "relevance_score": 0.55,
-      "sentiment_score": 1.0,
+      "content_hash": "63ed36eff3de59597aaa6112be62f5f7",
+      "relevance_score": 0.4,
+      "sentiment_score": 0.46,
       "is_breaking": false
     }
   ]
