@@ -18,4 +18,4 @@ A GitHub Actions-based crawler that scans top engineering and AI blogs daily, su
 
 ## Sources
 
-Configured in `feeds/sources.yaml`. A wide variety of AI and engineering blogs are listed including OpenAI, Google, Microsoft and more. Add your own entries to expand coverage.
+Configured in `feeds/sources.yaml`. A wide variety of AI and engineering blogs are listed including Athropic, OpenAI, Google, Microsoft and more. Add your own entries to expand coverage.
