@@ -10,7 +10,7 @@
   relevance_keywords: [gpt, chatgpt, dall-e, api, safety, alignment]
 
 - name: Anthropic News
-  url: https://www.anthropic.com/news/feed.xml
+  url: https://fetchrss.com/feed/aJOq74FhyokTaJOq1sq-Jbci.rss
   type: rss
   topics: [AI, safety]
   priority: high
