@@ -1,0 +1,112 @@
+[
+  {
+    "source": "Cloudflare Blog",
+    "title": "Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI",
+    "url": "https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/",
+    "published": "Tue, 05 Aug 2025 21:05:00 GMT",
+    "summary": "3 min read  OpenAI has just announced their latest open-weight models \u2014 and we are excited to share that we are working with them as a Day 0 launch partner to make these models available in Cloudflare's Workers AI. Cloudflare developers can now access OpenAI's first open model, leveraging these powerful new capabilities on our platform.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Reducing double spend latency from 40 ms to < 1 ms on privacy proxy",
+    "url": "https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/",
+    "published": "Tue, 05 Aug 2025 13:00:00 GMT",
+    "summary": "8 min read  One of Cloudflare\u2019s big focus areas is making the Internet faster for end users. Part of the way we do that is by looking at the \"big rocks\" or bottlenecks that might be slowing things down \u2014 particularly processes on the critical path.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
+    "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
+    "published": "Mon, 04 Aug 2025 13:00:00 GMT",
+    "summary": "5 min read  We are observing stealth crawling behavior from Perplexity, an AI-powered answer engine. Although Perplexity initially crawls from their declared user agent, when they are presented with a network block, they appear to obscure their crawling identity in an attempt to circumvent the website\u2019s preferences.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "What Tailscale isn't: an anonymity service",
+    "url": "https://tailscale.com/blog/tailscale-privacy-anonymity",
+    "published": "Wed, 06 Aug 2025 16:30:00 GMT",
+    "summary": "Tailscale is a secure connectivity tool that puts the highest value on the privacy of your packets. But we made an intentional choice from day one that we weren't going to try to be an anonymity tool.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "Tailscale\u2019s visual policy editor is in beta",
+    "url": "https://tailscale.com/blog/visual-editor-beta",
+    "published": "Tue, 05 Aug 2025 11:30:00 GMT",
+    "summary": "Tailscale lets you manage your tailnet\u2019s access permissions, including which users are allowed to connect to which machines, using our powerful HuJSON (JSON for Humans) policy file. However, there may be times you prefer to use web forms instead of working with HuJSON directly.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "An easy, realistic model for MCP connectivity",
+    "url": "https://tailscale.com/blog/model-for-mcp-connectivity-lee-briggs",
+    "published": "Mon, 04 Aug 2025 15:00:00 GMT",
+    "summary": "You can\u2019t escape it. Everywhere you turn in the tech ecosystem, AI is there.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Anthropic News",
+    "title": "Automate security reviews with Claude Code",
+    "url": "https://www.anthropic.com/news/automate-security-reviews-with-claude-code",
+    "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+    "summary": "Today we're introducing automated security reviews in Claude Code. Using our GitHub Actions integration and a new /security-review command, developers can easily ask Claude to identify security concerns\u2014and then have it fix them.",
+    "topics": [
+      "AI",
+      "safety"
+    ]
+  },
+  {
+    "source": "Anthropic News",
+    "title": "Anthropic to sign the EU Code of Practice",
+    "url": "https://www.anthropic.com/news/eu-code-practice",
+    "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+    "summary": "After review, Anthropic intends to sign the European Union's General-Purpose AI Code of Practice. We believe the Code advances the principles of transparency, safety and accountability\u2014values that have long been championed by Anthropic for frontier AI development.",
+    "topics": [
+      "AI",
+      "safety"
+    ]
+  },
+  {
+    "source": "Anthropic News",
+    "title": "Paul Smith to join Anthropic as Chief Commercial Officer",
+    "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic",
+    "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+    "summary": "Anthropic will appoint Paul Smith as its first Chief Commercial Officer, who will assume the role later this year. Paul will bring over 30 years of experience building and scaling global go-to-market organizations at some of the world's most successful enterprise technology companies, including Microsoft, Salesforce, and ServiceNow.",
+    "topics": [
+      "AI",
+      "safety"
+    ]
+  },
+  {
+    "source": "TechCrunch AI",
+    "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
+    "url": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
+    "published": "Mon, 04 Aug 2025 15:41:39 +0000",
+    "summary": "AI startup Perplexity is crawling and scraping content from websites that have explicitly indicated they don\u2019t want to be scraped, according to internet infrastructure provider Cloudflare. On Monday, Cloudflare published research saying it observed the AI startup ignore blocks and hide its crawling and scraping activities.",
+    "topics": [
+      "AI",
+      "news"
+    ]
+  }
+]
