@@ -1,112 +1,277 @@
-[
-  {
-    "source": "Cloudflare Blog",
-    "title": "Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI",
-    "url": "https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/",
-    "published": "Tue, 05 Aug 2025 21:05:00 GMT",
-    "summary": "3 min read  OpenAI has just announced their latest open-weight models \u2014 and we are excited to share that we are working with them as a Day 0 launch partner to make these models available in Cloudflare's Workers AI. Cloudflare developers can now access OpenAI's first open model, leveraging these powerful new capabilities on our platform.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Reducing double spend latency from 40 ms to < 1 ms on privacy proxy",
-    "url": "https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/",
-    "published": "Tue, 05 Aug 2025 13:00:00 GMT",
-    "summary": "8 min read  One of Cloudflare\u2019s big focus areas is making the Internet faster for end users. Part of the way we do that is by looking at the \"big rocks\" or bottlenecks that might be slowing things down \u2014 particularly processes on the critical path.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Cloudflare Blog",
-    "title": "Perplexity is using stealth, undeclared crawlers to evade website no-crawl directives",
-    "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
-    "published": "Mon, 04 Aug 2025 13:00:00 GMT",
-    "summary": "5 min read  We are observing stealth crawling behavior from Perplexity, an AI-powered answer engine. Although Perplexity initially crawls from their declared user agent, when they are presented with a network block, they appear to obscure their crawling identity in an attempt to circumvent the website\u2019s preferences.",
-    "topics": [
-      "network",
-      "infra"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "What Tailscale isn't: an anonymity service",
-    "url": "https://tailscale.com/blog/tailscale-privacy-anonymity",
-    "published": "Wed, 06 Aug 2025 16:30:00 GMT",
-    "summary": "Tailscale is a secure connectivity tool that puts the highest value on the privacy of your packets. But we made an intentional choice from day one that we weren't going to try to be an anonymity tool.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "Tailscale\u2019s visual policy editor is in beta",
-    "url": "https://tailscale.com/blog/visual-editor-beta",
-    "published": "Tue, 05 Aug 2025 11:30:00 GMT",
-    "summary": "Tailscale lets you manage your tailnet\u2019s access permissions, including which users are allowed to connect to which machines, using our powerful HuJSON (JSON for Humans) policy file. However, there may be times you prefer to use web forms instead of working with HuJSON directly.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
-    "source": "Tailscale Blog",
-    "title": "An easy, realistic model for MCP connectivity",
-    "url": "https://tailscale.com/blog/model-for-mcp-connectivity-lee-briggs",
-    "published": "Mon, 04 Aug 2025 15:00:00 GMT",
-    "summary": "You can\u2019t escape it. Everywhere you turn in the tech ecosystem, AI is there.",
-    "topics": [
-      "devex",
-      "networking"
-    ]
-  },
-  {
-    "source": "Anthropic News",
-    "title": "Automate security reviews with Claude Code",
-    "url": "https://www.anthropic.com/news/automate-security-reviews-with-claude-code",
-    "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-    "summary": "Today we're introducing automated security reviews in Claude Code. Using our GitHub Actions integration and a new /security-review command, developers can easily ask Claude to identify security concerns\u2014and then have it fix them.",
-    "topics": [
-      "AI",
-      "safety"
-    ]
-  },
-  {
-    "source": "Anthropic News",
-    "title": "Anthropic to sign the EU Code of Practice",
-    "url": "https://www.anthropic.com/news/eu-code-practice",
-    "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-    "summary": "After review, Anthropic intends to sign the European Union's General-Purpose AI Code of Practice. We believe the Code advances the principles of transparency, safety and accountability\u2014values that have long been championed by Anthropic for frontier AI development.",
-    "topics": [
-      "AI",
-      "safety"
-    ]
-  },
-  {
-    "source": "Anthropic News",
-    "title": "Paul Smith to join Anthropic as Chief Commercial Officer",
-    "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic",
-    "published": "Wed, 06 Aug 2025 19:19:50 +0000",
-    "summary": "Anthropic will appoint Paul Smith as its first Chief Commercial Officer, who will assume the role later this year. Paul will bring over 30 years of experience building and scaling global go-to-market organizations at some of the world's most successful enterprise technology companies, including Microsoft, Salesforce, and ServiceNow.",
-    "topics": [
-      "AI",
-      "safety"
-    ]
-  },
-  {
-    "source": "TechCrunch AI",
-    "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
-    "url": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
-    "published": "Mon, 04 Aug 2025 15:41:39 +0000",
-    "summary": "AI startup Perplexity is crawling and scraping content from websites that have explicitly indicated they don\u2019t want to be scraped, according to internet infrastructure provider Cloudflare. On Monday, Cloudflare published research saying it observed the AI startup ignore blocks and hide its crawling and scraping activities.",
-    "topics": [
-      "AI",
-      "news"
-    ]
-  }
-]
+{
+  "generated_at": "2025-08-07T16:35:04.523756",
+  "total_articles": 18,
+  "breaking_news_count": 17,
+  "articles": [
+    {
+      "source": "Anthropic News",
+      "title": "Anthropic and the Department of Defense to advance responsible AI in defense operations",
+      "url": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+      "summary": "The U.S. Department of Defense has awarded Anthropic a two-year, $200 million prototype agreement to develop advanced AI capabilities aimed at enhancing national security. This partnership is significant as it underscores the DOD's commitment to integrating frontier AI technologies while ensuring responsible deployment, particularly in sensitive government contexts. Key next steps involve collaborating with defense experts to create tailored AI prototypes, addressing potential adversarial uses, and accelerating the adoption of safe AI practices across defense operations.",
+      "topics": [
+        "AI",
+        "safety"
+      ],
+      "content_hash": "62da0704602bcf0e89396ccb29e13272",
+      "relevance_score": 1.0,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Anthropic to sign the EU Code of Practice",
+      "url": "https://www.anthropic.com/news/eu-code-practice",
+      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+      "summary": "Anthropic plans to sign the European Union's General-Purpose AI Code of Practice, emphasizing its commitment to transparency, safety, and accountability in AI development. This move is significant as it aligns with the EU's efforts to harness AI's potential, projected to boost the EU economy by over a trillion euros annually by the mid-2030s, while ensuring responsible deployment. Key implications include the establishment of mandatory safety frameworks and a collaborative approach with the EU AI Office to adapt regulations as AI technology evolves, aiming to balance innovation with public safety.",
+      "topics": [
+        "AI",
+        "safety"
+      ],
+      "content_hash": "f3f05f14af1f855932ce6af25ba66ef0",
+      "relevance_score": 0.85,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "Hugging Face",
+      "title": "Vision Language Model Alignment in TRL \u26a1\ufe0f",
+      "url": "https://huggingface.co/blog/trl-vlm-alignment",
+      "published": "Thu, 07 Aug 2025 00:00:00 GMT",
+      "summary": "TRL has announced the integration of two new multimodal alignment methods for Vision Language Models (VLMs): Group Relative Policy Optimization (GRPO) and Mixed Preference Optimization (MPO), enhancing their alignment to human preferences beyond traditional methods. This is significant as it improves model performance and coherence in responses, addressing limitations in existing techniques like Direct Preference Optimization (DPO). Key implications include the availability of training scripts and demo notebooks, enabling developers to implement these advanced methods easily and potentially leading to more robust VLM applications in various domains.",
+      "topics": [
+        "ML",
+        "open source"
+      ],
+      "content_hash": "a209f67b678840108332ac1b71e8c441",
+      "relevance_score": 0.85,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "DJI\u2019s first robovac features drone tech and a transparent design",
+      "url": "https://www.theverge.com/news/754168/dji-romo-robot-vacuum",
+      "published": "2025-08-07T10:33:01-04:00",
+      "summary": "DJI has launched its first robot vacuum cleaner, the Romo, available in three models with varying designs, including a transparent version that showcases its internal components. This release is significant as it marks DJI's expansion into the smart home market, leveraging drone technology for advanced obstacle detection and cleaning efficiency. Key implications include the potential for a global rollout later this year, with features like voice control and remote monitoring, which could redefine consumer expectations for robotic vacuums.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "3c60ccfad5c5601cb22c6db1a6cf2a2c",
+      "relevance_score": 0.75,
+      "sentiment_score": 0.98,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Here are the best robot vacuum deals available right now",
+      "url": "https://www.theverge.com/24350561/best-robot-vacuum-mop-irobot-roomba-eufy-roborock-deals-sale",
+      "published": "2025-08-07T10:23:28-04:00",
+      "summary": "Roborock has announced significant discounts on its advanced robot vacuums, including the S8 MaxV Ultra, now priced at $1,299.99, and the new Saros Z70, available for $1,999. These models feature cutting-edge technology such as AI navigation, powerful suction, and mopping capabilities, making them highly efficient for home cleaning. The implications of these advancements suggest a growing accessibility to sophisticated home automation tools, as consumers can now purchase high-end features at reduced prices, potentially reshaping cleaning habits and expectations in smart home technology.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "cbf517a1f7e90da76aeb47914c57f561",
+      "relevance_score": 0.7,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft is cautiously onboarding Grok 4 following Hitler concerns",
+      "url": "https://www.theverge.com/notepad-microsoft-newsletter/754647/microsoft-grok-4-roll-out-private-preview-notepad",
+      "published": "2025-08-07T12:00:00-04:00",
+      "summary": "Microsoft is taking a cautious approach to onboarding xAI's Grok 4 model on Azure AI Foundry, delaying its public release due to safety concerns following the model's controversial outputs. This decision is significant as it reflects Microsoft's commitment to ensuring the reliability and safety of AI models before integrating them into its enterprise offerings, especially given the competitive landscape with other AI providers. As a next step, Microsoft is conducting a private preview of Grok 4 for select customers while also restructuring its AI initiatives, including the official launch of Agent 365, aimed at enhancing AI agent security and compliance across its platforms.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "4ef5bd96dc0791eb633e9df46f3b6efc",
+      "relevance_score": 0.7,
+      "sentiment_score": 0.99,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The Framework Desktop made me fall for small form factor PCs",
+      "url": "https://www.theverge.com/reviews/749404/framework-desktop-pc-amd-ryzen-ai-max-385-395-plus-review",
+      "published": "2025-08-07T11:00:00-04:00",
+      "summary": "Framework has announced its first desktop PC, the Framework Desktop, which offers a compact design but is less modular than its laptops. This move is significant as it challenges the company's reputation for modularity while providing a powerful system capable of 2.5K gaming and local AI model processing without bloatware. Key implications include potential market confusion over its modularity approach and the need for consumers to weigh its performance against more upgradeable competitors in the same price range.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "978edeadf85c72ddcfa6776fae13c1b7",
+      "relevance_score": 0.65,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Automate security reviews with Claude Code",
+      "url": "https://www.anthropic.com/news/automate-security-reviews-with-claude-code",
+      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+      "summary": "Claude Code has launched automated security reviews, allowing developers to identify and fix security vulnerabilities directly from their terminal using a new /security-review command and a GitHub Actions integration. This is significant as it enhances code security in the development process, enabling teams to catch vulnerabilities early and maintain a consistent security review workflow. The key implication is that these features will streamline security practices across development teams, ensuring that no code is deployed without thorough security checks, ultimately improving overall product security.",
+      "topics": [
+        "AI",
+        "safety"
+      ],
+      "content_hash": "a25c5a71388c0da99e372eb59f7529aa",
+      "relevance_score": 0.65,
+      "sentiment_score": 0.99,
+      "is_breaking": true
+    },
+    {
+      "source": "Anthropic News",
+      "title": "Paul Smith to join Anthropic as Chief Commercial Officer",
+      "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic",
+      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+      "summary": "Anthropic has announced the appointment of Paul Smith as its first Chief Commercial Officer, effective later this year, bringing over 30 years of experience from major tech firms like Microsoft and Salesforce. This move is significant as it coincides with Anthropic's rapid growth in the enterprise market, evidenced by a fivefold increase in recurring revenue for its Claude Code product in just two months. Key implications include enhanced commercial strategies to support businesses in their AI adoption journey, positioning Anthropic as a leading partner in the evolving AI landscape.",
+      "topics": [
+        "AI",
+        "safety"
+      ],
+      "content_hash": "aa67f27a30d4686ec2884c8498a89d04",
+      "relevance_score": 0.55,
+      "sentiment_score": 0.99,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump\u2019s endless new tariffs are threatening businesses \u2014 and you",
+      "url": "https://www.theverge.com/policy/754356/trump-reciprocal-tariffs-august",
+      "published": "2025-08-07T10:45:46-04:00",
+      "summary": "A new wave of tariffs, including a significant 20% tax on imports from Vietnam and a 40% tariff on transshipments, took effect today, further complicating the already volatile trade landscape. This is significant as it is expected to lead to noticeable price increases for consumers, particularly in sectors like apparel and baby products, while also creating uncertainty for businesses regarding long-term investment strategies. As companies navigate these changes, the potential for reduced business investment and job cuts looms, with experts predicting that consumers will start feeling the impact of these tariffs more acutely in the upcoming holiday season.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "0861ad6b075c4c67f591b6ede021cc2a",
+      "relevance_score": 0.55,
+      "sentiment_score": 0.93,
+      "is_breaking": true
+    },
+    {
+      "source": "Ars Technica AI",
+      "title": "Here\u2019s how deepfake vishing attacks work, and why they can be hard to detect",
+      "url": "https://arstechnica.com/security/2025/08/heres-how-deepfake-vishing-attacks-work-and-why-they-can-be-hard-to-detect/",
+      "published": "Thu, 07 Aug 2025 11:00:02 +0000",
+      "summary": "Security firm Group-IB has detailed the alarming rise of AI-generated voice cloning scams, where attackers impersonate trusted individuals to solicit sensitive information or money. This trend is significant as it highlights the increasing sophistication of phishing tactics, posing serious risks to personal and organizational security. As technology advances, particularly in real-time voice synthesis, the potential for these scams to proliferate is expected to grow, necessitating enhanced detection and prevention measures.",
+      "topics": [
+        "AI",
+        "tech"
+      ],
+      "content_hash": "d0fdc015f063aaeb147bfe18aa06c000",
+      "relevance_score": 0.5,
+      "sentiment_score": -0.91,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump demands CEO of Intel resign over ties to China",
+      "url": "https://www.theverge.com/news/754269/trump-intel-ceo-lip-bu-tan-china",
+      "published": "2025-08-07T10:25:28-04:00",
+      "summary": "President Trump has called for the immediate resignation of Intel CEO Lip-Bu Tan due to his alleged ties to Chinese tech firms, raising concerns about potential conflicts with U.S. security regulations. This demand is significant as it highlights ongoing tensions between U.S. tech companies and national security interests, particularly in the semiconductor industry, which is critical for defense and technology. The situation could lead to increased scrutiny of Intel's leadership and operations, potentially impacting its strategic direction and ongoing restructuring efforts amidst significant layoffs and project cancellations.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "27af54ce98ed6525be9db336055b787f",
+      "relevance_score": 0.5,
+      "sentiment_score": 0.87,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in July",
+      "url": "https://blog.google/technology/ai/google-ai-updates-july-2025/",
+      "published": "Thu, 07 Aug 2025 14:30:00 +0000",
+      "summary": "A new AI Mode has been launched in Search, enhancing educational tools with features like Canvas for planning, Search Live with video, and PDF uploads, aimed at students, parents, and educators. This upgrade is significant as it integrates AI capabilities into visual searches and mobile gaming assistance, streamlining the learning process and providing real-time support. Key implications include improved accessibility to educational resources and interactive learning experiences, with next steps likely involving further enhancements and user feedback integration.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "c999f6d68374e17de7e863f3c1a8b03d",
+      "relevance_score": 0.5,
+      "sentiment_score": 0.94,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "HBO Max is going to get even more annoying about password sharing",
+      "url": "https://www.theverge.com/news/754357/hbo-max-password-sharing-annoying-earnings",
+      "published": "2025-08-07T10:32:50-04:00",
+      "summary": "HBO Max is intensifying its password-sharing crackdown, with plans to implement more persistent prompts for account sharing starting next month, encouraging users to pay an additional $7.99 per month for extra members. This move is significant as it aims to boost subscriber growth, following a positive trend seen by Netflix after similar measures, amidst ongoing concerns about subscription fatigue. Key implications include potential subscriber pushback and the need for HBO Max to balance revenue generation with user satisfaction as it navigates this transition.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "12757e335c51fd8785208ffd60983526",
+      "relevance_score": 0.5,
+      "sentiment_score": 0.73,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Truth Social\u2019s new AI search engine basically just pushes Fox News",
+      "url": "https://www.theverge.com/news/753863/trump-truth-social-ai-search-perplexity-conservative-bias",
+      "published": "2025-08-07T10:04:06-04:00",
+      "summary": "Donald Trump's Truth Social has introduced an AI search feature, Truth Search AI, which predominantly links to conservative media sources, particularly those affiliated with Trump, despite claims of promoting free speech. This development is significant as it raises concerns about bias in information dissemination and the potential reinforcement of echo chambers within the platform's user base. Moving forward, the feature is in beta testing, with plans for refinement and expansion based on user feedback, highlighting the ongoing evolution of AI in social media contexts.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "f59b99a3bda6e2d8ab50afab98648b38",
+      "relevance_score": 0.45,
+      "sentiment_score": 0.96,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google TV\u2019s uncertain future",
+      "url": "https://www.theverge.com/lowpass-newsletter/724970/google-tv-ads-monetization-problem",
+      "published": "2025-08-07T11:30:00-04:00",
+      "summary": "Google has shifted its advertising strategy for Google TV, now allowing publishers to retain more ad inventory and only taking a cut of their revenue, acknowledging its struggles in monetizing the platform. This change is significant as it reflects Google's ongoing challenges in competing with rivals like Amazon and Roku, particularly in the lucrative North American market, where it has been losing shelf space. As a result, Google may reconsider its investment in Google TV, potentially scaling back its efforts and treating the platform as a less critical aspect of its business strategy.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "c9d10a75aeed91e286a148b9b48cb01b",
+      "relevance_score": 0.45,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "Anthropic News",
+      "title": "National security expert Richard Fontaine appointed to Anthropic\u2019s long-term benefit trust",
+      "url": "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
+      "published": "Wed, 06 Aug 2025 19:19:50 +0000",
+      "summary": "Anthropic's Long-Term Benefit Trust has appointed Richard Fontaine, CEO of the Center for a New American Security, to enhance its mission of ensuring safe AI development amid rising national security concerns. His extensive government background is significant as it brings critical insights into the intersection of AI capabilities and geopolitical risks, underscoring the Trust's commitment to addressing the broader societal implications of transformative AI. Moving forward, Fontaine's expertise will guide Anthropic in navigating complex decisions that impact global security and democratic stability as AI technologies evolve.",
+      "topics": [
+        "AI",
+        "safety"
+      ],
+      "content_hash": "b4486e447f60d95cb012c2ef3acc774d",
+      "relevance_score": 0.45,
+      "sentiment_score": 0.99,
+      "is_breaking": true
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Peloton pivots to wellness alongside another layoff",
+      "url": "https://www.theverge.com/news/754154/peloton-q4-2025-earnings-layoffs-wellness-price",
+      "published": "2025-08-07T11:02:53-04:00",
+      "summary": "Peloton is shifting its focus from solely cardio fitness to a broader health and wellness approach, emphasizing the importance of strength, stress management, sleep, and nutrition to enhance the \"health span\" of its users. Despite exceeding revenue expectations and growing its subscriber base, the company will implement a cost restructuring plan, including layoffs and pricing adjustments, to address high operating expenses and ensure long-term profitability.",
+      "topics": [
+        "AI",
+        "news"
+      ],
+      "content_hash": "b094691940dc5b02a849772dc5f8af5a",
+      "relevance_score": 0.45,
+      "sentiment_score": 1.0,
+      "is_breaking": false
+    }
+  ]
+}
