@@ -1,94 +1,199 @@
 {
-  "generated_at": "2025-08-08T19:46:23.798118",
-  "total_articles": 6,
-  "breaking_news_count": 5,
+  "generated_at": "2025-08-08T20:28:46.417541",
+  "total_articles": 13,
+  "breaking_news_count": 12,
   "articles": [
     {
-      "source": "The Verge AI",
-      "title": "ChatGPT is bringing back 4o as an option because people missed it",
-      "url": "https://www.theverge.com/news/756980/openai-chatgpt-users-mourn-gpt-5-4o",
-      "published": "2025-08-08T15:30:15-04:00",
-      "summary": "OpenAI has reinstated the GPT-4o model in ChatGPT just a day after launching GPT-5, following significant user backlash over the perceived loss of personality and engagement in the new model. This decision is significant as it highlights the strong emotional attachment users have to specific AI models, particularly those used for companionship and creative tasks. Moving forward, OpenAI plans to monitor usage of both models and will work on enhancing GPT-5's performance and transparency, while allowing Plus users to choose between GPT-4o and GPT-5.",
+      "source": "Hugging Face",
+      "title": "Introducing AI Sheets: a tool to work with datasets using open AI models!",
+      "url": "https://huggingface.co/blog/aisheets",
+      "published": "Fri, 08 Aug 2025 00:00:00 GMT",
+      "summary": "Hugging Face has launched AI Sheets, an open-source, no-code tool designed for building and transforming datasets using AI models, which can be deployed locally or on the Hugging Face Hub. This tool is significant as it democratizes access to advanced AI capabilities, allowing users to experiment with data manipulation and model comparisons without requiring programming skills. Key implications include the potential for rapid prototyping and data enrichment, making it easier for users to refine datasets and enhance model performance through iterative feedback.",
       "topics": [
-        "AI",
-        "news"
+        "ML",
+        "open source"
       ],
-      "content_hash": "068c56ca0be8e5c461f2fe3f1d5dbef6",
-      "relevance_score": 0.95,
-      "sentiment_score": 0.99,
+      "content_hash": "5ef1c98ba77f717a3e02cbae704c3734",
+      "relevance_score": 1.0,
+      "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
-      "source": "The Verge AI",
-      "title": "The best Android phones",
-      "url": "https://www.theverge.com/23674658/best-android-phone",
-      "published": "2025-08-08T14:50:12-04:00",
-      "summary": "A recent review highlights the latest Android smartphones, emphasizing the Pixel 9 and Galaxy S25 Ultra as top contenders. The significance lies in their advanced features, such as the Pixel 9's seven years of OS updates and innovative AI capabilities, and the Galaxy S25 Ultra's extensive camera options and premium design. Moving forward, consumers are encouraged to consider their needs and preferences when selecting a device, especially given the diverse offerings in the Android market.",
+      "source": "Cloudflare Blog",
+      "title": "Redesigning Workers KV for increased availability and faster performance",
+      "url": "https://blog.cloudflare.com/rearchitecting-workers-kv-for-redundancy/",
+      "published": "Fri, 08 Aug 2025 13:00:00 GMT",
+      "summary": "On June 12, 2025, Cloudflare experienced a major service outage due to a failure in the storage infrastructure of its Workers KV service, which affected numerous critical services and customer operations. This incident is significant as it highlighted vulnerabilities in Cloudflare's reliance on third-party cloud providers, prompting a strategic shift to fully own and operate its storage infrastructure to enhance reliability and performance. Moving forward, Cloudflare will implement a new architecture based on its distributed database, eliminating single points of failure and ensuring high availability for its services.",
       "topics": [
-        "AI",
-        "news"
+        "network",
+        "infra"
       ],
-      "content_hash": "c03792ca08d6ea84e712af6cea34a746",
+      "content_hash": "04ac84072a9e86a19d2b270d75ec754c",
+      "relevance_score": 1.0,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "Hugging Face",
+      "title": "Accelerate ND-Parallel: A Guide to Efficient Multi-GPU Training",
+      "url": "https://huggingface.co/blog/accelerate-nd-parallel",
+      "published": "Fri, 08 Aug 2025 00:00:00 GMT",
+      "summary": "The recent update to Accelerate ND-Parallel introduces a streamlined method for implementing various parallelism strategies in multi-GPU training, significantly simplifying the process for developers. This is significant as it addresses the complexities of training large models, enabling more efficient resource utilization and potentially accelerating model training times. Key implications include the ability for users to easily configure and experiment with different parallelism strategies, which could lead to improved performance in training models with billions of parameters.",
+      "topics": [
+        "ML",
+        "open source"
+      ],
+      "content_hash": "61e06b7b56f00fba36180edaeb242466",
+      "relevance_score": 0.95,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "Hugging Face",
+      "title": "Vision Language Model Alignment in TRL \u26a1\ufe0f",
+      "url": "https://huggingface.co/blog/trl-vlm-alignment",
+      "published": "Thu, 07 Aug 2025 00:00:00 GMT",
+      "summary": "The TRL team announced the integration of two new multimodal alignment methods\u2014Group Relative Policy Optimization (GRPO) and Mixed Preference Optimization (MPO)\u2014to enhance the performance of Vision Language Models (VLMs). This is significant as it allows for improved alignment with human preferences, addressing limitations of previous methods like Direct Preference Optimization (DPO) and enabling better handling of complex reasoning tasks. Key implications include the availability of training scripts and demo notebooks for developers to implement these methods, potentially leading to more robust and coherent model outputs in VLM applications.",
+      "topics": [
+        "ML",
+        "open source"
+      ],
+      "content_hash": "a209f67b678840108332ac1b71e8c441",
+      "relevance_score": 0.85,
+      "sentiment_score": 1.0,
+      "is_breaking": true
+    },
+    {
+      "source": "GitHub Blog",
+      "title": "Junior developers aren\u2019t obsolete: Here\u2019s how to thrive in the age of AI",
+      "url": "https://github.blog/ai-and-ml/generative-ai/junior-developers-arent-obsolete-heres-how-to-thrive-in-the-age-of-ai/",
+      "published": "Thu, 07 Aug 2025 21:05:55 +0000",
+      "summary": "AI is significantly transforming the software engineering landscape, with a recent study predicting that 26% of tasks performed by junior developers will be automated by 2027. However, this shift presents opportunities for new developers who are already adept with AI tools, positioning them to enhance their contributions and creativity in the workplace. To thrive, junior developers should focus on leveraging AI for learning, building public projects, mastering GitHub workflows, and engaging in code reviews to refine their skills and adapt to the evolving industry.",
+      "topics": [
+        "devex",
+        "AI"
+      ],
+      "content_hash": "7b98455011435520c08c7100e3394218",
       "relevance_score": 0.8,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
-      "source": "The Verge AI",
-      "title": "How Wikipedia is fighting AI slop content",
-      "url": "https://www.theverge.com/report/756810/wikipedia-ai-slop-policies-community-speedy-deletion",
-      "published": "2025-08-08T14:30:47-04:00",
-      "summary": "Wikipedia has implemented a new policy allowing administrators to swiftly delete clearly AI-generated articles without the usual discussion period, addressing the influx of low-quality, misleading content produced by AI writing tools. This move is significant as it aims to maintain the platform's reputation for neutrality and reliability amidst growing concerns over misinformation. Key implications include a more efficient content moderation process, the potential development of AI tools to assist editors, and ongoing community engagement to refine these strategies.",
+      "source": "GitHub Blog",
+      "title": "How to use GitHub Copilot to level up your code reviews and pull requests",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-use-github-copilot-to-level-up-your-code-reviews-and-pull-requests/",
+      "published": "Fri, 08 Aug 2025 16:00:00 +0000",
+      "summary": "GitHub has announced that Copilot, its AI-powered coding assistant, is now fully integrated into all stages of the software development life cycle, enhancing workflows during pull requests and code reviews. This is significant as it streamlines coding processes, allowing developers to generate suggestions, refactor code, and format documentation more efficiently, ultimately improving productivity and collaboration. Key implications include a shift in how developers approach code reviews, with Copilot serving as a valuable tool for generating actionable feedback and facilitating better understanding of code changes.",
       "topics": [
-        "AI",
-        "news"
+        "devex",
+        "AI"
       ],
-      "content_hash": "d0aed63898911f8d92ff5f033c6f9c66",
-      "relevance_score": 0.75,
+      "content_hash": "482b7e19ebb69995fc09147971344762",
+      "relevance_score": 0.8,
       "sentiment_score": 0.99,
       "is_breaking": true
     },
     {
       "source": "The Verge AI",
-      "title": "Instagram\u2019s Map is here, and this is how you can turn your location off",
-      "url": "https://www.theverge.com/news/756798/instagram-map-how-to-turn-it-off",
-      "published": "2025-08-08T12:27:48-04:00",
-      "summary": "Instagram recently launched a new Map feature that allows users to share their active location with selected friends and browse location-tagged content. The rollout has sparked significant backlash due to privacy concerns, particularly regarding the potential risks for vulnerable individuals, such as victims of domestic violence. In response to the criticism, Meta has clarified that location sharing is opt-in and plans to implement design improvements to address user concerns in the coming week.",
+      "title": "Apple Intelligence\u2019s ChatGPT integration will use GPT-5 starting with iOS 26",
+      "url": "https://www.theverge.com/news/756799/apple-intelligence-openai-chatgpt-gpt-5-ios-26",
+      "published": "2025-08-08T11:42:02-04:00",
+      "summary": "OpenAI has announced the release of its GPT-5 AI model, which will not be integrated into Apple's systems until the upcoming iOS 26, iPadOS 26, and macOS Tahoe 26 updates. This is significant as it marks a major advancement in AI capabilities, but users will have to wait for Apple to implement the new model in its applications, which currently rely on GPT-4o. The next steps include potential beta testing of the software updates in the fall, with inquiries ongoing about the inclusion of GPT-5 in those releases.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "8ea5a28b19b93eeb46084868c0d8c5f1",
-      "relevance_score": 0.55,
-      "sentiment_score": 0.95,
+      "content_hash": "94bd4e0e29cb2d7d90ecae7e23e76fa1",
+      "relevance_score": 0.6,
+      "sentiment_score": 0.97,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "We\u2019re testing a new, AI-powered Google Finance.",
+      "url": "https://blog.google/products/search/google-finance-ai/",
+      "published": "Fri, 08 Aug 2025 12:00:00 +0000",
+      "summary": "Google Finance is launching a revamped platform this week, integrating AI to enhance user experience by allowing detailed financial inquiries and providing comprehensive responses. This significant update aims to streamline financial research, offering advanced charting tools and real-time data across various markets, including cryptocurrencies. Users in the U.S. will gradually access the new features on google.com/finance, with the option to switch back to the classic design during the transition.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "2d386d5c2e380cbd2c6a48e0f4f05241",
+      "relevance_score": 0.6,
+      "sentiment_score": 0.96,
       "is_breaking": true
     },
     {
       "source": "The Verge AI",
-      "title": "The best instant cameras you can buy right now",
-      "url": "https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak",
-      "published": "2025-08-08T13:14:56-04:00",
-      "summary": "Fujifilm has announced the release of the Instax Mini 12, an updated instant camera designed for ease of use and improved image quality, making it an ideal choice for beginners and children. This launch is significant as it combines nostalgic instant photography with modern features, catering to a growing market that values both simplicity and creative expression. Key implications include a shift towards more accessible photography options, with the Instax Mini 12 positioned as a top recommendation for casual users, while also highlighting the importance of film compatibility and pricing in consumer decisions.",
+      "title": "This three-pack of fast Wi-Fi 7 routers is under $200 for the first time",
+      "url": "https://www.theverge.com/tech/756663/tp-link-be25-wifi-routers-ring-battery-doorbell-deal-sale",
+      "published": "2025-08-08T11:00:05-04:00",
+      "summary": "TP-Link has announced a sale on its Deco BE26 Wi-Fi 7 Mesh Routers, now available for $188.89, which offers extensive coverage and high speeds suitable for multiple devices. This is significant as it highlights the growing demand for robust home networking solutions, particularly for remote work and streaming needs. Key implications include increased consumer interest in Wi-Fi 7 technology and potential shifts in home networking setups as users seek reliable connectivity for an expanding array of smart devices.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "361821277351a04750199f1da8adb07c",
+      "content_hash": "2ff4c2286dbc23a33e19122f8770761e",
       "relevance_score": 0.55,
       "sentiment_score": 1.0,
       "is_breaking": true
     },
     {
+      "source": "Ars Technica AI",
+      "title": "Here\u2019s how deepfake vishing attacks work, and why they can be hard to detect",
+      "url": "https://arstechnica.com/security/2025/08/heres-how-deepfake-vishing-attacks-work-and-why-they-can-be-hard-to-detect/",
+      "published": "Thu, 07 Aug 2025 11:00:02 +0000",
+      "summary": "Recent reports highlight a surge in fraudulent calls utilizing AI to clone voices, enabling attackers to impersonate trusted individuals and manipulate victims into sharing sensitive information or transferring funds. This trend is significant as it underscores the increasing sophistication of phishing schemes, with researchers warning that such deepfake scams are becoming easier to execute and harder to detect. Moving forward, organizations and individuals must enhance their cybersecurity awareness and defenses, as the technology behind these attacks continues to evolve rapidly, potentially leading to more widespread incidents.",
+      "topics": [
+        "AI",
+        "tech"
+      ],
+      "content_hash": "d0fdc015f063aaeb147bfe18aa06c000",
+      "relevance_score": 0.5,
+      "sentiment_score": -0.91,
+      "is_breaking": true
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in July",
+      "url": "https://blog.google/technology/ai/google-ai-updates-july-2025/",
+      "published": "Thu, 07 Aug 2025 14:30:00 +0000",
+      "summary": "The introduction of AI Mode in Search marks a significant enhancement in educational tools, featuring upgrades like Canvas for planning, Search Live with video, and PDF uploads, aimed at enriching the learning experience for students, parents, and educators. This development is noteworthy as it integrates AI capabilities into visual searches and mobile gaming assistance, allowing users to engage with complex topics and receive real-time help while gaming. Key implications include the potential for improved learning outcomes and user engagement, as well as the expansion of AI's role in both educational and recreational contexts.",
+      "topics": [
+        "AI",
+        "research"
+      ],
+      "content_hash": "c999f6d68374e17de7e863f3c1a8b03d",
+      "relevance_score": 0.5,
+      "sentiment_score": 0.94,
+      "is_breaking": true
+    },
+    {
+      "source": "Ars Technica AI",
+      "title": "Google discovered a new scam\u2014and also fell victim to it",
+      "url": "https://arstechnica.com/information-technology/2025/08/google-sales-data-breached-in-the-same-scam-it-discovered/",
+      "published": "Thu, 07 Aug 2025 20:05:34 +0000",
+      "summary": "Google has revealed that it was a victim of a sophisticated hacking campaign targeting Salesforce accounts, where attackers impersonated IT personnel to gain unauthorized access. This incident is significant as it highlights the effectiveness of social engineering tactics over traditional hacking methods, leading to breaches in major companies like Adidas and Cisco. The key implication is the urgent need for organizations to enhance their security protocols and employee training to prevent such attacks, particularly in managing third-party app integrations.",
+      "topics": [
+        "AI",
+        "tech"
+      ],
+      "content_hash": "38763567a78efa7bc6b78dedca289d04",
+      "relevance_score": 0.5,
+      "sentiment_score": 0.94,
+      "is_breaking": true
+    },
+    {
       "source": "The Verge AI",
-      "title": "Mini Ikea stores will be opening inside select Best Buy locations this year",
-      "url": "https://www.theverge.com/news/756868/ikea-retail-experience-best-buy",
-      "published": "2025-08-08T12:54:41-04:00",
-      "summary": "Ikea is set to open mini retail experiences in select Best Buy stores in Florida and Texas, marking its first collaboration with another US retailer to enhance accessibility to its products. These 1,000-square-foot shop-in-shops will focus on home appliances and furnishings, allowing customers to design spaces with Ikea's assistance, while avoiding the need to navigate larger Ikea stores.",
+      "title": "8BitDo\u2019s Pro 3 is a super customizable controller that\u2019s too limited on Switch 2",
+      "url": "https://www.theverge.com/reviews/755307/8bitdo-pro-3-controller-review-pc-nintendo-switch-2",
+      "published": "2025-08-08T11:00:00-04:00",
+      "summary": "8BitDo's Pro 3 controller is highly customizable, featuring swappable face buttons and joystick caps, making it versatile for multiple platforms, including Switch and PC. While it offers improved technology and additional macro buttons, its rumble effects and inability to wake the Switch 2 from standby may limit its appeal for dedicated Switch 2 users compared to the more feature-rich Switch 2 Pro.",
       "topics": [
         "AI",
         "news"
       ],
-      "content_hash": "2e62c82dff0538babf1af9d77642f50a",
+      "content_hash": "8d5929e0ef19bb167b56dbe57198cce0",
       "relevance_score": 0.35,
       "sentiment_score": 1.0,
       "is_breaking": false
