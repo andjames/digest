@@ -1,0 +1,79 @@
+[
+  {
+    "source": "Cloudflare Blog",
+    "title": "Redesigning Workers KV for increased availability and faster performance",
+    "url": "https://blog.cloudflare.com/rearchitecting-workers-kv-for-redundancy/",
+    "published": "Fri, 08 Aug 2025 13:00:00 GMT",
+    "summary": "13 min read  On June 12, 2025, Cloudflare suffered a significant service outage that affected a large set of our critical services. As explained in our blog post about the incident , the cause was a failure in the underlying storage infrastructure used by our Workers KV service.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Partnering with OpenAI to bring their new open models onto Cloudflare Workers AI",
+    "url": "https://blog.cloudflare.com/openai-gpt-oss-on-workers-ai/",
+    "published": "Tue, 05 Aug 2025 21:05:00 GMT",
+    "summary": "3 min read  OpenAI has just announced their latest open-weight models \u2014 and we are excited to share that we are working with them as a Day 0 launch partner to make these models available in Cloudflare's Workers AI. Cloudflare developers can now access OpenAI's first open model, leveraging these powerful new capabilities on our platform.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Cloudflare Blog",
+    "title": "Reducing double spend latency from 40 ms to < 1 ms on privacy proxy",
+    "url": "https://blog.cloudflare.com/reducing-double-spend-latency-from-40-ms-to-less-than-1-ms-on-privacy-proxy/",
+    "published": "Tue, 05 Aug 2025 13:00:00 GMT",
+    "summary": "8 min read  One of Cloudflare\u2019s big focus areas is making the Internet faster for end users. Part of the way we do that is by looking at the \"big rocks\" or bottlenecks that might be slowing things down \u2014 particularly processes on the critical path.",
+    "topics": [
+      "network",
+      "infra"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "What Tailscale isn't: an anonymity service",
+    "url": "https://tailscale.com/blog/tailscale-privacy-anonymity",
+    "published": "Wed, 06 Aug 2025 16:30:00 GMT",
+    "summary": "Tailscale is a secure connectivity tool that puts the highest value on the privacy of your packets. But we made an intentional choice from day one that we weren't going to try to be an anonymity tool.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "Tailscale\u2019s visual policy editor is in beta",
+    "url": "https://tailscale.com/blog/visual-editor-beta",
+    "published": "Tue, 05 Aug 2025 11:30:00 GMT",
+    "summary": "Tailscale lets you manage your tailnet\u2019s access permissions, including which users are allowed to connect to which machines, using our powerful HuJSON (JSON for Humans) policy file. However, there may be times you prefer to use web forms instead of working with HuJSON directly.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "Tailscale Blog",
+    "title": "An easy, realistic model for MCP connectivity",
+    "url": "https://tailscale.com/blog/model-for-mcp-connectivity-lee-briggs",
+    "published": "Mon, 04 Aug 2025 15:00:00 GMT",
+    "summary": "You can\u2019t escape it. Everywhere you turn in the tech ecosystem, AI is there.",
+    "topics": [
+      "devex",
+      "networking"
+    ]
+  },
+  {
+    "source": "TechCrunch AI",
+    "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
+    "url": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
+    "published": "Mon, 04 Aug 2025 15:41:39 +0000",
+    "summary": "AI startup Perplexity is crawling and scraping content from websites that have explicitly indicated they don\u2019t want to be scraped, according to internet infrastructure provider Cloudflare. On Monday, Cloudflare published research saying it observed the AI startup ignore blocks and hide its crawling and scraping activities.",
+    "topics": [
+      "AI",
+      "news"
+    ]
+  }
+]
